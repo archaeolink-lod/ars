@@ -19,7 +19,8 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
 PREFIX cnt: <http://www.w3.org/2011/content#> 
 PREFIX pleiades: <http://pleiades.stoa.org/places/> 
-PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 
 ars:feat_001419cf-07a6-4b55-96f2-7149eecdb36f lado:depictsReference ars:ir_c0fda02c-ec42-486c-9c9b-17b6b755389a.
 ars:ir_c0fda02c-ec42-486c-9c9b-17b6b755389a lado:hasImage <https://zenodo.org/record/5645237/files/001419cf-07a6-4b55-96f2-7149eecdb36f.png>.
