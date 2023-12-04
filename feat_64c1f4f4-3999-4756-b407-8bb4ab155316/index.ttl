@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_64c1f4f4-3999-4756-b407-8bb4ab155316> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "Dioscurus@en",
-        "man@en",
-        "phrygian cap@en",
-        "spear@en" ;
+    ns1:depicts "Dioscurus"@en,
+        "man"@en,
+        "phrygian cap"@en,
+        "spear"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_fb3f1ad4-dc8f-4a1c-ac8d-758566dce6e8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/64c1f4f4-3999-4756-b407-8bb4ab155316.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

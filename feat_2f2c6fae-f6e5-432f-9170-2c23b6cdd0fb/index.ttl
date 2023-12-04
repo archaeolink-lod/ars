@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_2f2c6fae-f6e5-432f-9170-2c23b6cdd0fb> a ns1:Feature ;
     rdfs:label "tabula ansata 10" ;
-    ns1:depicts "tabula ansata@en" ;
+    ns1:depicts "tabula ansata"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_6d8a3d1b-f6b1-4209-be69-89ecc1d2605f> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2f2c6fae-f6e5-432f-9170-2c23b6cdd0fb.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

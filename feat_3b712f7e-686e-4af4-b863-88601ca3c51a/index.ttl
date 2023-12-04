@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_3b712f7e-686e-4af4-b863-88601ca3c51a> a ns1:Feature ;
     rdfs:label "Mithras" ;
-    ns1:depicts "Mithras@en",
-        "bull@en",
-        "man@en" ;
+    ns1:depicts "Mithras"@en,
+        "bull"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4686da6a-9a43-4816-8e93-91cb2fb2c239>,
         <http://data.archaeology.link/data/ars/ir_f07d6257-43f6-44a8-bad1-971ee029140b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3b712f7e-686e-4af4-b863-88601ca3c51a.png> ;

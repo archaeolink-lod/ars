@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_5c45fa34-7b74-43d9-8c24-30ae8291d7d0> a ns1:Feature ;
     rdfs:label "soldier 2" ;
-    ns1:depicts "Ulysses@en",
-        "soldier@en" ;
+    ns1:depicts "Ulysses"@en,
+        "soldier"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000001>,
         <http://data.archaeology.link/data/ars/ir_ed6e269f-6476-4a5f-a11f-28a83b17c8fb> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5c45fa34-7b74-43d9-8c24-30ae8291d7d0.png> ;

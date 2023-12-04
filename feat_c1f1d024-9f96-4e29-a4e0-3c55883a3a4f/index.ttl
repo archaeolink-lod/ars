@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c1f1d024-9f96-4e29-a4e0-3c55883a3a4f> a ns1:Feature ;
     rdfs:label "lion" ;
-    ns1:depicts "lion@en" ;
+    ns1:depicts "lion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c1f1d024-9f96-4e29-a4e0-3c55883a3a4f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

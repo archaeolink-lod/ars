@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_5c37447d-327e-4d3e-af9a-1d930db3fd4c> a ns1:Feature ;
     rdfs:label "dots 1" ;
-    ns1:depicts "dots@en" ;
+    ns1:depicts "dots"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5c37447d-327e-4d3e-af9a-1d930db3fd4c.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_eeb2c72b-f6d8-4c96-a498-f9a4486ec4a6> a ns1:Feature ;
     rdfs:label "antelope 1" ;
-    ns1:depicts "antelope@en" ;
+    ns1:depicts "antelope"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_25f67cfc-2709-4a47-9e31-1a3fa7e0fbd0> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/eeb2c72b-f6d8-4c96-a498-f9a4486ec4a6.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;

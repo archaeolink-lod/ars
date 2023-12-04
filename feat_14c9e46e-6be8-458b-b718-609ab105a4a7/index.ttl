@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_14c9e46e-6be8-458b-b718-609ab105a4a7> a ns1:Feature ;
     rdfs:label "peacock" ;
-    ns1:depicts "peacock@en" ;
+    ns1:depicts "peacock"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/14c9e46e-6be8-458b-b718-609ab105a4a7.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

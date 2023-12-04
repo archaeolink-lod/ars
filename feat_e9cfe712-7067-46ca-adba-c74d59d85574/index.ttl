@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_e9cfe712-7067-46ca-adba-c74d59d85574> a ns1:Feature ;
     rdfs:label "octopus 1" ;
-    ns1:depicts "octopus@en" ;
+    ns1:depicts "octopus"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_bca08785-3538-4a77-a4db-3216c317d106> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e9cfe712-7067-46ca-adba-c74d59d85574.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_9fbcfede-37f2-4d55-a735-f9d1bba160e5> a ns1:Feature ;
     rdfs:label "dolphin with erot" ;
-    ns1:depicts "dolphin@en",
-        "erot@en",
-        "man@en" ;
+    ns1:depicts "dolphin"@en,
+        "erot"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_21d603b5-50bc-4b37-bd0f-493c433190a5> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9fbcfede-37f2-4d55-a735-f9d1bba160e5.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

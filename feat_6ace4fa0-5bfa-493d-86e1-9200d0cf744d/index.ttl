@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_6ace4fa0-5bfa-493d-86e1-9200d0cf744d> a ns1:Feature ;
     rdfs:label "arch 2" ;
-    ns1:depicts "arch@en" ;
+    ns1:depicts "arch"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/6ace4fa0-5bfa-493d-86e1-9200d0cf744d.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_6ace4fa0-5bfa-493d-86e1-9200d0cf744d_geom> ;

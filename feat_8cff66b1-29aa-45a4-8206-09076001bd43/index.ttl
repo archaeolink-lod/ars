@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8cff66b1-29aa-45a4-8206-09076001bd43> a ns1:Feature ;
     rdfs:label "weapon" ;
-    ns1:depicts "lance@en" ;
+    ns1:depicts "lance"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8cff66b1-29aa-45a4-8206-09076001bd43.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

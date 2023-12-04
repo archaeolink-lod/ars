@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_4d886736-634c-4ee0-8280-0e3ad031cea1> a ns1:Feature ;
     rdfs:label "petal (right)" ;
-    ns1:depicts "petal@en" ;
+    ns1:depicts "petal"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4d886736-634c-4ee0-8280-0e3ad031cea1.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_4d886736-634c-4ee0-8280-0e3ad031cea1_geom> ;

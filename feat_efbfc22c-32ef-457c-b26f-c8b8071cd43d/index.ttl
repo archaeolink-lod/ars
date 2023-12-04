@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_efbfc22c-32ef-457c-b26f-c8b8071cd43d> a ns1:Feature ;
     rdfs:label "men with phrygian caps" ;
-    ns1:depicts "long-sleeved short belted tunic@en",
-        "men@en",
-        "phrygian cap@en",
-        "tunic@en" ;
+    ns1:depicts "long-sleeved short belted tunic"@en,
+        "men"@en,
+        "phrygian cap"@en,
+        "tunic"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/efbfc22c-32ef-457c-b26f-c8b8071cd43d.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_efbfc22c-32ef-457c-b26f-c8b8071cd43d_geom> ;

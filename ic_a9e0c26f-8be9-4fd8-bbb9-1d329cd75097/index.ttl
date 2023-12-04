@@ -1,26 +1,26 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_a9e0c26f-8be9-4fd8-bbb9-1d329cd75097> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_a9e0c26f-8be9-4fd8-bbb9-1d329cd75097> a ns2:InformationCarrier ;
     rdfs:label "plate with animal"@en ;
-    ns2:instanceOf ns1:InformationCarrier ;
-    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031375> ;
-    ns1:arachneModelID <http://arachne.dainst.org/entity/7031376> ;
-    ns1:carries <http://data.archaeology.link/data/ars/feat_1832f294-d3ce-466c-ab67-33fb3a6a026d> ;
-    ns1:hasConditionString "fragmented"@en ;
-    ns1:hasImage <https://zenodo.org/record/5645180/files/a9e0c26f-8be9-4fd8-bbb9-1d329cd75097.jpg> ;
-    ns1:hasType ns1:ARS_Object ;
-    ns1:inventoryNumber "O.40854 (RGZM)" ;
-    ns1:madeByString "potter wheel"@en ;
-    ns1:madeOfString "clay"@en ;
-    ns1:number 1 ;
-    ns1:representedBy <http://data.archaeology.link/data/ars/pf_07f3341c-e107-4dbc-9d57-680fa00a2bcf> ;
-    ns1:representedByString "plate"@en ;
-    ns1:timeinterval "Late Antiquity / 430-500 AD" ;
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031375> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031376> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_1832f294-d3ce-466c-ab67-33fb3a6a026d> ;
+    ns2:hasConditionString "fragmented"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/a9e0c26f-8be9-4fd8-bbb9-1d329cd75097.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.40854 (RGZM)" ;
+    ns2:madeByString "potter wheel"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedBy <http://data.archaeology.link/data/ars/pf_07f3341c-e107-4dbc-9d57-680fa00a2bcf> ;
+    ns2:representedByString "plate"@en ;
+    ns2:timeinterval "Late Antiquity / 430-500 AD" ;
     dc:identifier "a9e0c26f-8be9-4fd8-bbb9-1d329cd75097" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

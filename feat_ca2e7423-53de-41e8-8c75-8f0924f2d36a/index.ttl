@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ca2e7423-53de-41e8-8c75-8f0924f2d36a> a ns1:Feature ;
     rdfs:label "dot 11" ;
-    ns1:depicts "circle line@en" ;
+    ns1:depicts "circle line"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ca2e7423-53de-41e8-8c75-8f0924f2d36a.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

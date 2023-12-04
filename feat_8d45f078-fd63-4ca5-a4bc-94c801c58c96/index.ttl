@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_8d45f078-fd63-4ca5-a4bc-94c801c58c96> a ns1:Feature ;
     rdfs:label "man holding cross" ;
-    ns1:depicts "cross@en",
-        "man@en",
-        "saint@en" ;
+    ns1:depicts "cross"@en,
+        "man"@en,
+        "saint"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8d45f078-fd63-4ca5-a4bc-94c801c58c96.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_10254841-7ed0-4965-8cbb-f52cdd25b922> a ns1:Feature ;
     rdfs:label "running person" ;
-    ns1:depicts "Ulysses@en",
-        "dagger@en",
-        "man@en",
-        "short-sleeved belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Ulysses"@en,
+        "dagger"@en,
+        "man"@en,
+        "short-sleeved belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d2d88ce6-86c6-4c4b-9cc6-c866bbc82de5>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/10254841-7ed0-4965-8cbb-f52cdd25b922.png> ;

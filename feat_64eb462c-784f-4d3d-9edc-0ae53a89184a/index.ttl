@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_64eb462c-784f-4d3d-9edc-0ae53a89184a> a ns1:Feature ;
     rdfs:label "bearded man" ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/64eb462c-784f-4d3d-9edc-0ae53a89184a.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

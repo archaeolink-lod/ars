@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_5b342103-e37c-45ea-ad19-a0c2a1a81093> a ns1:Feature ;
     rdfs:label "tree house" ;
-    ns1:depicts "bird@en",
-        "captive@en",
-        "man@en",
-        "tree house@en" ;
+    ns1:depicts "bird"@en,
+        "captive"@en,
+        "man"@en,
+        "tree house"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_db76adaf-12f5-48e2-843f-b3f358820b24> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5b342103-e37c-45ea-ad19-a0c2a1a81093.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_2e38492b-4b3a-4c90-a659-e7cab9b84c63> a ns1:Feature ;
     rdfs:label "sitting man" ;
-    ns1:depicts "Jonah@en",
-        "man@en" ;
+    ns1:depicts "Jonah"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5dea17f0-dc1d-4210-8adf-60838e6f6ae6> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2e38492b-4b3a-4c90-a659-e7cab9b84c63.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

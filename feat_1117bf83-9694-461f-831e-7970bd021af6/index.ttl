@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_1117bf83-9694-461f-831e-7970bd021af6> a ns1:Feature ;
     rdfs:label "ornament" ;
-    ns1:depicts "dot fringes@en",
-        "ornament@en" ;
+    ns1:depicts "dot fringes"@en,
+        "ornament"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1117bf83-9694-461f-831e-7970bd021af6.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

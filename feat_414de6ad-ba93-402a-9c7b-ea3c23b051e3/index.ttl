@@ -6,13 +6,13 @@
 
 <http://data.archaeology.link/data/ars/feat_414de6ad-ba93-402a-9c7b-ea3c23b051e3> a ns1:Feature ;
     rdfs:label "Christ and angels" ;
-    ns1:depicts "Christ@en",
-        "angels@en",
-        "man@en",
-        "mandorla@en",
-        "sceptre@en",
-        "symbols of the Evangelists@en",
-        "toga@en" ;
+    ns1:depicts "Christ"@en,
+        "angels"@en,
+        "man"@en,
+        "mandorla"@en,
+        "sceptre"@en,
+        "symbols of the Evangelists"@en,
+        "toga"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/414de6ad-ba93-402a-9c7b-ea3c23b051e3.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_414de6ad-ba93-402a-9c7b-ea3c23b051e3_geom> ;

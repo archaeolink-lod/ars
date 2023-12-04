@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_f3f08053-49db-4677-8ab9-f7f4bb3c4446> a ns1:Feature ;
     rdfs:label "erot" ;
-    ns1:depicts "Ganymede@en",
-        "erot@en" ;
+    ns1:depicts "Ganymede"@en,
+        "erot"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2e8f99b9-b2b0-47a7-bfa2-cfb5ec471b64>,
         <http://data.archaeology.link/data/ars/ir_8fc39aaf-9844-4caf-8bb0-10f3d11b1296> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/f3f08053-49db-4677-8ab9-f7f4bb3c4446.png> ;

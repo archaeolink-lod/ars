@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_c039ad7f-1869-4e86-8ac6-4d764832960f> a ns1:Feature ;
     rdfs:label "bow and arrow" ;
-    ns1:depicts "arrow@en",
-        "bow@en" ;
+    ns1:depicts "arrow"@en,
+        "bow"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_0d8a74ba-2d54-496c-9fe0-d05a66ec0fca> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c039ad7f-1869-4e86-8ac6-4d764832960f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

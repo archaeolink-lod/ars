@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_6febfc84-7a60-4723-b6b3-50f65e9b1c11> a ns1:Feature ;
     rdfs:label "men and grape" ;
-    ns1:depicts "grape@en",
-        "men@en" ;
+    ns1:depicts "grape"@en,
+        "men"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/6febfc84-7a60-4723-b6b3-50f65e9b1c11.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

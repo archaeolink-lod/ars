@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea> a ns1:Feature ;
     rdfs:label "shepherd" ;
-    ns1:depicts "man@en",
-        "phrygian cap@en",
-        "ram@en",
-        "shepherd@en" ;
+    ns1:depicts "man"@en,
+        "phrygian cap"@en,
+        "ram"@en,
+        "shepherd"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_eb6fbe3c-2cd5-48fa-88ab-35b1e01bbbda> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

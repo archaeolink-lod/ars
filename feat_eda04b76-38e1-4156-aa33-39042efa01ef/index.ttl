@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_eda04b76-38e1-4156-aa33-39042efa01ef> a ns1:Feature ;
     rdfs:label "medallions 1" ;
-    ns1:depicts "linked lozenges and triangles@en",
-        "medallion@en" ;
+    ns1:depicts "linked lozenges and triangles"@en,
+        "medallion"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_74039109-64ba-4cab-a9dc-1721ee7d4782> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/eda04b76-38e1-4156-aa33-39042efa01ef.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

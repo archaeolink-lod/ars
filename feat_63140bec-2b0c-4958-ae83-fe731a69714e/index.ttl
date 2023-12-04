@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_63140bec-2b0c-4958-ae83-fe731a69714e> a ns1:Feature ;
     rdfs:label "cantharus 3" ;
-    ns1:depicts "cantharus@en" ;
+    ns1:depicts "cantharus"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/63140bec-2b0c-4958-ae83-fe731a69714e.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_63140bec-2b0c-4958-ae83-fe731a69714e_geom> ;

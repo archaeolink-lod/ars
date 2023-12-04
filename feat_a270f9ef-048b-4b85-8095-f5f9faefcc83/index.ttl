@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_a270f9ef-048b-4b85-8095-f5f9faefcc83> a ns1:Feature ;
     rdfs:label "satyr and maenad 2" ;
-    ns1:depicts "maenad@en",
-        "satyr@en",
-        "thyrsos@en",
-        "woman@en" ;
+    ns1:depicts "maenad"@en,
+        "satyr"@en,
+        "thyrsos"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_625651c0-75d6-4b04-a4ef-4b747bba413d>,
         <http://data.archaeology.link/data/ars/ir_f65406be-25b9-4fd9-82ca-8dec0a5166dd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a270f9ef-048b-4b85-8095-f5f9faefcc83.png> ;

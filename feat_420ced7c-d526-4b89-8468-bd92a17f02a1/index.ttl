@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_420ced7c-d526-4b89-8468-bd92a17f02a1> a ns1:Feature ;
     rdfs:label "man falling overboard" ;
-    ns1:depicts "Jonah@en",
-        "man@en",
-        "men@en",
-        "ship@en" ;
+    ns1:depicts "Jonah"@en,
+        "man"@en,
+        "men"@en,
+        "ship"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8ca29f5a-9769-429e-bb9a-ba6bbdaab546> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/420ced7c-d526-4b89-8468-bd92a17f02a1.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

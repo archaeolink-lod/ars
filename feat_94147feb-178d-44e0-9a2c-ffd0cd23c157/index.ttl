@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_94147feb-178d-44e0-9a2c-ffd0cd23c157> a ns1:Feature ;
     rdfs:label "children over flaming altar" ;
-    ns1:depicts "altar@en",
-        "children@en",
-        "flame@en" ;
+    ns1:depicts "altar"@en,
+        "children"@en,
+        "flame"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_51e22c0b-bca9-4520-9ccc-04a2de200271> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/94147feb-178d-44e0-9a2c-ffd0cd23c157.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

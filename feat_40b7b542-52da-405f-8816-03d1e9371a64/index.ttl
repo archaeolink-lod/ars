@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_40b7b542-52da-405f-8816-03d1e9371a64> a ns1:Feature ;
     rdfs:label "man 2" ;
-    ns1:depicts "man@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "man"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1b3f99c4-fdb4-4a61-a444-1c118d1fdbaf> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/40b7b542-52da-405f-8816-03d1e9371a64.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

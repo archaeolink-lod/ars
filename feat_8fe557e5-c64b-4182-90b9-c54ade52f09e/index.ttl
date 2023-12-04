@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_8fe557e5-c64b-4182-90b9-c54ade52f09e> a ns1:Feature ;
     rdfs:label "venator" ;
-    ns1:depicts "long-sleeved short belted tunic@en",
-        "tunic@en",
-        "venator@en" ;
+    ns1:depicts "long-sleeved short belted tunic"@en,
+        "tunic"@en,
+        "venator"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_883a3576-a103-4e25-a1cc-97f7c70bc84d> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8fe557e5-c64b-4182-90b9-c54ade52f09e.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

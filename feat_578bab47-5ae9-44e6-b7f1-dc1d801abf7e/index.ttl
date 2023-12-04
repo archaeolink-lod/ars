@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_578bab47-5ae9-44e6-b7f1-dc1d801abf7e> a ns1:Feature ;
     rdfs:label "tree" ;
-    ns1:depicts "tree@en" ;
+    ns1:depicts "tree"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/578bab47-5ae9-44e6-b7f1-dc1d801abf7e.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

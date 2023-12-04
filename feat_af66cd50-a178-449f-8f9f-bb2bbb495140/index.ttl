@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_af66cd50-a178-449f-8f9f-bb2bbb495140> a ns1:Feature ;
     rdfs:label "palm branch" ;
-    ns1:depicts "palm branch@en" ;
+    ns1:depicts "palm branch"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/af66cd50-a178-449f-8f9f-bb2bbb495140.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

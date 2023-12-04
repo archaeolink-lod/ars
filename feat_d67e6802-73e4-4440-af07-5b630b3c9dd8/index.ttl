@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d67e6802-73e4-4440-af07-5b630b3c9dd8> a ns1:Feature ;
     rdfs:label "grapevine" ;
-    ns1:depicts "grapevine@en" ;
+    ns1:depicts "grapevine"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_fa139ff1-889c-44b3-8627-c7bfb0be1b19> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d67e6802-73e4-4440-af07-5b630b3c9dd8.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

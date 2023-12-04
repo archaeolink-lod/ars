@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ce735140-c691-44e4-a325-703aee5fc0bb> a ns1:Feature ;
     rdfs:label "decoration " ;
-    ns1:depicts "ornament@en" ;
+    ns1:depicts "ornament"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ce735140-c691-44e4-a325-703aee5fc0bb.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_ce735140-c691-44e4-a325-703aee5fc0bb_geom> ;

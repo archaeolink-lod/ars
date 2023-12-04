@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c089ce5b-4a08-4f30-b071-d927fe0592ae> a ns1:Feature ;
     rdfs:label "erot" ;
-    ns1:depicts "erot@en" ;
+    ns1:depicts "erot"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c089ce5b-4a08-4f30-b071-d927fe0592ae.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

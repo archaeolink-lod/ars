@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_dab5702b-5ed6-4d43-b418-66f9af2badf3> a ns1:Feature ;
     rdfs:label "Isaac" ;
-    ns1:depicts "Isaac@en",
-        "man@en",
-        "short-sleeved belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Isaac"@en,
+        "man"@en,
+        "short-sleeved belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_b1520383-5784-4e75-97c4-aecf5ef97362>,
         <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/dab5702b-5ed6-4d43-b418-66f9af2badf3.png> ;

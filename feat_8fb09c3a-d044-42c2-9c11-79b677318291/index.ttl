@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8fb09c3a-d044-42c2-9c11-79b677318291> a ns1:Feature ;
     rdfs:label "figure" ;
-    ns1:depicts "dolphin@en" ;
+    ns1:depicts "dolphin"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8fb09c3a-d044-42c2-9c11-79b677318291.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

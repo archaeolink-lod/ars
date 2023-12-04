@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_c68f539d-cc01-45df-82d9-bf00a2fd5f9a> a ns1:Feature ;
     rdfs:label "tree with hand" ;
-    ns1:depicts "hand@en",
-        "stone pine@en",
-        "tree@en" ;
+    ns1:depicts "hand"@en,
+        "stone pine"@en,
+        "tree"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_83f014e4-3ef8-4a49-80de-48a9ac576749> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c68f539d-cc01-45df-82d9-bf00a2fd5f9a.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

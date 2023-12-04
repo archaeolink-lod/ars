@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_5fd84983-a75f-40bd-8dde-9df930b69c6c> a ns1:Feature ;
     rdfs:label "grape 6 (circles)" ;
-    ns1:depicts "circles@en" ;
+    ns1:depicts "circles"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5fd84983-a75f-40bd-8dde-9df930b69c6c.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

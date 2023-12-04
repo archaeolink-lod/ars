@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_a2718fb0-4769-42e5-bb83-8d8feeeaca4f> a ns1:Feature ;
     rdfs:label "man in Cantharus" ;
-    ns1:depicts "Daniel@en",
-        "cantharus@en",
-        "man@en" ;
+    ns1:depicts "Daniel"@en,
+        "cantharus"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_76dc4282-8dad-4a08-b34c-b767f476aa07> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a2718fb0-4769-42e5-bb83-8d8feeeaca4f.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

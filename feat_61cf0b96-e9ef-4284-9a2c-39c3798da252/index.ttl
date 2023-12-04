@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_61cf0b96-e9ef-4284-9a2c-39c3798da252> a ns1:Feature ;
     rdfs:label "hunter" ;
-    ns1:depicts "hunter@en",
-        "long-sleeved short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "hunter"@en,
+        "long-sleeved short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_41982ed6-8ddb-4701-bd2f-e2474b708cab>,
         <http://data.archaeology.link/data/ars/ir_ab808681-5f5b-40ee-8a74-045a2786f198> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/61cf0b96-e9ef-4284-9a2c-39c3798da252.png> ;

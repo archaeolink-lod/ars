@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8f9b9ad6-0b9d-4768-be8f-bfad32665506> a ns1:Feature ;
     rdfs:label "man (edge left)" ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8f9b9ad6-0b9d-4768-be8f-bfad32665506.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

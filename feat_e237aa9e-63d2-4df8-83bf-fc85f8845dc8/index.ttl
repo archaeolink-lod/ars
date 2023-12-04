@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8> a ns1:Feature ;
     rdfs:label "decoration (right)" ;
-    ns1:depicts "circle line@en" ;
+    ns1:depicts "circle line"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8f3502f2-917c-453e-ac57-cba938ee715e>,
         <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e237aa9e-63d2-4df8-83bf-fc85f8845dc8.png> ;

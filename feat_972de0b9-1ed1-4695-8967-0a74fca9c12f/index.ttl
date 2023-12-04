@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_972de0b9-1ed1-4695-8967-0a74fca9c12f> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "concentric circle@en",
-        "square@en" ;
+    ns1:depicts "concentric circle"@en,
+        "square"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/972de0b9-1ed1-4695-8967-0a74fca9c12f.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_972de0b9-1ed1-4695-8967-0a74fca9c12f_geom> ;

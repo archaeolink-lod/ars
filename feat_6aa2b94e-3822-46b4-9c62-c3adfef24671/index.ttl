@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_6aa2b94e-3822-46b4-9c62-c3adfef24671> a ns1:Feature ;
     rdfs:label "medallion 27" ;
-    ns1:depicts "lion@en",
-        "medallion@en" ;
+    ns1:depicts "lion"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/6aa2b94e-3822-46b4-9c62-c3adfef24671.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

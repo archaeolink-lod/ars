@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_7c08c972-ae60-419d-b99f-6a38387d3332> a ns1:Feature ;
     rdfs:label "sea goddess" ;
-    ns1:depicts "Nereid@en",
-        "Triton@en",
-        "man@en",
-        "woman@en" ;
+    ns1:depicts "Nereid"@en,
+        "Triton"@en,
+        "man"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_0d8d35fe-e810-427e-a45e-6c0773e1cdc7>,
         <http://data.archaeology.link/data/ars/ir_534d28ab-331d-4f7d-a3d5-177277561728>,
         <http://data.archaeology.link/data/ars/ir_b000e038-eefc-4284-8ca1-8896d561791f> ;

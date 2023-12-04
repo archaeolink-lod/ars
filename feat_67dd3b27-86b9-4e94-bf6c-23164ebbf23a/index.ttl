@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_67dd3b27-86b9-4e94-bf6c-23164ebbf23a> a ns1:Feature ;
     rdfs:label "helmet" ;
-    ns1:depicts "helmet@en" ;
+    ns1:depicts "helmet"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d2d88ce6-86c6-4c4b-9cc6-c866bbc82de5> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/67dd3b27-86b9-4e94-bf6c-23164ebbf23a.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

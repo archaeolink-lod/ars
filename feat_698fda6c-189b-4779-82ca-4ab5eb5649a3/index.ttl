@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_698fda6c-189b-4779-82ca-4ab5eb5649a3> a ns1:Feature ;
     rdfs:label "decoration (top)" ;
-    ns1:depicts "square with circle@en" ;
+    ns1:depicts "square with circle"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/698fda6c-189b-4779-82ca-4ab5eb5649a3.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_698fda6c-189b-4779-82ca-4ab5eb5649a3_geom> ;

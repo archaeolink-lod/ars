@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_9b504e9a-39c3-4e6f-9fd6-7e2eabcc4e26> a ns1:Feature ;
     rdfs:label "man with lyre" ;
-    ns1:depicts "Orpheus@en",
-        "man@en",
-        "phrygian cap@en" ;
+    ns1:depicts "Orpheus"@en,
+        "man"@en,
+        "phrygian cap"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8374a311-c22d-4869-a4cc-aeb6974f8d9d>,
         <http://data.archaeology.link/data/ars/ir_f35e711e-a68d-44ac-a2f5-3db52fde1a86> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9b504e9a-39c3-4e6f-9fd6-7e2eabcc4e26.png> ;

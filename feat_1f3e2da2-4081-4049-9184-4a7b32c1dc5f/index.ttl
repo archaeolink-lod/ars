@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_1f3e2da2-4081-4049-9184-4a7b32c1dc5f> a ns1:Feature ;
     rdfs:label "soldier 1" ;
-    ns1:depicts "soldier@en" ;
+    ns1:depicts "soldier"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1f3e2da2-4081-4049-9184-4a7b32c1dc5f.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_051e35ab-1dc3-4d0a-a308-065d53cfd55a> a ns1:Feature ;
     rdfs:label "mask" ;
-    ns1:depicts "mask@en" ;
+    ns1:depicts "mask"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/051e35ab-1dc3-4d0a-a308-065d53cfd55a.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

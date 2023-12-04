@@ -1,28 +1,28 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_481e3d80-cc7e-4f3b-91fc-2f7543954eca> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_481e3d80-cc7e-4f3b-91fc-2f7543954eca> a ns2:InformationCarrier ;
     rdfs:label "bowl with Jonah cycle"@en ;
-    ns2:instanceOf ns1:InformationCarrier ;
-    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031497> ;
-    ns1:arachneModelID <http://arachne.dainst.org/entity/7031498> ;
-    ns1:carries <http://data.archaeology.link/data/ars/feat_ad943ee0-831a-4b05-90ec-fc566c081990>,
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031497> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031498> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_ad943ee0-831a-4b05-90ec-fc566c081990>,
         <http://data.archaeology.link/data/ars/feat_bc732de1-6c97-4867-985f-a43f0f1e2dd1>,
         <http://data.archaeology.link/data/ars/feat_cea1dfa0-c05d-4475-861f-1acad73ae9e4> ;
-    ns1:hasConditionString "reconstructed"@en ;
-    ns1:hasImage <https://zenodo.org/record/5645180/files/481e3d80-cc7e-4f3b-91fc-2f7543954eca.jpg> ;
-    ns1:hasType ns1:ARS_Object ;
-    ns1:inventoryNumber "O.39746 (RGZM)" ;
-    ns1:madeByString "potter wheel"@en ;
-    ns1:madeOfString "clay"@en ;
-    ns1:number 1 ;
-    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
-    ns1:representedByString "bowl"@en ;
-    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    ns2:hasConditionString "reconstructed"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/481e3d80-cc7e-4f3b-91fc-2f7543954eca.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.39746 (RGZM)" ;
+    ns2:madeByString "potter wheel"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns2:representedByString "bowl"@en ;
+    ns2:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
     dc:identifier "481e3d80-cc7e-4f3b-91fc-2f7543954eca" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

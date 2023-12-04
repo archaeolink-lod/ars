@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_7fe7ba42-a5d4-4675-af73-abf4129d5f3b> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "dots@en",
-        "triangle@en" ;
+    ns1:depicts "dots"@en,
+        "triangle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7fe7ba42-a5d4-4675-af73-abf4129d5f3b.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

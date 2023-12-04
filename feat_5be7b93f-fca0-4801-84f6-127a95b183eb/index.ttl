@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_5be7b93f-fca0-4801-84f6-127a95b183eb> a ns1:Feature ;
     rdfs:label "Mithras killing bull " ;
-    ns1:depicts "Mithras@en",
-        "bull@en",
-        "dog@en",
-        "man@en" ;
+    ns1:depicts "Mithras"@en,
+        "bull"@en,
+        "dog"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_b6ac3963-49c0-40b4-b03d-5520096e71aa>,
         <http://data.archaeology.link/data/ars/ir_c5957502-6661-4ac2-be60-9deac9145a3e> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5be7b93f-fca0-4801-84f6-127a95b183eb.png> ;

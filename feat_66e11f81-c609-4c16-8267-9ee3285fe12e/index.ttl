@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_66e11f81-c609-4c16-8267-9ee3285fe12e> a ns1:Feature ;
     rdfs:label "hand" ;
-    ns1:depicts "hand@en" ;
+    ns1:depicts "hand"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/66e11f81-c609-4c16-8267-9ee3285fe12e.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

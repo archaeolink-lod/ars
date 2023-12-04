@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_3530c173-be81-4995-8063-cd3e02bbc9d7> a ns1:Feature ;
     rdfs:label "ornament" ;
-    ns1:depicts "leaf-spray@en" ;
+    ns1:depicts "leaf-spray"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3530c173-be81-4995-8063-cd3e02bbc9d7.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_3530c173-be81-4995-8063-cd3e02bbc9d7_geom> ;

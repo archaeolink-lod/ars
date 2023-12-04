@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_8fbcaa05-292f-467d-8196-05eeb23ca8ca> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "mantle@en",
-        "soldier@en" ;
+    ns1:depicts "mantle"@en,
+        "soldier"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_31803c57-9e7a-4bd8-b600-8ae3c43c3505> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8fbcaa05-292f-467d-8196-05eeb23ca8ca.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

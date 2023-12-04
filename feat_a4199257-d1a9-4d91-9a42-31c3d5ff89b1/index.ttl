@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_a4199257-d1a9-4d91-9a42-31c3d5ff89b1> a ns1:Feature ;
     rdfs:label "ornament 2" ;
-    ns1:depicts "chevron@en",
-        "dots@en" ;
+    ns1:depicts "chevron"@en,
+        "dots"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a4199257-d1a9-4d91-9a42-31c3d5ff89b1.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

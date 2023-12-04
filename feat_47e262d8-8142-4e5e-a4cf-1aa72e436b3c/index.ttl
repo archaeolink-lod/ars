@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_47e262d8-8142-4e5e-a4cf-1aa72e436b3c> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "blossom@en" ;
+    ns1:depicts "blossom"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/47e262d8-8142-4e5e-a4cf-1aa72e436b3c.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

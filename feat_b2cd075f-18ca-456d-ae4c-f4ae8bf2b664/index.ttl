@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_b2cd075f-18ca-456d-ae4c-f4ae8bf2b664> a ns1:Feature ;
     rdfs:label "man under aedicula" ;
-    ns1:depicts "aedicula@en",
-        "man@en",
-        "pallium@en" ;
+    ns1:depicts "aedicula"@en,
+        "man"@en,
+        "pallium"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b2cd075f-18ca-456d-ae4c-f4ae8bf2b664.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_b2cd075f-18ca-456d-ae4c-f4ae8bf2b664_geom> ;

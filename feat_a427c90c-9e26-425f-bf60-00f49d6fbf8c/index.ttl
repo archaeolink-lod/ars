@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_a427c90c-9e26-425f-bf60-00f49d6fbf8c> a ns1:Feature ;
     rdfs:label "bowl under triclinium" ;
-    ns1:depicts "bowl@en" ;
+    ns1:depicts "bowl"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8b3333bc-8131-4e67-98b4-82c5d11365e5>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a427c90c-9e26-425f-bf60-00f49d6fbf8c.png> ;

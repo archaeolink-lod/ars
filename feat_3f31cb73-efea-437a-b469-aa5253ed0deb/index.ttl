@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_3f31cb73-efea-437a-b469-aa5253ed0deb> a ns1:Feature ;
     rdfs:label "tree" ;
-    ns1:depicts "branch@en",
-        "mantle@en",
-        "tree@en" ;
+    ns1:depicts "branch"@en,
+        "mantle"@en,
+        "tree"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_b20a3b87-3690-4837-a378-a05effaf3137> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3f31cb73-efea-437a-b469-aa5253ed0deb.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

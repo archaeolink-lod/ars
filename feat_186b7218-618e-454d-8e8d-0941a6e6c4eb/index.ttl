@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_186b7218-618e-454d-8e8d-0941a6e6c4eb> a ns1:Feature ;
     rdfs:label "Christogram" ;
-    ns1:depicts "Chi-Rho@en",
-        "rosette@en" ;
+    ns1:depicts "Chi-Rho"@en,
+        "rosette"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/186b7218-618e-454d-8e8d-0941a6e6c4eb.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

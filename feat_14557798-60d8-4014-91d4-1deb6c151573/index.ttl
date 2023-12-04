@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_14557798-60d8-4014-91d4-1deb6c151573> a ns1:Feature ;
     rdfs:label "dolphin with erot" ;
-    ns1:depicts "dolphin@en",
-        "erot@en",
-        "lyre@en" ;
+    ns1:depicts "dolphin"@en,
+        "erot"@en,
+        "lyre"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_05b3ea74-a6c4-49b9-b12c-a1d16e7c2d25>,
         <http://data.archaeology.link/data/ars/ir_705e7cf5-d750-44ba-a355-f6d42083b3f1> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/14557798-60d8-4014-91d4-1deb6c151573.png> ;

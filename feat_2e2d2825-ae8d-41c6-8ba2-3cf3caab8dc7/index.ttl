@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_2e2d2825-ae8d-41c6-8ba2-3cf3caab8dc7> a ns1:Feature ;
     rdfs:label "person 2" ;
-    ns1:depicts "man@en",
-        "woman@en" ;
+    ns1:depicts "man"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_74a3e848-7552-498c-bf65-8cf230598054>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2e2d2825-ae8d-41c6-8ba2-3cf3caab8dc7.png> ;

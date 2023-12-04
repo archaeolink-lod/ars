@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_51c1b954-1558-4798-89a4-728fcbe7a3da> a ns1:Feature ;
     rdfs:label "tree with horse" ;
-    ns1:depicts "Pegasus@en",
-        "horse@en",
-        "palm@en",
-        "tree@en" ;
+    ns1:depicts "Pegasus"@en,
+        "horse"@en,
+        "palm"@en,
+        "tree"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_0413c05a-a16f-4f61-811a-51120070e03b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/51c1b954-1558-4798-89a4-728fcbe7a3da.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

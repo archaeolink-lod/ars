@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ebbee6ea-a292-47ff-9660-9a2bbc38920e> a ns1:Feature ;
     rdfs:label "medallion 3" ;
-    ns1:depicts "medallion@en" ;
+    ns1:depicts "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ebbee6ea-a292-47ff-9660-9a2bbc38920e.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

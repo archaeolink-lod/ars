@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_02d95d3e-8132-4e94-ac75-d10c840729a8> a ns1:Feature ;
     rdfs:label "martyr with bear" ;
-    ns1:depicts "bear@en",
-        "martyr@en",
-        "woman@en" ;
+    ns1:depicts "bear"@en,
+        "martyr"@en,
+        "woman"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/02d95d3e-8132-4e94-ac75-d10c840729a8.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_02d95d3e-8132-4e94-ac75-d10c840729a8_geom> ;

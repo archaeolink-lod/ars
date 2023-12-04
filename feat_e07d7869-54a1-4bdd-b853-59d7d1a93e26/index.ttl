@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_e07d7869-54a1-4bdd-b853-59d7d1a93e26> a ns1:Feature ;
     rdfs:label "leaf 2" ;
-    ns1:depicts "palm branch@en" ;
+    ns1:depicts "palm branch"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e07d7869-54a1-4bdd-b853-59d7d1a93e26.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

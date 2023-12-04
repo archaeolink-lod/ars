@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_412e7992-6a17-488f-9775-f7b0b4bf5d73> a ns1:Feature ;
     rdfs:label "medallion 6" ;
-    ns1:depicts "birds@en",
-        "medallion@en" ;
+    ns1:depicts "birds"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/412e7992-6a17-488f-9775-f7b0b4bf5d73.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

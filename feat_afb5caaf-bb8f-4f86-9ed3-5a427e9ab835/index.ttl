@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_afb5caaf-bb8f-4f86-9ed3-5a427e9ab835> a ns1:Feature ;
     rdfs:label "soldier" ;
-    ns1:depicts "soldier@en" ;
+    ns1:depicts "soldier"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/afb5caaf-bb8f-4f86-9ed3-5a427e9ab835.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_afb5caaf-bb8f-4f86-9ed3-5a427e9ab835_geom> ;

@@ -1,19 +1,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.archaeology.link/data/ars/pf_c0346f71-8ef7-4dab-a4a8-1e222e1ff17a> a ns2:Potform ;
+<http://data.archaeology.link/data/ars/pf_c0346f71-8ef7-4dab-a4a8-1e222e1ff17a> a ns1:Potform ;
     rdfs:label "Hayes 51B"@en ;
-    ns1:instanceOf ns2:Potform ;
-    ns2:createdBy <http://www.wikidata.org/entity/Q1702051> ;
-    ns2:derivedFrom <http://www.wikidata.org/entity/Q50262763> ;
-    ns2:exactMatch <http://www.wikidata.org/entity/Q109547603> ;
-    ns2:generalisedAs <http://data.archaeology.link/data/ars/gf_acd64083-d3ab-4e1d-91d8-f2b043000003> ;
-    ns2:hasImage <https://zenodo.org/record/5645180/files/181da2ee-0e13-4abd-9dc0-c0703607a7fa.jpg> ;
-    ns2:hasType ns2:AfricanRedSlipWare ;
+    ns2:instanceOf ns1:Potform ;
+    ns1:createdBy <http://www.wikidata.org/entity/Q1702051> ;
+    ns1:derivedFrom <http://www.wikidata.org/entity/Q50262763> ;
+    ns1:exactMatch <http://www.wikidata.org/entity/Q109547603> ;
+    ns1:generalisedAs <http://data.archaeology.link/data/ars/gf_acd64083-d3ab-4e1d-91d8-f2b043000003> ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/181da2ee-0e13-4abd-9dc0-c0703607a7fa.jpg> ;
+    ns1:hasType ns1:AfricanRedSlipWare ;
     dc:identifier "c0346f71-8ef7-4dab-a4a8-1e222e1ff17a" ;
     dcterms:bibliographicCitation "Hayes (1972), p. 73-75" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;

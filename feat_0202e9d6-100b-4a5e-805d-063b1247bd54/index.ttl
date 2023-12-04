@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_0202e9d6-100b-4a5e-805d-063b1247bd54> a ns1:Feature ;
     rdfs:label "man under gourd-vine" ;
-    ns1:depicts "Jonah@en",
-        "gourd-vine@en",
-        "man@en" ;
+    ns1:depicts "Jonah"@en,
+        "gourd-vine"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1a55434a-125f-4a26-b93b-f4989553682d> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0202e9d6-100b-4a5e-805d-063b1247bd54.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

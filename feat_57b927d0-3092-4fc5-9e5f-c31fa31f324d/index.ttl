@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_57b927d0-3092-4fc5-9e5f-c31fa31f324d> a ns1:Feature ;
     rdfs:label "shield" ;
-    ns1:depicts "shield@en" ;
+    ns1:depicts "shield"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d2d88ce6-86c6-4c4b-9cc6-c866bbc82de5> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/57b927d0-3092-4fc5-9e5f-c31fa31f324d.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_3554631a-0573-46a5-8bcb-9bcb086d3a6d> a ns1:Feature ;
     rdfs:label "blossom" ;
-    ns1:depicts "blossom@en" ;
+    ns1:depicts "blossom"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3554631a-0573-46a5-8bcb-9bcb086d3a6d.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_3554631a-0573-46a5-8bcb-9bcb086d3a6d_geom> ;

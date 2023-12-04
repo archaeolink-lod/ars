@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d8ca2367-3360-4e23-8172-81024d18027d> a ns1:Feature ;
     rdfs:label "curtain" ;
-    ns1:depicts "curtain@en" ;
+    ns1:depicts "curtain"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d8ca2367-3360-4e23-8172-81024d18027d.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "mould-made relief decorated"@en ;

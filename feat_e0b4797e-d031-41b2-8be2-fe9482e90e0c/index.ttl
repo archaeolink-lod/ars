@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_e0b4797e-d031-41b2-8be2-fe9482e90e0c> a ns1:Feature ;
     rdfs:label "ram" ;
-    ns1:depicts "ram@en" ;
+    ns1:depicts "ram"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e0b4797e-d031-41b2-8be2-fe9482e90e0c.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_e0b4797e-d031-41b2-8be2-fe9482e90e0c_geom> ;

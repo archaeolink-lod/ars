@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_2bdd9d2a-8105-4678-acf3-ffbce7ade29c> a ns1:Feature ;
     rdfs:label "boat 2" ;
-    ns1:depicts "erots@en",
-        "ship@en" ;
+    ns1:depicts "erots"@en,
+        "ship"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_26299ebd-61c5-4093-ad58-d58bf964e409>,
         <http://data.archaeology.link/data/ars/ir_64268e75-a746-4e0b-aabd-09ceaac1752f> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2bdd9d2a-8105-4678-acf3-ffbce7ade29c.png> ;

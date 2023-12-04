@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_4c9a5be4-4b04-491d-8328-18d67f11b595> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "orant@en",
-        "woman@en" ;
+    ns1:depicts "orant"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c8a51816-1018-42b3-b00e-6c62411dfb22> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4c9a5be4-4b04-491d-8328-18d67f11b595.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

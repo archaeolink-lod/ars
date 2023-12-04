@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_b852e3bb-15a9-4e82-b43b-49193095c54c> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "Hector@en",
-        "human torso@en",
-        "man@en" ;
+    ns1:depicts "Hector"@en,
+        "human torso"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c6d605eb-2ac0-4df8-acca-c176efff9afa> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b852e3bb-15a9-4e82-b43b-49193095c54c.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

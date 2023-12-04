@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_5aefe30e-5788-4f3e-ad1b-16690fa90a8a> a ns1:Feature ;
     rdfs:label "hare" ;
-    ns1:depicts "hare@en" ;
+    ns1:depicts "hare"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_3e4a1430-e840-46d6-8f0a-01c140b3a40e> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5aefe30e-5788-4f3e-ad1b-16690fa90a8a.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

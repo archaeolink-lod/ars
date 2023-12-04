@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_92f309ad-924a-4486-9071-78a2b834f26a> a ns1:Feature ;
     rdfs:label "Daphne" ;
-    ns1:depicts "bracelet@en",
-        "nymph@en",
-        "woman@en" ;
+    ns1:depicts "bracelet"@en,
+        "nymph"@en,
+        "woman"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/92f309ad-924a-4486-9071-78a2b834f26a.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

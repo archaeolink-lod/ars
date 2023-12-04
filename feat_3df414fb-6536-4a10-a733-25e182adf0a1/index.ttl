@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_3df414fb-6536-4a10-a733-25e182adf0a1> a ns1:Feature ;
     rdfs:label "bull and bear" ;
-    ns1:depicts "bear@en",
-        "bull@en" ;
+    ns1:depicts "bear"@en,
+        "bull"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_f6dcf133-fe9a-4ab3-9f77-318eed7264ae> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3df414fb-6536-4a10-a733-25e182adf0a1.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

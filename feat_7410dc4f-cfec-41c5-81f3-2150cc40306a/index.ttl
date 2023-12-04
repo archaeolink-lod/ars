@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_7410dc4f-cfec-41c5-81f3-2150cc40306a> a ns1:Feature ;
     rdfs:label "woman with cornucopia" ;
-    ns1:depicts "Africa@en",
-        "cornucopia@en",
-        "long tunic@en",
-        "tunic@en",
-        "woman@en" ;
+    ns1:depicts "Africa"@en,
+        "cornucopia"@en,
+        "long tunic"@en,
+        "tunic"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_cf4951d0-c618-4354-bc87-8b4ec104091c> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7410dc4f-cfec-41c5-81f3-2150cc40306a.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

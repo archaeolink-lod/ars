@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_b4e14992-991d-4ffe-9e0b-dbee27fc46a4> a ns1:Feature ;
     rdfs:label "animals 1" ;
-    ns1:depicts "hound@en",
-        "leaf@en" ;
+    ns1:depicts "hound"@en,
+        "leaf"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5cc95d56-248a-4b1b-8069-8b947c6b66dc> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b4e14992-991d-4ffe-9e0b-dbee27fc46a4.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

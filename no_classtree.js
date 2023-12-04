@@ -8260,13 +8260,13 @@ var tree={
         "text": "Feature (lado:Feature) [1173]",
         "data": {
           "to": {
-            "http://archaeology.link/ontology#depicts": {
-              "instancecount": 1
-            },
             "http://archaeology.link/ontology#hasImage": {
               "instancecount": 1
             },
             "http://archaeology.link/ontology#hasType": {
+              "instancecount": 1
+            },
+            "http://archaeology.link/ontology#madeByString": {
               "instancecount": 1
             },
             "http://archaeology.link/ontology#selectedArea": {
@@ -28187,9 +28187,6 @@ var tree={
         "text": "IconographyReference (lado:IconographyReference) [470]",
         "data": {
           "to": {
-            "http://archaeology.link/ontology#hasImage": {
-              "instancecount": 1
-            },
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
             },
@@ -28223,7 +28220,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 8
       },
       {
         "id": "http://data.archaeology.link/data/ars/activity_ir_46594f78-0e8f-4dd0-a8b6-59c5050cacb8",
@@ -31706,7 +31703,7 @@ var tree={
               "instancecount": 1
             },
             "http://archaeology.link/ontology#hasImage": {
-              "instancecount": 141
+              "instancecount": 2
             },
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
@@ -31741,7 +31738,7 @@ var tree={
             }
           }
         },
-        "instancecount": 154
+        "instancecount": 15
       },
       {
         "id": "http://data.archaeology.link/data/ars/activity_pf_c30c01b2-9c7e-45ec-833b-f734e1000016",
@@ -36592,6 +36589,9 @@ var tree={
         "text": "GenericPotform (lado:GenericPotform) [6]",
         "data": {
           "to": {
+            "http://archaeology.link/ontology#exactMatch": {
+              "instancecount": 1
+            },
             "http://purl.org/dc/elements/1.1/identifier": {
               "instancecount": 1
             },
@@ -36619,7 +36619,7 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 7
       },
       {
         "id": "http://data.archaeology.link/data/ars/activity_gf_acd64083-d3ab-4e1d-91d8-f2b043000001",

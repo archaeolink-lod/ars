@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_31d27fb1-4c4c-44d7-9a81-d8d594a19d82> a ns1:Feature ;
     rdfs:label "martyr with bear" ;
-    ns1:depicts "bear@en",
-        "captive@en",
-        "martyr@en",
-        "stake@en" ;
+    ns1:depicts "bear"@en,
+        "captive"@en,
+        "martyr"@en,
+        "stake"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/31d27fb1-4c4c-44d7-9a81-d8d594a19d82.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_8988dcc1-c461-4b9c-80c4-abd7e36d6718> a ns1:Feature ;
     rdfs:label "medallion 23" ;
-    ns1:depicts "blossom@en",
-        "medallion@en" ;
+    ns1:depicts "blossom"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8988dcc1-c461-4b9c-80c4-abd7e36d6718.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

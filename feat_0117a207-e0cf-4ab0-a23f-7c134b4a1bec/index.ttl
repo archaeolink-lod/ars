@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_0117a207-e0cf-4ab0-a23f-7c134b4a1bec> a ns1:Feature ;
     rdfs:label "man and grapevine" ;
-    ns1:depicts "Bacchus@en",
-        "grapevine@en",
-        "man@en" ;
+    ns1:depicts "Bacchus"@en,
+        "grapevine"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1a447dd5-db3e-4c2b-8405-a842b9d9e57b>,
         <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0117a207-e0cf-4ab0-a23f-7c134b4a1bec.png> ;

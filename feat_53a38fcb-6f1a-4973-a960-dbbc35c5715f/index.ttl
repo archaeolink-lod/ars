@@ -6,12 +6,12 @@
 
 <http://data.archaeology.link/data/ars/feat_53a38fcb-6f1a-4973-a960-dbbc35c5715f> a ns1:Feature ;
     rdfs:label "man with angels" ;
-    ns1:depicts "Daniel@en",
-        "angels@en",
-        "belted tunic@en",
-        "lions@en",
-        "man@en",
-        "tunic@en" ;
+    ns1:depicts "Daniel"@en,
+        "angels"@en,
+        "belted tunic"@en,
+        "lions"@en,
+        "man"@en,
+        "tunic"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/53a38fcb-6f1a-4973-a960-dbbc35c5715f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

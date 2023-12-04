@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_abb8addb-3a68-471f-aa52-0948047b4231> a ns1:Feature ;
     rdfs:label "Abraham" ;
-    ns1:depicts "Abraham@en",
-        "man@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Abraham"@en,
+        "man"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_04ebcc26-a6a5-4bea-a8b6-838eb9ff6641>,
         <http://data.archaeology.link/data/ars/ir_cb9094aa-6f1d-4d46-88c8-741337cb5062> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/abb8addb-3a68-471f-aa52-0948047b4231.png> ;

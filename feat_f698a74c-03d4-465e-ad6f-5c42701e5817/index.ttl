@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_f698a74c-03d4-465e-ad6f-5c42701e5817> a ns1:Feature ;
     rdfs:label "person with shield" ;
-    ns1:depicts "Achilles@en",
-        "man@en",
-        "mantle@en",
-        "shield@en",
-        "spear@en" ;
+    ns1:depicts "Achilles"@en,
+        "man"@en,
+        "mantle"@en,
+        "shield"@en,
+        "spear"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d2d88ce6-86c6-4c4b-9cc6-c866bbc82de5>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/f698a74c-03d4-465e-ad6f-5c42701e5817.png> ;

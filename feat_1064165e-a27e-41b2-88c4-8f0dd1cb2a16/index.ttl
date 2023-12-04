@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_1064165e-a27e-41b2-88c4-8f0dd1cb2a16> a ns1:Feature ;
     rdfs:label "men with grapes" ;
-    ns1:depicts "grapes@en",
-        "men@en" ;
+    ns1:depicts "grapes"@en,
+        "men"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1064165e-a27e-41b2-88c4-8f0dd1cb2a16.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

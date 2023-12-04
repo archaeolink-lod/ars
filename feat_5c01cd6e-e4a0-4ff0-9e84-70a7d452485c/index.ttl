@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_5c01cd6e-e4a0-4ff0-9e84-70a7d452485c> a ns1:Feature ;
     rdfs:label "bust/portrait" ;
-    ns1:depicts "crescent@en",
-        "human head@en",
-        "necklace@en",
-        "woman@en" ;
+    ns1:depicts "crescent"@en,
+        "human head"@en,
+        "necklace"@en,
+        "woman"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5c01cd6e-e4a0-4ff0-9e84-70a7d452485c.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_5c01cd6e-e4a0-4ff0-9e84-70a7d452485c_geom> ;

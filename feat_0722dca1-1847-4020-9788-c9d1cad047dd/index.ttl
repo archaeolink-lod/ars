@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_0722dca1-1847-4020-9788-c9d1cad047dd> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "Triton@en" ;
+    ns1:depicts "Triton"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0722dca1-1847-4020-9788-c9d1cad047dd.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

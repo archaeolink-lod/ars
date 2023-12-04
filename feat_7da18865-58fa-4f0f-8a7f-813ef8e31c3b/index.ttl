@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_7da18865-58fa-4f0f-8a7f-813ef8e31c3b> a ns1:Feature ;
     rdfs:label "men and palm" ;
-    ns1:depicts "man@en",
-        "men@en",
-        "palm@en" ;
+    ns1:depicts "man"@en,
+        "men"@en,
+        "palm"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7da18865-58fa-4f0f-8a7f-813ef8e31c3b.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

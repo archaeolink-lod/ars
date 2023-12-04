@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_46445159-48a2-41c0-9668-8436c9e476df> a ns1:Feature ;
     rdfs:label "man in the fiery furnace" ;
-    ns1:depicts "fiery furnace@en",
-        "man@en" ;
+    ns1:depicts "fiery furnace"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ae492614-af85-4e63-9c5e-10add33fc23a> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/46445159-48a2-41c0-9668-8436c9e476df.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

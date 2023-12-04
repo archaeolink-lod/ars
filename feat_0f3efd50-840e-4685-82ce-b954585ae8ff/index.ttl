@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_0f3efd50-840e-4685-82ce-b954585ae8ff> a ns1:Feature ;
     rdfs:label "log for firewood" ;
-    ns1:depicts "log for firewood@en" ;
+    ns1:depicts "log for firewood"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0f3efd50-840e-4685-82ce-b954585ae8ff.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_0f3efd50-840e-4685-82ce-b954585ae8ff_geom> ;

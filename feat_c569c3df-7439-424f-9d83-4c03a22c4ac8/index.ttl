@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c569c3df-7439-424f-9d83-4c03a22c4ac8> a ns1:Feature ;
     rdfs:label "basket" ;
-    ns1:depicts "basket@en" ;
+    ns1:depicts "basket"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_7def9868-906b-4ad0-97f1-0b38f0148392> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c569c3df-7439-424f-9d83-4c03a22c4ac8.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

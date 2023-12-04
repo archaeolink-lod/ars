@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_45c06af6-569a-4d76-b552-29fd8d088807> a ns1:Feature ;
     rdfs:label "boy 3" ;
-    ns1:depicts "Achilles@en",
-        "arm@en",
-        "boy@en",
-        "discus@en" ;
+    ns1:depicts "Achilles"@en,
+        "arm"@en,
+        "boy"@en,
+        "discus"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_6a66fe54-ca79-43a0-b130-0412e050666e>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/45c06af6-569a-4d76-b552-29fd8d088807.png> ;

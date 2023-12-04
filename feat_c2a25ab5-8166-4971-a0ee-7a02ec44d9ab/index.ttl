@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c2a25ab5-8166-4971-a0ee-7a02ec44d9ab> a ns1:Feature ;
     rdfs:label "offering woman" ;
-    ns1:depicts "woman@en" ;
+    ns1:depicts "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_224389a8-a1aa-415c-bde0-ec637a1a46f5> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c2a25ab5-8166-4971-a0ee-7a02ec44d9ab.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

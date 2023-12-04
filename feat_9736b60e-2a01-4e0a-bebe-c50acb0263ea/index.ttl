@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_9736b60e-2a01-4e0a-bebe-c50acb0263ea> a ns1:Feature ;
     rdfs:label "ram and Christogram" ;
-    ns1:depicts "Chi-Rho@en",
-        "ram@en" ;
+    ns1:depicts "Chi-Rho"@en,
+        "ram"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ef589cc4-d968-4692-a3ee-6d4b66605550> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9736b60e-2a01-4e0a-bebe-c50acb0263ea.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

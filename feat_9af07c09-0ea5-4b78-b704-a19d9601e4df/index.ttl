@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_9af07c09-0ea5-4b78-b704-a19d9601e4df> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "chevron@en",
-        "ivy-leaf@en" ;
+    ns1:depicts "chevron"@en,
+        "ivy-leaf"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9af07c09-0ea5-4b78-b704-a19d9601e4df.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_52810e96-c7b1-49b8-968f-91dcd58b8399> a ns1:Feature ;
     rdfs:label "medallion 28" ;
-    ns1:depicts "fishes@en",
-        "medallion@en" ;
+    ns1:depicts "fishes"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/52810e96-c7b1-49b8-968f-91dcd58b8399.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

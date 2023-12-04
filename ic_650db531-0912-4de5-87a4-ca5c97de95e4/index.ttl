@@ -1,24 +1,24 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_650db531-0912-4de5-87a4-ca5c97de95e4> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_650db531-0912-4de5-87a4-ca5c97de95e4> a ns2:InformationCarrier ;
     rdfs:label "rectangular dish fragment"@en ;
-    ns2:instanceOf ns1:InformationCarrier ;
-    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031623> ;
-    ns1:arachneModelID <http://arachne.dainst.org/entity/7031624> ;
-    ns1:carries <http://data.archaeology.link/data/ars/feat_4f7371a0-5515-40db-be03-dd2366d1ab63> ;
-    ns1:hasConditionString "fragmented"@en ;
-    ns1:hasImage <https://zenodo.org/record/5645180/files/650db531-0912-4de5-87a4-ca5c97de95e4.jpg> ;
-    ns1:hasType ns1:ARS_Object ;
-    ns1:inventoryNumber "O.41410 (RGZM)" ;
-    ns1:madeByString "mould made"@en ;
-    ns1:madeOfString "clay"@en ;
-    ns1:number 1 ;
-    ns1:representedByString "rectangular dish"@en ;
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031623> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031624> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_4f7371a0-5515-40db-be03-dd2366d1ab63> ;
+    ns2:hasConditionString "fragmented"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/650db531-0912-4de5-87a4-ca5c97de95e4.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.41410 (RGZM)" ;
+    ns2:madeByString "mould made"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedByString "rectangular dish"@en ;
     dc:identifier "650db531-0912-4de5-87a4-ca5c97de95e4" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

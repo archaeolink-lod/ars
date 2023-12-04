@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_68c86088-57e9-4930-a1ea-d08507a7ccd0> a ns1:Feature ;
     rdfs:label "human 1" ;
-    ns1:depicts "sandals@en" ;
+    ns1:depicts "sandals"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/68c86088-57e9-4930-a1ea-d08507a7ccd0.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

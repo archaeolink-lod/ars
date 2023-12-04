@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_3e5d4fba-52be-4b03-8b64-c8ebf706b544> a ns1:Feature ;
     rdfs:label "ornament" ;
-    ns1:depicts "grille-patterns@en" ;
+    ns1:depicts "grille-patterns"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3e5d4fba-52be-4b03-8b64-c8ebf706b544.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
     ns1:madeByString "stamped decorated"@en ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_784f58be-2409-412c-84ac-3d11d0e6573d> a ns1:Feature ;
     rdfs:label "man 2" ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1fdaad2c-eb8e-4708-a76e-42edf5f0b176>,
         <http://data.archaeology.link/data/ars/ir_7ac55536-3b8e-4d33-95f2-8bbb68353fb7> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/784f58be-2409-412c-84ac-3d11d0e6573d.png> ;

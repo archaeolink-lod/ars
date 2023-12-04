@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_5c8851d3-5531-4a47-b3aa-d0cf30d3ec2e> a ns1:Feature ;
     rdfs:label "man holding wreath" ;
-    ns1:depicts "Palliatus@en",
-        "long tunic@en",
-        "man@en",
-        "pallium@en",
-        "tunic@en" ;
+    ns1:depicts "Palliatus"@en,
+        "long tunic"@en,
+        "man"@en,
+        "pallium"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c878660a-1875-4492-a1a7-032a8b775789> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5c8851d3-5531-4a47-b3aa-d0cf30d3ec2e.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

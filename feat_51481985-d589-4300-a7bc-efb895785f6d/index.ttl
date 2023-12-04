@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_51481985-d589-4300-a7bc-efb895785f6d> a ns1:Feature ;
     rdfs:label "Bacchus and Pan" ;
-    ns1:depicts "Bacchus@en",
-        "Pan@en",
-        "man@en",
-        "satyr@en" ;
+    ns1:depicts "Bacchus"@en,
+        "Pan"@en,
+        "man"@en,
+        "satyr"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/51481985-d589-4300-a7bc-efb895785f6d.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

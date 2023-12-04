@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_fee8b21f-68a0-4a61-a0d5-08de0eae4172> a ns1:Feature ;
     rdfs:label "Christogram" ;
-    ns1:depicts "Chi Rho@en" ;
+    ns1:depicts "Chi Rho"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/fee8b21f-68a0-4a61-a0d5-08de0eae4172.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

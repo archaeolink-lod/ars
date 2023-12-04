@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_9a134308-9552-4cbc-b1bd-ca9c96ff96c3> a ns1:Feature ;
     rdfs:label "Mercury" ;
-    ns1:depicts "Caduceus@en",
-        "Mercury@en",
-        "man@en" ;
+    ns1:depicts "Caduceus"@en,
+        "Mercury"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_0ffca93e-dcf3-4648-b79e-b0f9fdf84b44>,
         <http://data.archaeology.link/data/ars/ir_7e05f3cb-094f-4ed6-90bc-5040d96d92c2> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9a134308-9552-4cbc-b1bd-ca9c96ff96c3.png> ;

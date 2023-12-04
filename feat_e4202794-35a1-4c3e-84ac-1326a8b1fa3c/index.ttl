@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_e4202794-35a1-4c3e-84ac-1326a8b1fa3c> a ns1:Feature ;
     rdfs:label "medallion 7" ;
-    ns1:depicts "basket@en",
-        "fish@en",
-        "medallion@en" ;
+    ns1:depicts "basket"@en,
+        "fish"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e4202794-35a1-4c3e-84ac-1326a8b1fa3c.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

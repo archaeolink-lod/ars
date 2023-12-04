@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_4ad9b764-d949-4889-8402-a441ecc03be5> a ns1:Feature ;
     rdfs:label "ornament (middle)" ;
-    ns1:depicts "concentric circle@en",
-        "dots@en" ;
+    ns1:depicts "concentric circle"@en,
+        "dots"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4ad9b764-d949-4889-8402-a441ecc03be5.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "mould-made relief decorated"@en ;

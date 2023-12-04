@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_2ca08134-0ee3-4002-96f9-98dd75ace849> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "short-sleeved belted tunic@en",
-        "tunic@en",
-        "woman@en" ;
+    ns1:depicts "short-sleeved belted tunic"@en,
+        "tunic"@en,
+        "woman"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2ca08134-0ee3-4002-96f9-98dd75ace849.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ddff3999-298b-47ca-8d0e-9bd4c33f476a> a ns1:Feature ;
     rdfs:label "lioness 3" ;
-    ns1:depicts "lioness@en" ;
+    ns1:depicts "lioness"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ea029623-e35b-4834-9bd5-8717f1c11243> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ddff3999-298b-47ca-8d0e-9bd4c33f476a.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;

@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_88e5a3c3-9e0e-411c-a63b-fa7eceff1383> a ns1:Feature ;
     rdfs:label "boat" ;
-    ns1:depicts "bull@en",
-        "horse@en",
-        "lion@en",
-        "ship@en" ;
+    ns1:depicts "bull"@en,
+        "horse"@en,
+        "lion"@en,
+        "ship"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/88e5a3c3-9e0e-411c-a63b-fa7eceff1383.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

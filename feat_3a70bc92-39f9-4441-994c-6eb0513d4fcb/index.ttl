@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_3a70bc92-39f9-4441-994c-6eb0513d4fcb> a ns1:Feature ;
     rdfs:label "erot" ;
-    ns1:depicts "erot@en",
-        "torch@en" ;
+    ns1:depicts "erot"@en,
+        "torch"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000004>,
         <http://data.archaeology.link/data/ars/ir_f90706e3-2a16-4060-8d61-95c61e393922> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3a70bc92-39f9-4441-994c-6eb0513d4fcb.png> ;

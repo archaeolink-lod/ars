@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_2761a040-8e91-45cf-91f1-916646725ba5> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "concentric circle with dot-fringes@en",
-        "ivy-leaf@en",
-        "square with circle@en" ;
+    ns1:depicts "concentric circle with dot-fringes"@en,
+        "ivy-leaf"@en,
+        "square with circle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2761a040-8e91-45cf-91f1-916646725ba5.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

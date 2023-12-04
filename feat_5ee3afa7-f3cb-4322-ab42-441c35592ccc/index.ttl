@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_5ee3afa7-f3cb-4322-ab42-441c35592ccc> a ns1:Feature ;
     rdfs:label "man and ram" ;
-    ns1:depicts "man@en",
-        "ram@en" ;
+    ns1:depicts "man"@en,
+        "ram"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5ee3afa7-f3cb-4322-ab42-441c35592ccc.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "mould-made relief decorated"@en ;

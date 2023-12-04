@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_d2dbdf9b-2738-4125-a340-111fc6b63ffd> a ns1:Feature ;
     rdfs:label "man and woman" ;
-    ns1:depicts "Christ@en",
-        "man@en",
-        "mantle@en",
-        "woman with the issue of blood@en",
-        "woman@en" ;
+    ns1:depicts "Christ"@en,
+        "man"@en,
+        "mantle"@en,
+        "woman"@en,
+        "woman with the issue of blood"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_27a000d5-cee3-412d-9810-396bc7852a47>,
         <http://data.archaeology.link/data/ars/ir_f5d7071e-00ff-4674-9dae-b8f93b15d371> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d2dbdf9b-2738-4125-a340-111fc6b63ffd.png> ;

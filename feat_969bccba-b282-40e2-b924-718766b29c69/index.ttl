@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_969bccba-b282-40e2-b924-718766b29c69> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "circle with arcs and circle at center@en",
-        "circle with dot-fringes and cross@en",
-        "medallions@en" ;
+    ns1:depicts "circle with arcs and circle at center"@en,
+        "circle with dot-fringes and cross"@en,
+        "medallions"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/969bccba-b282-40e2-b924-718766b29c69.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

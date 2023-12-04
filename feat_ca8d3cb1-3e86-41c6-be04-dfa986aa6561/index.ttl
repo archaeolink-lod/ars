@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ca8d3cb1-3e86-41c6-be04-dfa986aa6561> a ns1:Feature ;
     rdfs:label "sea-monster" ;
-    ns1:depicts "sea-monster@en" ;
+    ns1:depicts "sea-monster"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_7be57fc7-7386-4397-9401-52d5721ee288> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ca8d3cb1-3e86-41c6-be04-dfa986aa6561.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

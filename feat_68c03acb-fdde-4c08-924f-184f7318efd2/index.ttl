@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_68c03acb-fdde-4c08-924f-184f7318efd2> a ns1:Feature ;
     rdfs:label "Triton and woman" ;
-    ns1:depicts "Triton@en",
-        "Venus@en",
-        "man@en",
-        "woman@en" ;
+    ns1:depicts "Triton"@en,
+        "Venus"@en,
+        "man"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_e3010163-1794-4f2f-b09e-24f121aae97a>,
         <http://data.archaeology.link/data/ars/ir_e39641bc-debb-4bdc-aff8-86fe77a57bc1> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/68c03acb-fdde-4c08-924f-184f7318efd2.png> ;

@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_11d6ab30-ee63-4298-acde-d19158a8aced> a ns1:Feature ;
     rdfs:label "Christogram" ;
-    ns1:depicts "Chi Rho@en",
-        "concentric circle@en",
-        "lozenges@en" ;
+    ns1:depicts "Chi Rho"@en,
+        "concentric circle"@en,
+        "lozenges"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/11d6ab30-ee63-4298-acde-d19158a8aced.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

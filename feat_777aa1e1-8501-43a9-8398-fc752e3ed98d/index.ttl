@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_777aa1e1-8501-43a9-8398-fc752e3ed98d> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "stool backstool@en",
-        "woman@en" ;
+    ns1:depicts "stool backstool"@en,
+        "woman"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/777aa1e1-8501-43a9-8398-fc752e3ed98d.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

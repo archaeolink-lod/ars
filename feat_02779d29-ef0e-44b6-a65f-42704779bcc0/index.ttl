@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_02779d29-ef0e-44b6-a65f-42704779bcc0> a ns1:Feature ;
     rdfs:label "gladiator" ;
-    ns1:depicts "man@en",
-        "short-sleeved belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "man"@en,
+        "short-sleeved belted tunic"@en,
+        "tunic"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/02779d29-ef0e-44b6-a65f-42704779bcc0.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_02779d29-ef0e-44b6-a65f-42704779bcc0_geom> ;

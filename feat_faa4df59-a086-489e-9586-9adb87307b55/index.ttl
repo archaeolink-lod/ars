@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_faa4df59-a086-489e-9586-9adb87307b55> a ns1:Feature ;
     rdfs:label "leaf 5" ;
-    ns1:depicts "leaf@en" ;
+    ns1:depicts "leaf"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1ab34b36-5118-4e55-95a6-019472e02243> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/faa4df59-a086-489e-9586-9adb87307b55.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_66f1845d-cee8-4099-bbc9-6342c956308b> a ns1:Feature ;
     rdfs:label "ornament" ;
-    ns1:depicts "circle@en",
-        "cross-monogram@en",
-        "dots@en" ;
+    ns1:depicts "circle"@en,
+        "cross-monogram"@en,
+        "dots"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/66f1845d-cee8-4099-bbc9-6342c956308b.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_66f1845d-cee8-4099-bbc9-6342c956308b_geom> ;

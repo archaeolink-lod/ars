@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_b5128119-c09e-4089-add7-81c89644db15> a ns1:Feature ;
     rdfs:label "man with Cantharus 1" ;
-    ns1:depicts "Cantharus@en",
-        "man@en" ;
+    ns1:depicts "Cantharus"@en,
+        "man"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b5128119-c09e-4089-add7-81c89644db15.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_b5128119-c09e-4089-add7-81c89644db15_geom> ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ae0a8031-9825-4a39-b59f-81a36efd8be5> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ae0a8031-9825-4a39-b59f-81a36efd8be5.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_54155b59-0371-475b-9da3-9adec7475e33> a ns1:Feature ;
     rdfs:label "man with club" ;
-    ns1:depicts "Hercules@en",
-        "club@en",
-        "man@en" ;
+    ns1:depicts "Hercules"@en,
+        "club"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4946b9b8-fbda-4ffb-b74b-f68e506370b4>,
         <http://data.archaeology.link/data/ars/ir_ae778786-4fca-443d-951c-a4c001754d7d> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/54155b59-0371-475b-9da3-9adec7475e33.png> ;

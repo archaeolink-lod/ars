@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_0686dca5-4614-418f-99c3-e167c3bad172> a ns1:Feature ;
     rdfs:label "vomiting sea monster" ;
-    ns1:depicts "Jonah@en",
-        "man@en",
-        "sea-monster@en" ;
+    ns1:depicts "Jonah"@en,
+        "man"@en,
+        "sea-monster"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_a7473586-d3c7-4012-9df5-7e1a30f0d4fc> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0686dca5-4614-418f-99c3-e167c3bad172.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

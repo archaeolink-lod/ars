@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_0f704c9e-6f2b-436a-b21c-ec19b56143de> a ns1:Feature ;
     rdfs:label "Christogram" ;
-    ns1:depicts "Chi Rho@en" ;
+    ns1:depicts "Chi Rho"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0f704c9e-6f2b-436a-b21c-ec19b56143de.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

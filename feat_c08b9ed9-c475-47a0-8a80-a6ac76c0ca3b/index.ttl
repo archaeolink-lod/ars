@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b> a ns1:Feature ;
     rdfs:label "frame 2" ;
-    ns1:depicts "aedicula@en" ;
+    ns1:depicts "aedicula"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b_geom> ;

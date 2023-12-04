@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_669ba84f-d58a-4b6a-af65-e321576690d2> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "chevron@en",
-        "concentric circle@en" ;
+    ns1:depicts "chevron"@en,
+        "concentric circle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/669ba84f-d58a-4b6a-af65-e321576690d2.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

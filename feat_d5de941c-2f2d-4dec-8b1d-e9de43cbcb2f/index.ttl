@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_d5de941c-2f2d-4dec-8b1d-e9de43cbcb2f> a ns1:Feature ;
     rdfs:label "wildcat" ;
-    ns1:depicts "lioness@en",
-        "panther@en" ;
+    ns1:depicts "lioness"@en,
+        "panther"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d5de941c-2f2d-4dec-8b1d-e9de43cbcb2f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

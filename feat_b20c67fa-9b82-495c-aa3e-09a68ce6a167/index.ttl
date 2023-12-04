@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_b20c67fa-9b82-495c-aa3e-09a68ce6a167> a ns1:Feature ;
     rdfs:label "sitting man" ;
-    ns1:depicts "Achilles@en",
-        "man@en",
-        "mantle@en" ;
+    ns1:depicts "Achilles"@en,
+        "man"@en,
+        "mantle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c6d605eb-2ac0-4df8-acca-c176efff9afa> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b20c67fa-9b82-495c-aa3e-09a68ce6a167.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

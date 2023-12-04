@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_7d0d0305-c52a-415d-95f0-839698bd2e57> a ns1:Feature ;
     rdfs:label "soldier with infant" ;
-    ns1:depicts "infant@en",
-        "short tunic@en",
-        "soldier@en",
-        "tunic@en" ;
+    ns1:depicts "infant"@en,
+        "short tunic"@en,
+        "soldier"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_07d1bb6a-1e85-48ab-a1b4-bc5401e0cdae> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7d0d0305-c52a-415d-95f0-839698bd2e57.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

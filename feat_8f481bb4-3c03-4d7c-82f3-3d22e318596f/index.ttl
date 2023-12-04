@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8f481bb4-3c03-4d7c-82f3-3d22e318596f> a ns1:Feature ;
     rdfs:label "medallion 1" ;
-    ns1:depicts "medallion@en" ;
+    ns1:depicts "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8f481bb4-3c03-4d7c-82f3-3d22e318596f.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
     ns1:madeByString "stamped decorated"@en ;

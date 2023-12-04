@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_657e27a9-0b36-4f2f-8e3d-753cc5361952> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "Victoria@en",
-        "woman@en" ;
+    ns1:depicts "Victoria"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_eb7045d4-683b-4f4f-866a-bd8ca85a327f> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/657e27a9-0b36-4f2f-8e3d-753cc5361952.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

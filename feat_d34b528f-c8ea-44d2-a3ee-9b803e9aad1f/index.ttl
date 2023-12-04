@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d34b528f-c8ea-44d2-a3ee-9b803e9aad1f> a ns1:Feature ;
     rdfs:label "spear" ;
-    ns1:depicts "spear@en" ;
+    ns1:depicts "spear"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_25920a83-a3bf-44df-a7b7-b0b2cfc8b7e8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d34b528f-c8ea-44d2-a3ee-9b803e9aad1f.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_2d11e62c-7d8d-4acc-a100-29d10277ff61> a ns1:Feature ;
     rdfs:label "martyr and bear" ;
-    ns1:depicts "bear@en",
-        "captive@en",
-        "martyr@en",
-        "stake@en",
-        "woman@en" ;
+    ns1:depicts "bear"@en,
+        "captive"@en,
+        "martyr"@en,
+        "stake"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2ca0c51e-e1cb-4eeb-b05b-b9f310b33371> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/2d11e62c-7d8d-4acc-a100-29d10277ff61.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

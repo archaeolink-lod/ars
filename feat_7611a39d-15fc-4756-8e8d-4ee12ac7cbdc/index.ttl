@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_7611a39d-15fc-4756-8e8d-4ee12ac7cbdc> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "trefoil pattern@en" ;
+    ns1:depicts "trefoil pattern"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7611a39d-15fc-4756-8e8d-4ee12ac7cbdc.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

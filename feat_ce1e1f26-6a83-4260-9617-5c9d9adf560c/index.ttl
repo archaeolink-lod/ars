@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_ce1e1f26-6a83-4260-9617-5c9d9adf560c> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "chevron@en",
-        "leaf-spray@en" ;
+    ns1:depicts "chevron"@en,
+        "leaf-spray"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ce1e1f26-6a83-4260-9617-5c9d9adf560c.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

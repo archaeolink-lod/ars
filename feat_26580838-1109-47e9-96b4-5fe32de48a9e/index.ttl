@@ -6,12 +6,12 @@
 
 <http://data.archaeology.link/data/ars/feat_26580838-1109-47e9-96b4-5fe32de48a9e> a ns1:Feature ;
     rdfs:label "sacrifice of Isaac" ;
-    ns1:depicts "Abraham@en",
-        "Isaac@en",
-        "altar@en",
-        "man@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Abraham"@en,
+        "Isaac"@en,
+        "altar"@en,
+        "man"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4eed0152-2185-4526-8a5f-fd19290f7d73> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/26580838-1109-47e9-96b4-5fe32de48a9e.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

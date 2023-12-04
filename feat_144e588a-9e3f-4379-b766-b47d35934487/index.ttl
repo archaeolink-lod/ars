@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_144e588a-9e3f-4379-b766-b47d35934487> a ns1:Feature ;
     rdfs:label "pegasus and woman" ;
-    ns1:depicts "Pegasus@en",
-        "nymph@en",
-        "woman@en" ;
+    ns1:depicts "Pegasus"@en,
+        "nymph"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_576c9db2-4395-4377-9921-dc363831d8f5>,
         <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000002>,
         <http://data.archaeology.link/data/ars/ir_dbe9ac3c-a66c-4d2c-88bd-5ea18edb0cbf> ;

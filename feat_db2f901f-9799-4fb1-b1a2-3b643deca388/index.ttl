@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_db2f901f-9799-4fb1-b1a2-3b643deca388> a ns1:Feature ;
     rdfs:label "Hercules" ;
-    ns1:depicts "Hercules@en",
-        "man@en" ;
+    ns1:depicts "Hercules"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_7cbe3202-baae-43c2-9453-8760d91b6739>,
         <http://data.archaeology.link/data/ars/ir_ebc066c3-bedc-458f-bdcc-c1ef81f005a5> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/db2f901f-9799-4fb1-b1a2-3b643deca388.png> ;

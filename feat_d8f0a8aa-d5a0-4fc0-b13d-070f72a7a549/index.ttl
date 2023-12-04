@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_d8f0a8aa-d5a0-4fc0-b13d-070f72a7a549> a ns1:Feature ;
     rdfs:label "quadriga" ;
-    ns1:depicts "chariot@en",
-        "charioteer@en",
-        "horses@en",
-        "man@en" ;
+    ns1:depicts "chariot"@en,
+        "charioteer"@en,
+        "horses"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_00c3b889-f470-4243-9c3a-8d8d592e2c82> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d8f0a8aa-d5a0-4fc0-b13d-070f72a7a549.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

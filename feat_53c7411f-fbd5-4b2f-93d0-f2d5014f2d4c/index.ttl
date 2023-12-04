@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_53c7411f-fbd5-4b2f-93d0-f2d5014f2d4c> a ns1:Feature ;
     rdfs:label "inscription" ;
-    ns1:depicts "inscription@en",
-        "tabula ansata@en" ;
+    ns1:depicts "inscription"@en,
+        "tabula ansata"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_718bb0e1-c676-4928-b428-5b45b282d7dc>,
         <http://data.archaeology.link/data/ars/ir_b5a1f4bf-b58e-45c5-bdf9-d438ff1b25ae> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/53c7411f-fbd5-4b2f-93d0-f2d5014f2d4c.png> ;

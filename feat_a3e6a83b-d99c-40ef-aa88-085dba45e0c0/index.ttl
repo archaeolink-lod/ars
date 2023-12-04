@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_a3e6a83b-d99c-40ef-aa88-085dba45e0c0> a ns1:Feature ;
     rdfs:label "Cantharus" ;
-    ns1:depicts "Cantharus@en" ;
+    ns1:depicts "Cantharus"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c33a6a86-4e71-4d88-b1ae-653eafdc1a0a> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a3e6a83b-d99c-40ef-aa88-085dba45e0c0.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

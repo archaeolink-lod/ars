@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_861da5f2-0daa-4d6a-96c8-b004b96e9e1c> a ns1:Feature ;
     rdfs:label "basket 1" ;
-    ns1:depicts "basket of grapes@en",
-        "basket@en" ;
+    ns1:depicts "basket"@en,
+        "basket of grapes"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_495e6910-1831-4947-bdba-c8ac2f0c39e7> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/861da5f2-0daa-4d6a-96c8-b004b96e9e1c.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

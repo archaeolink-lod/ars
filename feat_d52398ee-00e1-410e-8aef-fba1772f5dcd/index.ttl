@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_d52398ee-00e1-410e-8aef-fba1772f5dcd> a ns1:Feature ;
     rdfs:label "Venus" ;
-    ns1:depicts "Venus@en",
-        "woman@en" ;
+    ns1:depicts "Venus"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2dea40ce-7675-4a7e-98f8-0027e4b0748b>,
         <http://data.archaeology.link/data/ars/ir_59a99782-74bd-498d-9f1a-3789da43049c> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d52398ee-00e1-410e-8aef-fba1772f5dcd.png> ;

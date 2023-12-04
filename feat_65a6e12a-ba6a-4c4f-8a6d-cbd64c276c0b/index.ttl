@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_65a6e12a-ba6a-4c4f-8a6d-cbd64c276c0b> a ns1:Feature ;
     rdfs:label "decoration right handle" ;
-    ns1:depicts "ornament@en" ;
+    ns1:depicts "ornament"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/65a6e12a-ba6a-4c4f-8a6d-cbd64c276c0b.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

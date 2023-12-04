@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_31c60774-b161-4906-a98b-9eb4a1696085> a ns1:Feature ;
     rdfs:label "camel 3" ;
-    ns1:depicts "camel@en" ;
+    ns1:depicts "camel"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_7284feb7-5ba2-4324-8651-7110efe430fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/31c60774-b161-4906-a98b-9eb4a1696085.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_40a0c85f-da14-47f0-8f6d-cd05c31e5f76> a ns1:Feature ;
     rdfs:label "Triton" ;
-    ns1:depicts "Triton@en",
-        "man@en" ;
+    ns1:depicts "Triton"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_f3cf2268-85e2-42ba-8811-115b1d290fd8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/40a0c85f-da14-47f0-8f6d-cd05c31e5f76.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

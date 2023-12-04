@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_4cf2487d-6721-42ef-b362-4bfddf134c4d> a ns1:Feature ;
     rdfs:label "dolphins" ;
-    ns1:depicts "dolphins@en" ;
+    ns1:depicts "dolphins"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_bb196511-efea-4177-a45f-fd496f7816c6>,
         <http://data.archaeology.link/data/ars/ir_ec4994ba-fd93-46a5-b91c-50e1ffa95450> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4cf2487d-6721-42ef-b362-4bfddf134c4d.png> ;

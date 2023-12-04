@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_471ab810-a585-4c4c-8f74-49fa38e12978> a ns1:Feature ;
     rdfs:label "man punishes opponent" ;
-    ns1:depicts "Abraham@en",
-        "Isaac@en",
-        "altar@en",
-        "man@en" ;
+    ns1:depicts "Abraham"@en,
+        "Isaac"@en,
+        "altar"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4eed0152-2185-4526-8a5f-fd19290f7d73> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/471ab810-a585-4c4c-8f74-49fa38e12978.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

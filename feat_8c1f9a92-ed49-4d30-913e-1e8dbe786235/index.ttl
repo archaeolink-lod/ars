@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8c1f9a92-ed49-4d30-913e-1e8dbe786235> a ns1:Feature ;
     rdfs:label "boy" ;
-    ns1:depicts "boy@en" ;
+    ns1:depicts "boy"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_576c9db2-4395-4377-9921-dc363831d8f5>,
         <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000002> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8c1f9a92-ed49-4d30-913e-1e8dbe786235.png> ;

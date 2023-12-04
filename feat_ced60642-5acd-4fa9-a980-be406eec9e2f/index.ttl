@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_ced60642-5acd-4fa9-a980-be406eec9e2f> a ns1:Feature ;
     rdfs:label "martyr" ;
-    ns1:depicts "captive@en",
-        "man@en",
-        "martyr@en",
-        "stake@en" ;
+    ns1:depicts "captive"@en,
+        "man"@en,
+        "martyr"@en,
+        "stake"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_970b602d-31e3-4be2-9c00-ac5046f45341> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ced60642-5acd-4fa9-a980-be406eec9e2f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

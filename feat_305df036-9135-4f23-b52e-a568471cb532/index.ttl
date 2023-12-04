@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_305df036-9135-4f23-b52e-a568471cb532> a ns1:Feature ;
     rdfs:label "man with outstretched arm" ;
-    ns1:depicts "man@en",
-        "tunic@en" ;
+    ns1:depicts "man"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ef5204ee-3444-4e0c-96f9-ce6f5d631ee8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/305df036-9135-4f23-b52e-a568471cb532.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

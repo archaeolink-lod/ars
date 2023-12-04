@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_d890e628-802e-401f-b347-38f36c91ac14> a ns1:Feature ;
     rdfs:label "two persons in the middle" ;
-    ns1:depicts "Thetis@en",
-        "kline@en",
-        "woman@en" ;
+    ns1:depicts "Thetis"@en,
+        "kline"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8b3333bc-8131-4e67-98b4-82c5d11365e5>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d890e628-802e-401f-b347-38f36c91ac14.png> ;

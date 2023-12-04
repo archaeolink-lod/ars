@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_a5a8b842-a9bb-40a5-ba69-3e957007c00a> a ns1:Feature ;
     rdfs:label "wreath 7" ;
-    ns1:depicts "wreath@en" ;
+    ns1:depicts "wreath"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_927c71a5-1caf-496e-8ebc-824c574176a0>,
         <http://data.archaeology.link/data/ars/ir_9427cde3-2334-40c2-9a24-da6b1ec29d69> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a5a8b842-a9bb-40a5-ba69-3e957007c00a.png> ;

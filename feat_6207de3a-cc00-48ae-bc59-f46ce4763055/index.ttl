@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_6207de3a-cc00-48ae-bc59-f46ce4763055> a ns1:Feature ;
     rdfs:label "kneeling person" ;
-    ns1:depicts "Thetis@en",
-        "kneeling person@en" ;
+    ns1:depicts "Thetis"@en,
+        "kneeling person"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2a6ad11a-65ae-4954-9788-d21b98f6e185>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/6207de3a-cc00-48ae-bc59-f46ce4763055.png> ;

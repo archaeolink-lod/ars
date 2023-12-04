@@ -6,13 +6,13 @@
 
 <http://data.archaeology.link/data/ars/feat_7a16cea8-c1b5-4d08-aa8f-b41b8d0e6328> a ns1:Feature ;
     rdfs:label "man shouldering ram" ;
-    ns1:depicts "Good Shepherd@en",
-        "man@en",
-        "mantle@en",
-        "phrygian cap@en",
-        "ram@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Good Shepherd"@en,
+        "man"@en,
+        "mantle"@en,
+        "phrygian cap"@en,
+        "ram"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_e80e61c5-d27f-4e78-b5f8-79012720c3ab> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7a16cea8-c1b5-4d08-aa8f-b41b8d0e6328.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

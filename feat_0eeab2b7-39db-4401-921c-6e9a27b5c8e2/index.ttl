@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_0eeab2b7-39db-4401-921c-6e9a27b5c8e2> a ns1:Feature ;
     rdfs:label "leaf (left side handle)" ;
-    ns1:depicts "leaf@en",
-        "oak@en" ;
+    ns1:depicts "leaf"@en,
+        "oak"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_6db5456e-ed8b-4cfc-911f-863f057dfb57>,
         <http://data.archaeology.link/data/ars/ir_ac6d25d9-4901-4657-82e7-082a5886e6b0> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0eeab2b7-39db-4401-921c-6e9a27b5c8e2.png> ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_88e10f7e-9e6a-4885-916b-95d12530ffbb> a ns1:Feature ;
     rdfs:label "person 8" ;
-    ns1:depicts "human torso@en" ;
+    ns1:depicts "human torso"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_74a3e848-7552-498c-bf65-8cf230598054>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/88e10f7e-9e6a-4885-916b-95d12530ffbb.png> ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_cfcc9c4e-1122-4626-8240-46fad8fe1d12> a ns1:Feature ;
     rdfs:label "animal" ;
-    ns1:depicts "animal@en" ;
+    ns1:depicts "animal"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/cfcc9c4e-1122-4626-8240-46fad8fe1d12.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_cfcc9c4e-1122-4626-8240-46fad8fe1d12_geom> ;

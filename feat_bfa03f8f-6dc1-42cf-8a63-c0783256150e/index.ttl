@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_bfa03f8f-6dc1-42cf-8a63-c0783256150e> a ns1:Feature ;
     rdfs:label "medallion 26" ;
-    ns1:depicts "amphora@en",
-        "medallion@en" ;
+    ns1:depicts "amphora"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/bfa03f8f-6dc1-42cf-8a63-c0783256150e.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

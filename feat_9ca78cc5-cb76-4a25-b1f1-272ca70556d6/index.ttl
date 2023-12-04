@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_9ca78cc5-cb76-4a25-b1f1-272ca70556d6> a ns1:Feature ;
     rdfs:label "medallion 1" ;
-    ns1:depicts "Victoria@en",
-        "bust@en",
-        "medallion@en" ;
+    ns1:depicts "Victoria"@en,
+        "bust"@en,
+        "medallion"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_a6e138b2-dccb-41bc-a924-71e606a6f2d0>,
         <http://data.archaeology.link/data/ars/ir_aa844ed0-0c4a-4ba5-82dd-a71886ff3f3b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9ca78cc5-cb76-4a25-b1f1-272ca70556d6.png> ;

@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_1fb35385-02b6-4535-a1a3-a03c06689847> a ns1:Feature ;
     rdfs:label "Hercules" ;
-    ns1:depicts "Hercules@en",
-        "club@en",
-        "man@en",
-        "mantle@en" ;
+    ns1:depicts "Hercules"@en,
+        "club"@en,
+        "man"@en,
+        "mantle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4946b9b8-fbda-4ffb-b74b-f68e506370b4>,
         <http://data.archaeology.link/data/ars/ir_ae778786-4fca-443d-951c-a4c001754d7d> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1fb35385-02b6-4535-a1a3-a03c06689847.png> ;

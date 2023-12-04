@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_b99749e2-5cc0-40e6-9e82-58b523ac1061> a ns1:Feature ;
     rdfs:label "Christogram 1" ;
-    ns1:depicts "Chi Rho@en" ;
+    ns1:depicts "Chi Rho"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b99749e2-5cc0-40e6-9e82-58b523ac1061.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

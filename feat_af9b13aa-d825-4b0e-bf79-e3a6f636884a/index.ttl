@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_af9b13aa-d825-4b0e-bf79-e3a6f636884a> a ns1:Feature ;
     rdfs:label "Peter" ;
-    ns1:depicts "Peter@en",
-        "man@en",
-        "pallium@en" ;
+    ns1:depicts "Peter"@en,
+        "man"@en,
+        "pallium"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8ce19702-e88e-43b4-af6c-bded46aaa879> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/af9b13aa-d825-4b0e-bf79-e3a6f636884a.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

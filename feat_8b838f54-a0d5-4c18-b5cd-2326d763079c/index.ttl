@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_8b838f54-a0d5-4c18-b5cd-2326d763079c> a ns1:Feature ;
     rdfs:label "medallion 1" ;
-    ns1:depicts "lozenges@en",
-        "medallion@en" ;
+    ns1:depicts "lozenges"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8b838f54-a0d5-4c18-b5cd-2326d763079c.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
     ns1:madeByString "stamped decorated"@en ;

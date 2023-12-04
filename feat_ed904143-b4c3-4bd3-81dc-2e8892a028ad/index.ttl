@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_ed904143-b4c3-4bd3-81dc-2e8892a028ad> a ns1:Feature ;
     rdfs:label "Hercules killing the lion" ;
-    ns1:depicts "Hercules@en",
-        "lion@en",
-        "man@en" ;
+    ns1:depicts "Hercules"@en,
+        "lion"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_6af4f9e1-5758-4e7f-ade3-cf91d19dd424>,
         <http://data.archaeology.link/data/ars/ir_7b9d7fdb-2dc6-49f0-83fd-cd5ab6f80fe8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ed904143-b4c3-4bd3-81dc-2e8892a028ad.png> ;

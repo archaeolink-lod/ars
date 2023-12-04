@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_0732e3af-9fba-49c7-b446-988386b48b91> a ns1:Feature ;
     rdfs:label "erots on board" ;
-    ns1:depicts "erots@en",
-        "ship@en" ;
+    ns1:depicts "erots"@en,
+        "ship"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_cbba9a33-caef-4360-860c-31d06c226134> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0732e3af-9fba-49c7-b446-988386b48b91.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

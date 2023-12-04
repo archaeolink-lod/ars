@@ -6,12 +6,12 @@
 
 <http://data.archaeology.link/data/ars/feat_096c95b6-fc3b-468e-a2ea-2e68c5b8fddf> a ns1:Feature ;
     rdfs:label "Solomon" ;
-    ns1:depicts "Solomon@en",
-        "breast-band@en",
-        "man@en",
-        "mantle@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Solomon"@en,
+        "breast-band"@en,
+        "man"@en,
+        "mantle"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5bf8e4ec-a167-40d6-8f6e-73968eed16bc> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/096c95b6-fc3b-468e-a2ea-2e68c5b8fddf.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_3dbac4ce-5cdc-44f4-8e96-c4d2a26df4de> a ns1:Feature ;
     rdfs:label "leopard" ;
-    ns1:depicts "leopard@en" ;
+    ns1:depicts "leopard"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_76f00584-f0f9-46b7-af79-a46003e32bc4> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3dbac4ce-5cdc-44f4-8e96-c4d2a26df4de.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

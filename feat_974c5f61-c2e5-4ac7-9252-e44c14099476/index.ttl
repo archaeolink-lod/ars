@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_974c5f61-c2e5-4ac7-9252-e44c14099476> a ns1:Feature ;
     rdfs:label "human 2" ;
-    ns1:depicts "pallium@en",
-        "pedestral@en",
-        "sandals@en" ;
+    ns1:depicts "pallium"@en,
+        "pedestral"@en,
+        "sandals"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/974c5f61-c2e5-4ac7-9252-e44c14099476.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

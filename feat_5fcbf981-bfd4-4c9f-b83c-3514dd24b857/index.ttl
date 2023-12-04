@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_5fcbf981-bfd4-4c9f-b83c-3514dd24b857> a ns1:Feature ;
     rdfs:label "medallion 5" ;
-    ns1:depicts "grapes@en",
-        "medallion@en",
-        "tree@en" ;
+    ns1:depicts "grapes"@en,
+        "medallion"@en,
+        "tree"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5fcbf981-bfd4-4c9f-b83c-3514dd24b857.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

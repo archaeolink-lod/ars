@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d7eb4136-028a-4bb0-9998-83210d55927a> a ns1:Feature ;
     rdfs:label "column 4" ;
-    ns1:depicts "column@en" ;
+    ns1:depicts "column"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_cc1df05c-290f-4b47-ab27-57d3b1d1b398> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d7eb4136-028a-4bb0-9998-83210d55927a.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

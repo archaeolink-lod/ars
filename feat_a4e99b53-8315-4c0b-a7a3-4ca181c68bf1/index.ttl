@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_a4e99b53-8315-4c0b-a7a3-4ca181c68bf1> a ns1:Feature ;
     rdfs:label "animal 2" ;
-    ns1:depicts "animal@en",
-        "sea animal@en" ;
+    ns1:depicts "animal"@en,
+        "sea animal"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a4e99b53-8315-4c0b-a7a3-4ca181c68bf1.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

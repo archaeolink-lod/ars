@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_f789b5f1-0cf8-4856-8981-ebe247125c03> a ns1:Feature ;
     rdfs:label "men and angel" ;
-    ns1:depicts "angel@en",
-        "men@en",
-        "phrygian cap@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "angel"@en,
+        "men"@en,
+        "phrygian cap"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/f789b5f1-0cf8-4856-8981-ebe247125c03.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

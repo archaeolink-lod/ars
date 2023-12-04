@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_ceadd92f-bc88-4ee4-981c-1826152bad85> a ns1:Feature ;
     rdfs:label "bull" ;
-    ns1:depicts "bull@en" ;
+    ns1:depicts "bull"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ceadd92f-bc88-4ee4-981c-1826152bad85.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_ceadd92f-bc88-4ee4-981c-1826152bad85_geom> ;

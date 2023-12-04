@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c7a274bb-22a5-4da4-91ec-45c4a9cb3c30> a ns1:Feature ;
     rdfs:label "shell 2" ;
-    ns1:depicts "shell@en" ;
+    ns1:depicts "shell"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c7a274bb-22a5-4da4-91ec-45c4a9cb3c30.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_c7a274bb-22a5-4da4-91ec-45c4a9cb3c30_geom> ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_b22f7fdd-cee1-4078-93f6-b114822d37b2> a ns1:Feature ;
     rdfs:label "ornament right 2" ;
-    ns1:depicts "strokes@en" ;
+    ns1:depicts "strokes"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b22f7fdd-cee1-4078-93f6-b114822d37b2.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

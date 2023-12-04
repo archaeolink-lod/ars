@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_81eab972-4a8b-48eb-95a6-ab1755a2fd8e> a ns1:Feature ;
     rdfs:label "charioteer" ;
-    ns1:depicts "chariot@en",
-        "charioteer@en",
-        "horses@en" ;
+    ns1:depicts "chariot"@en,
+        "charioteer"@en,
+        "horses"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/81eab972-4a8b-48eb-95a6-ab1755a2fd8e.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_81eab972-4a8b-48eb-95a6-ab1755a2fd8e_geom> ;

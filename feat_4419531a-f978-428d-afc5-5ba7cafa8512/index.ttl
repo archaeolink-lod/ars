@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_4419531a-f978-428d-afc5-5ba7cafa8512> a ns1:Feature ;
     rdfs:label "paws" ;
-    ns1:depicts "animal@en" ;
+    ns1:depicts "animal"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4419531a-f978-428d-afc5-5ba7cafa8512.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_4419531a-f978-428d-afc5-5ba7cafa8512_geom> ;

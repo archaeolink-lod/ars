@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_0f2935f0-079b-42ab-83a1-9308ade79a12> a ns1:Feature ;
     rdfs:label "cave" ;
-    ns1:depicts "cave@en",
-        "human@en" ;
+    ns1:depicts "cave"@en,
+        "human"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_880c19d8-b56d-4959-a4fb-9cd1d6cf913b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0f2935f0-079b-42ab-83a1-9308ade79a12.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

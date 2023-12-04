@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_f8610a23-2542-455a-9fa3-8a50efb79c78> a ns1:Feature ;
     rdfs:label "sand 2" ;
-    ns1:depicts "sand@en" ;
+    ns1:depicts "sand"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/f8610a23-2542-455a-9fa3-8a50efb79c78.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_f8610a23-2542-455a-9fa3-8a50efb79c78_geom> ;

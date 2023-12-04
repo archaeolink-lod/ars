@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_e216c061-9bf3-4d72-849b-1de0630537c3> a ns1:Feature ;
     rdfs:label "altar" ;
-    ns1:depicts "altar@en" ;
+    ns1:depicts "altar"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_27c164ec-7e30-4dea-bee5-4dfde7baf284> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e216c061-9bf3-4d72-849b-1de0630537c3.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

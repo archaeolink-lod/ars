@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_a05c2f04-6f54-4579-ae08-7fc86c5c5ff2> a ns1:Feature ;
     rdfs:label "satyr 1" ;
-    ns1:depicts "Pan@en",
-        "satyr@en" ;
+    ns1:depicts "Pan"@en,
+        "satyr"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5e0e38d8-caba-4646-a5c5-56a35928e5fe>,
         <http://data.archaeology.link/data/ars/ir_ff8268eb-3bdd-4f51-ab99-8dc8372cea76> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a05c2f04-6f54-4579-ae08-7fc86c5c5ff2.png> ;

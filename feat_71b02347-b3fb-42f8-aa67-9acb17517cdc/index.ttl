@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_71b02347-b3fb-42f8-aa67-9acb17517cdc> a ns1:Feature ;
     rdfs:label "silen" ;
-    ns1:depicts "Silenus@en",
-        "pedestal@en" ;
+    ns1:depicts "Silenus"@en,
+        "pedestal"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/71b02347-b3fb-42f8-aa67-9acb17517cdc.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

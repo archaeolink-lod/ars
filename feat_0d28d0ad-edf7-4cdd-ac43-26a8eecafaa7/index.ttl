@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_0d28d0ad-edf7-4cdd-ac43-26a8eecafaa7> a ns1:Feature ;
     rdfs:label "man 2" ;
-    ns1:depicts "loincloth@en",
-        "man@en" ;
+    ns1:depicts "loincloth"@en,
+        "man"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0d28d0ad-edf7-4cdd-ac43-26a8eecafaa7.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_6589e476-ccef-4871-a8c1-ca97206bf331> a ns1:Feature ;
     rdfs:label "charioteer" ;
-    ns1:depicts "charioteer@en",
-        "man@en" ;
+    ns1:depicts "charioteer"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_42118360-f9b5-42c1-9b8f-e63d7cfe7488> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/6589e476-ccef-4871-a8c1-ca97206bf331.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;

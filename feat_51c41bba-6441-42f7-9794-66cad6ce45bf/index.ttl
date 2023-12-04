@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_51c41bba-6441-42f7-9794-66cad6ce45bf> a ns1:Feature ;
     rdfs:label "Hercules 1" ;
-    ns1:depicts "Hercules@en",
-        "club@en",
-        "lionsskin@en",
-        "man@en" ;
+    ns1:depicts "Hercules"@en,
+        "club"@en,
+        "lionsskin"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1bc48404-ff02-44ea-a4eb-e6ab39bd3735> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/51c41bba-6441-42f7-9794-66cad6ce45bf.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

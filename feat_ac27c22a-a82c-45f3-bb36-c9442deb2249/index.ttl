@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_ac27c22a-a82c-45f3-bb36-c9442deb2249> a ns1:Feature ;
     rdfs:label "human 1" ;
-    ns1:depicts "Bacchus@en",
-        "man@en" ;
+    ns1:depicts "Bacchus"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c0fda02c-ec42-486c-9c9b-17b6b755389a>,
         <http://data.archaeology.link/data/ars/ir_c3128fcd-4c60-4612-8052-62fa22ade8f8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ac27c22a-a82c-45f3-bb36-c9442deb2249.png> ;

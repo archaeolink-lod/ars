@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_57101698-3c74-4fd6-b2b9-3e73e2e47a77> a ns1:Feature ;
     rdfs:label "medallion 2" ;
-    ns1:depicts "Nike@en",
-        "bust@en",
-        "medallion@en" ;
+    ns1:depicts "Nike"@en,
+        "bust"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/57101698-3c74-4fd6-b2b9-3e73e2e47a77.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

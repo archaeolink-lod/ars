@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8094e085-a847-46fc-a628-ea592a66c34e> a ns1:Feature ;
     rdfs:label "bear" ;
-    ns1:depicts "bear@en" ;
+    ns1:depicts "bear"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_40fb949b-60d9-4c43-8a22-ee3f5aefa0ed> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8094e085-a847-46fc-a628-ea592a66c34e.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

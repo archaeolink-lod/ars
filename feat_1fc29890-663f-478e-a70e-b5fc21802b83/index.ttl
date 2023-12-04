@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_1fc29890-663f-478e-a70e-b5fc21802b83> a ns1:Feature ;
     rdfs:label "erots on board" ;
-    ns1:depicts "bird@en",
-        "erots@en",
-        "ship@en" ;
+    ns1:depicts "bird"@en,
+        "erots"@en,
+        "ship"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5c00ca91-7f92-4470-8c6e-7afa456547b4>,
         <http://data.archaeology.link/data/ars/ir_e58b9d83-859e-43ce-84b6-7754e9b3a313> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1fc29890-663f-478e-a70e-b5fc21802b83.png> ;

@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_a472e2ad-e579-413a-9765-11a6cf55373d> a ns1:Feature ;
     rdfs:label "group of medallions" ;
-    ns1:depicts "bust@en",
-        "medallions@en" ;
+    ns1:depicts "bust"@en,
+        "medallions"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_a6e138b2-dccb-41bc-a924-71e606a6f2d0>,
         <http://data.archaeology.link/data/ars/ir_aa844ed0-0c4a-4ba5-82dd-a71886ff3f3b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a472e2ad-e579-413a-9765-11a6cf55373d.png> ;

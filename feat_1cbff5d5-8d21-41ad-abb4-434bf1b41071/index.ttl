@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_1cbff5d5-8d21-41ad-abb4-434bf1b41071> a ns1:Feature ;
     rdfs:label "fish 8" ;
-    ns1:depicts "fish@en" ;
+    ns1:depicts "fish"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1cbff5d5-8d21-41ad-abb4-434bf1b41071.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_1cbff5d5-8d21-41ad-abb4-434bf1b41071_geom> ;

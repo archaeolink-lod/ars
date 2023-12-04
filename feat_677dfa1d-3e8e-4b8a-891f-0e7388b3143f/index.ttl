@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_677dfa1d-3e8e-4b8a-891f-0e7388b3143f> a ns1:Feature ;
     rdfs:label "dots" ;
-    ns1:depicts "ornament@en" ;
+    ns1:depicts "ornament"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/677dfa1d-3e8e-4b8a-891f-0e7388b3143f.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_677dfa1d-3e8e-4b8a-891f-0e7388b3143f_geom> ;

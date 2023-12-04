@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_14716ac8-7af2-48f6-955b-82459e4b5ac1> a ns1:Feature ;
     rdfs:label "vintaging erots" ;
-    ns1:depicts "erots@en",
-        "vine@en" ;
+    ns1:depicts "erots"@en,
+        "vine"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/14716ac8-7af2-48f6-955b-82459e4b5ac1.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

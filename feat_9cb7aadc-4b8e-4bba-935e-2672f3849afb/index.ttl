@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_9cb7aadc-4b8e-4bba-935e-2672f3849afb> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "Palliatus@en",
-        "long tunic@en",
-        "man@en",
-        "pallium@en",
-        "tunic@en" ;
+    ns1:depicts "Palliatus"@en,
+        "long tunic"@en,
+        "man"@en,
+        "pallium"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c09e8a96-18f1-46ba-860d-7dbc982984da> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9cb7aadc-4b8e-4bba-935e-2672f3849afb.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

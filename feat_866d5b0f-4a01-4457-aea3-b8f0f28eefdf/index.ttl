@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_866d5b0f-4a01-4457-aea3-b8f0f28eefdf> a ns1:Feature ;
     rdfs:label "ornament 2" ;
-    ns1:depicts "grapevine@en" ;
+    ns1:depicts "grapevine"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/866d5b0f-4a01-4457-aea3-b8f0f28eefdf.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

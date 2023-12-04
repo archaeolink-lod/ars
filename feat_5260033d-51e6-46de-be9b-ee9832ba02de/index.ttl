@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_5260033d-51e6-46de-be9b-ee9832ba02de> a ns1:Feature ;
     rdfs:label "medallion 1" ;
-    ns1:depicts "bust@en",
-        "medallion@en" ;
+    ns1:depicts "bust"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5260033d-51e6-46de-be9b-ee9832ba02de.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

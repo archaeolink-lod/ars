@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_01314332-4213-4d75-ab7c-c978f5c23044> a ns1:Feature ;
     rdfs:label "branch 1" ;
-    ns1:depicts "branch@en" ;
+    ns1:depicts "branch"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_11cf1d2c-ca61-41c7-a1d2-d04d4f0a01ae>,
         <http://data.archaeology.link/data/ars/ir_bdf3acde-c96f-4048-819b-efdf2f1d8f95> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/01314332-4213-4d75-ab7c-c978f5c23044.png> ;

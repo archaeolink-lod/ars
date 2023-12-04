@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_91eb15fe-6d21-4ed0-bb32-95030eee9c5f> a ns1:Feature ;
     rdfs:label "unknown " ;
-    ns1:depicts "leg@en" ;
+    ns1:depicts "leg"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/91eb15fe-6d21-4ed0-bb32-95030eee9c5f.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

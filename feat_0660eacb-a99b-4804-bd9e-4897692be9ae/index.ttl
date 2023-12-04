@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_0660eacb-a99b-4804-bd9e-4897692be9ae> a ns1:Feature ;
     rdfs:label "ornament 2" ;
-    ns1:depicts "concentric circle@en",
-        "trefoil pattern@en" ;
+    ns1:depicts "concentric circle"@en,
+        "trefoil pattern"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0660eacb-a99b-4804-bd9e-4897692be9ae.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

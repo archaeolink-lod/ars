@@ -6,13 +6,13 @@
 
 <http://data.archaeology.link/data/ars/feat_4476b9eb-2a4d-401f-8e46-a24eed17ce2d> a ns1:Feature ;
     rdfs:label "man with horse" ;
-    ns1:depicts "Dioscurus@en",
-        "horse@en",
-        "long-sleeved short belted tunic@en",
-        "man@en",
-        "phrygian cap@en",
-        "spear@en",
-        "tunic@en" ;
+    ns1:depicts "Dioscurus"@en,
+        "horse"@en,
+        "long-sleeved short belted tunic"@en,
+        "man"@en,
+        "phrygian cap"@en,
+        "spear"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_fb3f1ad4-dc8f-4a1c-ac8d-758566dce6e8> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4476b9eb-2a4d-401f-8e46-a24eed17ce2d.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

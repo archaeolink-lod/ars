@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_c125b8cd-8740-4564-8f0a-739d3f93e37f> a ns1:Feature ;
     rdfs:label "ornament 2" ;
-    ns1:depicts "chevron@en",
-        "circle with arcs and circle at center@en",
-        "medallion@en",
-        "square with circle@en" ;
+    ns1:depicts "chevron"@en,
+        "circle with arcs and circle at center"@en,
+        "medallion"@en,
+        "square with circle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c125b8cd-8740-4564-8f0a-739d3f93e37f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

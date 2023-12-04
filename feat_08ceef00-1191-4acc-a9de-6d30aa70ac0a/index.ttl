@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_08ceef00-1191-4acc-a9de-6d30aa70ac0a> a ns1:Feature ;
     rdfs:label "rhombus 4" ;
-    ns1:depicts "lozenges@en" ;
+    ns1:depicts "lozenges"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/08ceef00-1191-4acc-a9de-6d30aa70ac0a.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

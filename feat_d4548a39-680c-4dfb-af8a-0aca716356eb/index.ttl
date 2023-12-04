@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d4548a39-680c-4dfb-af8a-0aca716356eb> a ns1:Feature ;
     rdfs:label "ornament (ring)" ;
-    ns1:depicts "concentric circles@en" ;
+    ns1:depicts "concentric circles"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d4548a39-680c-4dfb-af8a-0aca716356eb.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "mould-made relief decorated"@en ;

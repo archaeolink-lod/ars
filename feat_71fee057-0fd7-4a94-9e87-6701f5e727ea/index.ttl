@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_71fee057-0fd7-4a94-9e87-6701f5e727ea> a ns1:Feature ;
     rdfs:label "ornament" ;
-    ns1:depicts "almond@en" ;
+    ns1:depicts "almond"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/71fee057-0fd7-4a94-9e87-6701f5e727ea.png> ;
     ns1:hasType ns1:FeatureType_Stamp ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_71fee057-0fd7-4a94-9e87-6701f5e727ea_geom> ;

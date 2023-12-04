@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_277ee84b-a8b7-4f7f-814d-a869107897fc> a ns1:Feature ;
     rdfs:label "Bacchus" ;
-    ns1:depicts "Bacchus@en",
-        "dog@en",
-        "man@en",
-        "thyrsos@en" ;
+    ns1:depicts "Bacchus"@en,
+        "dog"@en,
+        "man"@en,
+        "thyrsos"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_366d56cd-23c3-4144-a776-89758c240eaf> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/277ee84b-a8b7-4f7f-814d-a869107897fc.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

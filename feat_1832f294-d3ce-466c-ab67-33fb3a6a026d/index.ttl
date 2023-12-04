@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_1832f294-d3ce-466c-ab67-33fb3a6a026d> a ns1:Feature ;
     rdfs:label "wildcat" ;
-    ns1:depicts "leopard@en",
-        "panther@en" ;
+    ns1:depicts "leopard"@en,
+        "panther"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1832f294-d3ce-466c-ab67-33fb3a6a026d.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_85f18431-deb5-4ecd-b8ab-02f672b20f57> a ns1:Feature ;
     rdfs:label "fox 2" ;
-    ns1:depicts "fox@en" ;
+    ns1:depicts "fox"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/85f18431-deb5-4ecd-b8ab-02f672b20f57.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_a46d49e6-2b95-4442-b167-0117c300141d> a ns1:Feature ;
     rdfs:label "Triton" ;
-    ns1:depicts "Triton@en",
-        "arm@en",
-        "man@en" ;
+    ns1:depicts "Triton"@en,
+        "arm"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_0d8d35fe-e810-427e-a45e-6c0773e1cdc7>,
         <http://data.archaeology.link/data/ars/ir_672ae438-e746-4e2a-9cd3-e7adbf07eed3> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/a46d49e6-2b95-4442-b167-0117c300141d.png> ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_5688ebd6-7b1c-4844-80be-1125d80932a0> a ns1:Feature ;
     rdfs:label "man running out of fiery furnace " ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1fdaad2c-eb8e-4708-a76e-42edf5f0b176> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5688ebd6-7b1c-4844-80be-1125d80932a0.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

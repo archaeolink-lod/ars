@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_e8983e04-1261-48de-b9aa-9d5d7f6fc964> a ns1:Feature ;
     rdfs:label "blossom 7" ;
-    ns1:depicts "blossom@en" ;
+    ns1:depicts "blossom"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e8983e04-1261-48de-b9aa-9d5d7f6fc964.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_7eb64fb5-3810-4d98-a891-34ab1e078ac6> a ns1:Feature ;
     rdfs:label "man with bed" ;
-    ns1:depicts "bed@en",
-        "man@en",
-        "paralytic@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "bed"@en,
+        "man"@en,
+        "paralytic"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2fbd2c58-d1bb-4eb0-9ee7-31a99bc24793> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7eb64fb5-3810-4d98-a891-34ab1e078ac6.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

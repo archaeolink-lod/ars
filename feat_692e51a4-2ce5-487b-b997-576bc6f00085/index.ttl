@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_692e51a4-2ce5-487b-b997-576bc6f00085> a ns1:Feature ;
     rdfs:label "man with rod" ;
-    ns1:depicts "Christ@en",
-        "man@en",
-        "pallium@en",
-        "short-sleeved belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Christ"@en,
+        "man"@en,
+        "pallium"@en,
+        "short-sleeved belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ae050f5b-ece5-4fa2-a9a7-ea389cf4062f> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/692e51a4-2ce5-487b-b997-576bc6f00085.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

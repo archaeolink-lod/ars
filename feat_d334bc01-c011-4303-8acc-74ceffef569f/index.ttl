@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d334bc01-c011-4303-8acc-74ceffef569f> a ns1:Feature ;
     rdfs:label "lion" ;
-    ns1:depicts "lion@en" ;
+    ns1:depicts "lion"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_6234e07d-7fc0-48c8-ba57-5deea596fe47> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d334bc01-c011-4303-8acc-74ceffef569f.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

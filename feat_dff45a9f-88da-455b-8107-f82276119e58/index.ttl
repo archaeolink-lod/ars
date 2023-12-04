@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_dff45a9f-88da-455b-8107-f82276119e58> a ns1:Feature ;
     rdfs:label "man 1" ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/dff45a9f-88da-455b-8107-f82276119e58.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_dff45a9f-88da-455b-8107-f82276119e58_geom> ;

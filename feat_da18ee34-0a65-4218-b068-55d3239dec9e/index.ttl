@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_da18ee34-0a65-4218-b068-55d3239dec9e> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "Briseis@en",
-        "peplos@en",
-        "stake@en",
-        "woman@en" ;
+    ns1:depicts "Briseis"@en,
+        "peplos"@en,
+        "stake"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c6d605eb-2ac0-4df8-acca-c176efff9afa> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/da18ee34-0a65-4218-b068-55d3239dec9e.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

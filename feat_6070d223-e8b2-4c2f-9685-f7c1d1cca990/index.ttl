@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_6070d223-e8b2-4c2f-9685-f7c1d1cca990> a ns1:Feature ;
     rdfs:label "hunter" ;
-    ns1:depicts "hunter@en" ;
+    ns1:depicts "hunter"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_354ad698-1d48-446d-ab94-3d3b0ffc4eed> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/6070d223-e8b2-4c2f-9685-f7c1d1cca990.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

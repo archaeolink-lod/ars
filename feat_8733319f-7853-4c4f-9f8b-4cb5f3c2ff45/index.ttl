@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_8733319f-7853-4c4f-9f8b-4cb5f3c2ff45> a ns1:Feature ;
     rdfs:label "ornament" ;
-    ns1:depicts "circle@en",
-        "strokes@en",
-        "triangles@en",
-        "zigzag@en" ;
+    ns1:depicts "circle"@en,
+        "strokes"@en,
+        "triangles"@en,
+        "zigzag"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8733319f-7853-4c4f-9f8b-4cb5f3c2ff45.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

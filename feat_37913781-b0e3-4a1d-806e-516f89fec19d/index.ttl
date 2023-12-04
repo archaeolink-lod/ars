@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_37913781-b0e3-4a1d-806e-516f89fec19d> a ns1:Feature ;
     rdfs:label "square 3" ;
-    ns1:depicts "grille-patterns@en",
-        "square with circle@en" ;
+    ns1:depicts "grille-patterns"@en,
+        "square with circle"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/37913781-b0e3-4a1d-806e-516f89fec19d.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

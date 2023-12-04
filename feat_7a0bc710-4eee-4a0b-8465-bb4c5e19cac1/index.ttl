@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_7a0bc710-4eee-4a0b-8465-bb4c5e19cac1> a ns1:Feature ;
     rdfs:label "martyr 5" ;
-    ns1:depicts "martyr@en",
-        "stake@en",
-        "woman@en" ;
+    ns1:depicts "martyr"@en,
+        "stake"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_674242d6-631a-47bb-99db-836de368827c> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7a0bc710-4eee-4a0b-8465-bb4c5e19cac1.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

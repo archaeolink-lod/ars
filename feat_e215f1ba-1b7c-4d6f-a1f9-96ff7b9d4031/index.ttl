@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_e215f1ba-1b7c-4d6f-a1f9-96ff7b9d4031> a ns1:Feature ;
     rdfs:label "satyr 4" ;
-    ns1:depicts "man@en",
-        "satyr@en" ;
+    ns1:depicts "man"@en,
+        "satyr"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d68fef4d-1b2e-4224-be0f-82e7ce2e5044>,
         <http://data.archaeology.link/data/ars/ir_fa1b5075-c17f-4349-87c7-1f4d5f5cda87> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e215f1ba-1b7c-4d6f-a1f9-96ff7b9d4031.png> ;

@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_0b266c06-9432-44dc-b48d-5b46bac11af6> a ns1:Feature ;
     rdfs:label "Minerva" ;
-    ns1:depicts "Minerva@en",
-        "helmet@en",
-        "peplos@en",
-        "throne@en",
-        "woman@en" ;
+    ns1:depicts "Minerva"@en,
+        "helmet"@en,
+        "peplos"@en,
+        "throne"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2b699b71-3fba-452a-9407-985570dd4176>,
         <http://data.archaeology.link/data/ars/ir_7d2761d5-d801-48d6-871a-c1ff2e8c1f3e> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0b266c06-9432-44dc-b48d-5b46bac11af6.png> ;

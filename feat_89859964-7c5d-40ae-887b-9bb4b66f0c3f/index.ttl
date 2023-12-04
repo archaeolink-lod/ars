@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_89859964-7c5d-40ae-887b-9bb4b66f0c3f> a ns1:Feature ;
     rdfs:label "fish with person" ;
-    ns1:depicts "dolphin with erot@en",
-        "dolphin@en" ;
+    ns1:depicts "dolphin"@en,
+        "dolphin with erot"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_21d603b5-50bc-4b37-bd0f-493c433190a5> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/89859964-7c5d-40ae-887b-9bb4b66f0c3f.png> ;
     ns1:hasType ns1:FeatureType_Mould_Part ;

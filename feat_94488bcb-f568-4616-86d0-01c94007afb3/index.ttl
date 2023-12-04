@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_94488bcb-f568-4616-86d0-01c94007afb3> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "nymph@en",
-        "woman@en" ;
+    ns1:depicts "nymph"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_576c9db2-4395-4377-9921-dc363831d8f5>,
         <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000002> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/94488bcb-f568-4616-86d0-01c94007afb3.png> ;

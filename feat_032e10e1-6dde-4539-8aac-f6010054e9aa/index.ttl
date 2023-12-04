@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_032e10e1-6dde-4539-8aac-f6010054e9aa> a ns1:Feature ;
     rdfs:label "arena tribunal" ;
-    ns1:depicts "arena@en",
-        "man@en",
-        "toga@en" ;
+    ns1:depicts "arena"@en,
+        "man"@en,
+        "toga"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8abbbf61-6217-433a-9176-ba08eb819e6d> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/032e10e1-6dde-4539-8aac-f6010054e9aa.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

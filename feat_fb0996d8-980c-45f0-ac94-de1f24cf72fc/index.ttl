@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_fb0996d8-980c-45f0-ac94-de1f24cf72fc> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "concentric circle@en",
-        "volutes@en" ;
+    ns1:depicts "concentric circle"@en,
+        "volutes"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/fb0996d8-980c-45f0-ac94-de1f24cf72fc.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

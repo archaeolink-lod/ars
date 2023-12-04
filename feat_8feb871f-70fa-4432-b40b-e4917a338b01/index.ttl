@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_8feb871f-70fa-4432-b40b-e4917a338b01> a ns1:Feature ;
     rdfs:label "Minerva" ;
-    ns1:depicts "Minerva@en",
-        "breast-band@en",
-        "peplos@en",
-        "woman@en" ;
+    ns1:depicts "Minerva"@en,
+        "breast-band"@en,
+        "peplos"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_893ab2a8-89cd-4d25-9ef8-44935a574add> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8feb871f-70fa-4432-b40b-e4917a338b01.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

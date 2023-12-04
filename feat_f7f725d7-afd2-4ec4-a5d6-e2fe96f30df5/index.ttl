@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_f7f725d7-afd2-4ec4-a5d6-e2fe96f30df5> a ns1:Feature ;
     rdfs:label "Hercules 1" ;
-    ns1:depicts "Hercules@en",
-        "bow@en",
-        "club@en",
-        "lionsskin@en",
-        "man@en" ;
+    ns1:depicts "Hercules"@en,
+        "bow"@en,
+        "club"@en,
+        "lionsskin"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4cdddb03-91b5-4064-bc2b-417fb46a9372>,
         <http://data.archaeology.link/data/ars/ir_a742bf14-dcfe-42eb-9480-190c5731d1ce>,
         <http://data.archaeology.link/data/ars/ir_dbddc626-1729-43c5-9b17-92c1f9dd26eb> ;

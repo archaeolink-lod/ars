@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_0e4716ee-f9e0-4c5b-b222-6cf9870a3d23> a ns1:Feature ;
     rdfs:label "Oceanus mask 1" ;
-    ns1:depicts "Oceanus@en",
-        "mask@en" ;
+    ns1:depicts "Oceanus"@en,
+        "mask"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_59f79782-b5d7-4a76-b1ca-0193f667f15c>,
         <http://data.archaeology.link/data/ars/ir_a9f4f2b0-38f8-431d-96e1-7f0b5c0c2747> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0e4716ee-f9e0-4c5b-b222-6cf9870a3d23.png> ;

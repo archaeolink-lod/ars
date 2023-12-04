@@ -6,12 +6,12 @@
 
 <http://data.archaeology.link/data/ars/feat_d2b5b480-c312-4bc4-960c-25f55a576462> a ns1:Feature ;
     rdfs:label "Victoria 3" ;
-    ns1:depicts "Victoria@en",
-        "breast-band@en",
-        "helmet@en",
-        "palm branch@en",
-        "peplos@en",
-        "woman@en" ;
+    ns1:depicts "Victoria"@en,
+        "breast-band"@en,
+        "helmet"@en,
+        "palm branch"@en,
+        "peplos"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_9a2802d1-69d6-4c93-85f9-8677f3b19c62>,
         <http://data.archaeology.link/data/ars/ir_ae04fbe4-d1e5-403f-a52c-a89324351cc7> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d2b5b480-c312-4bc4-960c-25f55a576462.png> ;

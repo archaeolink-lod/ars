@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_3a1d28cd-7f77-47c0-8798-c5bde843b99f> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "Achilles@en",
-        "man@en" ;
+    ns1:depicts "Achilles"@en,
+        "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d2d88ce6-86c6-4c4b-9cc6-c866bbc82de5>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd>,
         <http://data.archaeology.link/data/ars/ir_e0936d7a-e0c7-4769-9cd3-48c1ebb1bd44> ;

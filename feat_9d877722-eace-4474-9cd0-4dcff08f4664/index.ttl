@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_9d877722-eace-4474-9cd0-4dcff08f4664> a ns1:Feature ;
     rdfs:label "frame" ;
-    ns1:depicts "strokes@en" ;
+    ns1:depicts "strokes"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/9d877722-eace-4474-9cd0-4dcff08f4664.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
     ns1:madeByString "incised decorated"@en ;

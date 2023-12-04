@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_3f356395-4c55-43e3-a1a0-38eb73671bfb> a ns1:Feature ;
     rdfs:label "Achilles and Chiron" ;
-    ns1:depicts "Achilles@en",
-        "Chiron@en",
-        "centaur@en",
-        "hare@en",
-        "hunter@en" ;
+    ns1:depicts "Achilles"@en,
+        "Chiron"@en,
+        "centaur"@en,
+        "hare"@en,
+        "hunter"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3f356395-4c55-43e3-a1a0-38eb73671bfb.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_3f356395-4c55-43e3-a1a0-38eb73671bfb_geom> ;

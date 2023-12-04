@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_79febc62-ab48-4f63-af8b-8fade3ca1cb2> a ns1:Feature ;
     rdfs:label "hound" ;
-    ns1:depicts "hound@en" ;
+    ns1:depicts "hound"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5cc95d56-248a-4b1b-8069-8b947c6b66dc> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/79febc62-ab48-4f63-af8b-8fade3ca1cb2.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_af2cd2e2-c093-4352-ba6f-be7f338d2d01> a ns1:Feature ;
     rdfs:label "enthroned person" ;
-    ns1:depicts "Solomon@en",
-        "man@en",
-        "throne@en" ;
+    ns1:depicts "Solomon"@en,
+        "man"@en,
+        "throne"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5bf8e4ec-a167-40d6-8f6e-73968eed16bc> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/af2cd2e2-c093-4352-ba6f-be7f338d2d01.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

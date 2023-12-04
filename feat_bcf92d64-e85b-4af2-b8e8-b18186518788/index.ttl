@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_bcf92d64-e85b-4af2-b8e8-b18186518788> a ns1:Feature ;
     rdfs:label "medallion 4" ;
-    ns1:depicts "chariot@en",
-        "charioteer@en",
-        "horses@en",
-        "medallion@en" ;
+    ns1:depicts "chariot"@en,
+        "charioteer"@en,
+        "horses"@en,
+        "medallion"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_a6e138b2-dccb-41bc-a924-71e606a6f2d0>,
         <http://data.archaeology.link/data/ars/ir_aa844ed0-0c4a-4ba5-82dd-a71886ff3f3b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/bcf92d64-e85b-4af2-b8e8-b18186518788.png> ;

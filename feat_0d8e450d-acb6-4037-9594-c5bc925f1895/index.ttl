@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_0d8e450d-acb6-4037-9594-c5bc925f1895> a ns1:Feature ;
     rdfs:label "woman and boy" ;
-    ns1:depicts "Achilles@en",
-        "Thetis@en",
-        "boy@en",
-        "woman@en" ;
+    ns1:depicts "Achilles"@en,
+        "Thetis"@en,
+        "boy"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd>,
         <http://data.archaeology.link/data/ars/ir_f203c9a3-d163-42cc-8a9e-47c779b8c15b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/0d8e450d-acb6-4037-9594-c5bc925f1895.png> ;

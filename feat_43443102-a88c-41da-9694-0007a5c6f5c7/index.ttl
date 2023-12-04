@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_43443102-a88c-41da-9694-0007a5c6f5c7> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "orant@en",
-        "stake@en",
-        "woman@en" ;
+    ns1:depicts "orant"@en,
+        "stake"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c8a51816-1018-42b3-b00e-6c62411dfb22> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/43443102-a88c-41da-9694-0007a5c6f5c7.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

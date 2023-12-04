@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_4c423176-cc85-4472-b2bb-504c22bccb5f> a ns1:Feature ;
     rdfs:label "hare" ;
-    ns1:depicts "hare@en" ;
+    ns1:depicts "hare"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4c423176-cc85-4472-b2bb-504c22bccb5f.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "mould-made relief decorated"@en ;

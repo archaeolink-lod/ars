@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_1b71ca33-7166-46d1-8cc4-28a93ef24045> a ns1:Feature ;
     rdfs:label "chevron" ;
-    ns1:depicts "chevron@en" ;
+    ns1:depicts "chevron"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1b71ca33-7166-46d1-8cc4-28a93ef24045.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;

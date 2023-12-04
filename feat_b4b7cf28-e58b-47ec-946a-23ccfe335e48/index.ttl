@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_b4b7cf28-e58b-47ec-946a-23ccfe335e48> a ns1:Feature ;
     rdfs:label "ornament 1" ;
-    ns1:depicts "circle with arcs and circle at center@en",
-        "grille-patterns@en",
-        "medallion@en" ;
+    ns1:depicts "circle with arcs and circle at center"@en,
+        "grille-patterns"@en,
+        "medallion"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_83432cba-4b2f-4111-ad77-c0cf28e53ae4>,
         <http://data.archaeology.link/data/ars/ir_nan> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/b4b7cf28-e58b-47ec-946a-23ccfe335e48.png> ;

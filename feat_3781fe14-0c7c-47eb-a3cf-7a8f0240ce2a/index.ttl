@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_3781fe14-0c7c-47eb-a3cf-7a8f0240ce2a> a ns1:Feature ;
     rdfs:label "tree" ;
-    ns1:depicts "concentric circle@en",
-        "palm-branch@en" ;
+    ns1:depicts "concentric circle"@en,
+        "palm-branch"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3781fe14-0c7c-47eb-a3cf-7a8f0240ce2a.png> ;
     ns1:hasType ns1:FeatureType_Stamp ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_3781fe14-0c7c-47eb-a3cf-7a8f0240ce2a_geom> ;

@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_8b6041e1-4bfa-440f-b106-3e7c42f319d6> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "Christ@en",
-        "man@en",
-        "short belted tunic@en",
-        "tunic@en" ;
+    ns1:depicts "Christ"@en,
+        "man"@en,
+        "short belted tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4758d525-5fc7-4c18-881b-5273391b8f57> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8b6041e1-4bfa-440f-b106-3e7c42f319d6.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

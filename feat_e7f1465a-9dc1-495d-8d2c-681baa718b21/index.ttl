@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_e7f1465a-9dc1-495d-8d2c-681baa718b21> a ns1:Feature ;
     rdfs:label "lion" ;
-    ns1:depicts "lion@en",
-        "spear@en" ;
+    ns1:depicts "lion"@en,
+        "spear"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/e7f1465a-9dc1-495d-8d2c-681baa718b21.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

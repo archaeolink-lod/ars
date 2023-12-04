@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_36db1054-4017-4130-bd97-79bfaf5532cf> a ns1:Feature ;
     rdfs:label "erots with grapes 1" ;
-    ns1:depicts "basket@en",
-        "erots@en" ;
+    ns1:depicts "basket"@en,
+        "erots"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_13a552be-0ce1-4340-bbaa-c24298cb505b>,
         <http://data.archaeology.link/data/ars/ir_7ae27bc4-5c4b-4d29-a898-d2a0a07f2434> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/36db1054-4017-4130-bd97-79bfaf5532cf.png> ;

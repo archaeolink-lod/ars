@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_7c7282a5-b6c4-4246-bc12-ef255722416c> a ns1:Feature ;
     rdfs:label "hunter and bear" ;
-    ns1:depicts "bear@en",
-        "hunter@en" ;
+    ns1:depicts "bear"@en,
+        "hunter"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_3831a28d-4c38-4a89-85b5-4399c5a3ff68> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/7c7282a5-b6c4-4246-bc12-ef255722416c.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

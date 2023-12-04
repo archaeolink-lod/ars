@@ -6,14 +6,14 @@
 
 <http://data.archaeology.link/data/ars/feat_5b757f47-2bf0-4a66-a0d5-5f7fcd826be7> a ns1:Feature ;
     rdfs:label "man and woman" ;
-    ns1:depicts "Christ@en",
-        "man@en",
-        "mantle@en",
-        "short belted tunic@en",
-        "short-sleeved belted tunic@en",
-        "tunic@en",
-        "woman with the issue of blood@en",
-        "woman@en" ;
+    ns1:depicts "Christ"@en,
+        "man"@en,
+        "mantle"@en,
+        "short belted tunic"@en,
+        "short-sleeved belted tunic"@en,
+        "tunic"@en,
+        "woman"@en,
+        "woman with the issue of blood"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_9f8c1316-ae6a-47a8-8b55-90dfb9fd0c61>,
         <http://data.archaeology.link/data/ars/ir_fdf39293-717a-4552-93e3-ddfc0c46e90a> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/5b757f47-2bf0-4a66-a0d5-5f7fcd826be7.png> ;

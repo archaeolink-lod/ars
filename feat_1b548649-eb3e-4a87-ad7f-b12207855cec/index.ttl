@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_1b548649-eb3e-4a87-ad7f-b12207855cec> a ns1:Feature ;
     rdfs:label "woman (right side of tree)" ;
-    ns1:depicts "long tunic@en",
-        "pallium@en",
-        "tunic@en",
-        "woman@en" ;
+    ns1:depicts "long tunic"@en,
+        "pallium"@en,
+        "tunic"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ba373182-af4c-4ef4-9622-226465b5fa6d> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/1b548649-eb3e-4a87-ad7f-b12207855cec.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

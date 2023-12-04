@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_c90934e2-ec88-4016-aa78-bd3686cddaba> a ns1:Feature ;
     rdfs:label "leaf 9" ;
-    ns1:depicts "triangle@en" ;
+    ns1:depicts "triangle"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/c90934e2-ec88-4016-aa78-bd3686cddaba.png> ;
     ns1:hasType ns1:FeatureType_Mould ;
     ns1:selectedArea <http://data.archaeology.link/data/ars/feat_c90934e2-ec88-4016-aa78-bd3686cddaba_geom> ;

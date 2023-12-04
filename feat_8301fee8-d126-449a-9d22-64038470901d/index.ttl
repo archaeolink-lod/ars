@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8301fee8-d126-449a-9d22-64038470901d> a ns1:Feature ;
     rdfs:label "Christogram" ;
-    ns1:depicts "Chi Rho@en" ;
+    ns1:depicts "Chi Rho"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8301fee8-d126-449a-9d22-64038470901d.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

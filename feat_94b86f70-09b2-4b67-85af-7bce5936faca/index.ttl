@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_94b86f70-09b2-4b67-85af-7bce5936faca> a ns1:Feature ;
     rdfs:label "woman" ;
-    ns1:depicts "Leda@en",
-        "bracelet@en",
-        "woman@en" ;
+    ns1:depicts "Leda"@en,
+        "bracelet"@en,
+        "woman"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_7c6ae845-f0c9-44c5-a24c-5a3486e00139>,
         <http://data.archaeology.link/data/ars/ir_efbbf245-7287-4b5d-8561-4f3a9cddf50c> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/94b86f70-09b2-4b67-85af-7bce5936faca.png> ;

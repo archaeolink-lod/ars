@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_dd367841-f2bd-4004-98a9-bf421f02955f> a ns1:Feature ;
     rdfs:label "medallion 21" ;
-    ns1:depicts "almond@en",
-        "bird@en",
-        "medallion@en" ;
+    ns1:depicts "almond"@en,
+        "bird"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/dd367841-f2bd-4004-98a9-bf421f02955f.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

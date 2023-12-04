@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_ad96d542-f1a2-4ac5-97bb-8287a7f736b2> a ns1:Feature ;
     rdfs:label "Hercules" ;
-    ns1:depicts "Hercules@en",
-        "bow@en",
-        "club@en",
-        "man@en",
-        "quiver@en" ;
+    ns1:depicts "Hercules"@en,
+        "bow"@en,
+        "club"@en,
+        "man"@en,
+        "quiver"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5b031e22-f2d7-4ca2-94bc-f08b4cf4ef38>,
         <http://data.archaeology.link/data/ars/ir_86d93d6c-e50d-4a96-ad23-b4931fe7d886> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/ad96d542-f1a2-4ac5-97bb-8287a7f736b2.png> ;

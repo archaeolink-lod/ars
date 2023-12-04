@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_12d9cdbd-0a85-46a5-94e2-c25ebc4fdfbb> a ns1:Feature ;
     rdfs:label "tree" ;
-    ns1:depicts "tree@en" ;
+    ns1:depicts "tree"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_b0e10f4b-2a9a-4476-8185-a81b30af5fd4> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/12d9cdbd-0a85-46a5-94e2-c25ebc4fdfbb.png> ;
     ns1:hasType ns1:FeatureType_Mould ;

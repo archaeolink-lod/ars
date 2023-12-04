@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_805d9fd1-eca8-48a0-9152-25f7b249badb> a ns1:Feature ;
     rdfs:label "centaur" ;
-    ns1:depicts "Chiron@en",
-        "centaur@en" ;
+    ns1:depicts "Chiron"@en,
+        "centaur"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd>,
         <http://data.archaeology.link/data/ars/ir_f203c9a3-d163-42cc-8a9e-47c779b8c15b> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/805d9fd1-eca8-48a0-9152-25f7b249badb.png> ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_d93e1ee3-6c8b-4db7-8c13-84e843e64480> a ns1:Feature ;
     rdfs:label "human with garment" ;
-    ns1:depicts "human@en" ;
+    ns1:depicts "human"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/d93e1ee3-6c8b-4db7-8c13-84e843e64480.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;

@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_95d290f5-9997-4dde-8826-4986c7b3aecf> a ns1:Feature ;
     rdfs:label "aedicula 1" ;
-    ns1:depicts "aedicula@en" ;
+    ns1:depicts "aedicula"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/95d290f5-9997-4dde-8826-4986c7b3aecf.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "stamped decorated"@en ;

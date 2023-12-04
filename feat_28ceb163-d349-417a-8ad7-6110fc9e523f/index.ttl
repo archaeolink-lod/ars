@@ -6,8 +6,8 @@
 
 <http://data.archaeology.link/data/ars/feat_28ceb163-d349-417a-8ad7-6110fc9e523f> a ns1:Feature ;
     rdfs:label "architecture" ;
-    ns1:depicts "altar@en",
-        "arch@en" ;
+    ns1:depicts "altar"@en,
+        "arch"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_74a3e848-7552-498c-bf65-8cf230598054> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/28ceb163-d349-417a-8ad7-6110fc9e523f.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;

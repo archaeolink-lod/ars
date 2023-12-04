@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_3f756838-f5cd-4089-8e79-3eb5817b715e> a ns1:Feature ;
     rdfs:label "musician" ;
-    ns1:depicts "man@en",
-        "pan-pipe@en",
-        "short tunic@en",
-        "tunic@en" ;
+    ns1:depicts "man"@en,
+        "pan-pipe"@en,
+        "short tunic"@en,
+        "tunic"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_74a3e848-7552-498c-bf65-8cf230598054>,
         <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/3f756838-f5cd-4089-8e79-3eb5817b715e.png> ;

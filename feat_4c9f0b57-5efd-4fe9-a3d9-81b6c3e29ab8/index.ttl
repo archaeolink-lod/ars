@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_4c9f0b57-5efd-4fe9-a3d9-81b6c3e29ab8> a ns1:Feature ;
     rdfs:label "decoration handle" ;
-    ns1:depicts "leaf-spray@en" ;
+    ns1:depicts "leaf-spray"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/4c9f0b57-5efd-4fe9-a3d9-81b6c3e29ab8.png> ;
     ns1:hasType ns1:FeatureType_Applique ;
     ns1:madeByString "applied decorated"@en ;

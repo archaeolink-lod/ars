@@ -6,11 +6,11 @@
 
 <http://data.archaeology.link/data/ars/feat_1f367cea-415b-4718-bdaa-c2faaf51aa30> a ns1:Feature ;
     rdfs:label "man with lyre" ;
-    ns1:depicts "Orpheus@en",
-        "lyre@en",
-        "man@en",
-        "mantle@en",
-        "phrygian cap@en" ;
+    ns1:depicts "Orpheus"@en,
+        "lyre"@en,
+        "man"@en,
+        "mantle"@en,
+        "phrygian cap"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2be77faa-280d-4a9f-b93f-54efe607b9c5>,
         <http://data.archaeology.link/data/ars/ir_5839a023-3397-4a94-9927-9cc30a8c1bbb>,
         <http://data.archaeology.link/data/ars/ir_cb25391d-e2b9-4e4a-83fb-6c5bb912dfbe> ;

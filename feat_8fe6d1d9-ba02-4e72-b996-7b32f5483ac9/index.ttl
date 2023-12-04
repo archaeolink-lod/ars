@@ -6,7 +6,7 @@
 
 <http://data.archaeology.link/data/ars/feat_8fe6d1d9-ba02-4e72-b996-7b32f5483ac9> a ns1:Feature ;
     rdfs:label "offering man" ;
-    ns1:depicts "man@en" ;
+    ns1:depicts "man"@en ;
     ns1:depictsReference <http://data.archaeology.link/data/ars/ir_39851b5f-dd3b-4468-b63a-0ccac2838db2> ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/8fe6d1d9-ba02-4e72-b996-7b32f5483ac9.png> ;
     ns1:hasType ns1:FeatureType_Applique ;

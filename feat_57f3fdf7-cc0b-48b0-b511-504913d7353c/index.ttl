@@ -6,10 +6,10 @@
 
 <http://data.archaeology.link/data/ars/feat_57f3fdf7-cc0b-48b0-b511-504913d7353c> a ns1:Feature ;
     rdfs:label "medallion 3" ;
-    ns1:depicts "circle line@en",
-        "concentric circle@en",
-        "dots@en",
-        "medallion@en" ;
+    ns1:depicts "circle line"@en,
+        "concentric circle"@en,
+        "dots"@en,
+        "medallion"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/57f3fdf7-cc0b-48b0-b511-504913d7353c.png> ;
     ns1:hasType ns1:FeatureType_AppliqueNegative ;
     ns1:madeByString "stamped decorated"@en ;

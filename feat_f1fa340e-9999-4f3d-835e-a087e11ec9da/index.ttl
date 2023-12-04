@@ -6,9 +6,9 @@
 
 <http://data.archaeology.link/data/ars/feat_f1fa340e-9999-4f3d-835e-a087e11ec9da> a ns1:Feature ;
     rdfs:label "man" ;
-    ns1:depicts "long tunic@en",
-        "man@en",
-        "tunic@en" ;
+    ns1:depicts "long tunic"@en,
+        "man"@en,
+        "tunic"@en ;
     ns1:hasImage <https://zenodo.org/record/5645237/files/f1fa340e-9999-4f3d-835e-a087e11ec9da.png> ;
     ns1:hasType ns1:FeatureType_Applique_Part ;
     ns1:madeByString "applied decorated"@en ;
