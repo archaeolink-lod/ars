@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_74c53df3-2d7e-4991-901a-7848c7c54191> a ns1:Feature ;
+    rdfs:label "human-horse hybrid 3" ;
+    ns1:depicts "human-horse hybrid@en",
+        "mantle@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/74c53df3-2d7e-4991-901a-7848c7c54191.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_74c53df3-2d7e-4991-901a-7848c7c54191_geom> ;
+    dc:identifier "74c53df3-2d7e-4991-901a-7848c7c54191" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_74c53df3-2d7e-4991-901a-7848c7c54191_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_74c53df3-2d7e-4991-901a-7848c7c54191> .
+

@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_d66996e7-42b8-46b1-b69e-7968bf81c96d> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Erotengelage I" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/13c077ac-b737-4d92-a15e-80ab6a5693b3.png>,
+        <https://zenodo.org/record/5645237/files/40dd2cac-724d-44b5-85e9-00f2faf04b2e.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "d66996e7-42b8-46b1-b69e-7968bf81c96d" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), p. 546" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_d66996e7-42b8-46b1-b69e-7968bf81c96d> .
+

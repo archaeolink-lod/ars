@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_f1920d54-c4ac-4da5-b9ce-e9abf1b0ee4d> a ns1:Feature ;
+    rdfs:label "grape 3" ;
+    ns1:depicts "grape@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/f1920d54-c4ac-4da5-b9ce-e9abf1b0ee4d.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_f1920d54-c4ac-4da5-b9ce-e9abf1b0ee4d_geom> ;
+    dc:identifier "f1920d54-c4ac-4da5-b9ce-e9abf1b0ee4d" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_f1920d54-c4ac-4da5-b9ce-e9abf1b0ee4d_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_f1920d54-c4ac-4da5-b9ce-e9abf1b0ee4d> .
+

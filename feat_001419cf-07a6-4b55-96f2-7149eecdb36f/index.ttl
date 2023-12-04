@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_001419cf-07a6-4b55-96f2-7149eecdb36f> a ns1:Feature ;
+    rdfs:label "human 2" ;
+    ns1:depicts "Bacchus@en",
+        "human@en",
+        "mantle@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c0fda02c-ec42-486c-9c9b-17b6b755389a>,
+        <http://data.archaeology.link/data/ars/ir_c3128fcd-4c60-4612-8052-62fa22ade8f8> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/001419cf-07a6-4b55-96f2-7149eecdb36f.png> ;
+    ns1:hasType ns1:FeatureType_Mould_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_001419cf-07a6-4b55-96f2-7149eecdb36f_geom> ;
+    dc:identifier "001419cf-07a6-4b55-96f2-7149eecdb36f" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_001419cf-07a6-4b55-96f2-7149eecdb36f_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_001419cf-07a6-4b55-96f2-7149eecdb36f> .
+

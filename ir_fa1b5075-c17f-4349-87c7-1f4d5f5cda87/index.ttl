@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_fa1b5075-c17f-4349-87c7-1f4d5f5cda87> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Satyr II" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/30571cc4-0d79-40c7-a349-70fa7811dafb.png>,
+        <https://zenodo.org/record/5645237/files/397a01a0-3cad-4ceb-9e5a-94bfd86de4d7.png>,
+        <https://zenodo.org/record/5645237/files/4e6e2a06-fb16-4f33-93e7-8d1152b8eedc.png>,
+        <https://zenodo.org/record/5645237/files/7dd68759-66a0-4e0c-8840-43eaee3897e1.png>,
+        <https://zenodo.org/record/5645237/files/d1b1d48e-931d-48f6-9847-c6e7f807b799.png>,
+        <https://zenodo.org/record/5645237/files/e215f1ba-1b7c-4d6f-a1f9-96ff7b9d4031.png>,
+        <https://zenodo.org/record/5645237/files/f10ecba6-deff-4cfe-b1c1-7edf243425f0.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "fa1b5075-c17f-4349-87c7-1f4d5f5cda87" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 566-567" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_fa1b5075-c17f-4349-87c7-1f4d5f5cda87> .
+

@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea> a ns1:Feature ;
+    rdfs:label "shepherd" ;
+    ns1:depicts "man@en",
+        "phrygian cap@en",
+        "ram@en",
+        "shepherd@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_eb6fbe3c-2cd5-48fa-88ab-35b1e01bbbda> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea_geom> ;
+    dc:identifier "5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_5d8c5966-4d5a-4686-9ffc-f7c13bbb60ea> .
+

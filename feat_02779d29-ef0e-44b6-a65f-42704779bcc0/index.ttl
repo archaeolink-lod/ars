@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_02779d29-ef0e-44b6-a65f-42704779bcc0> a ns1:Feature ;
+    rdfs:label "gladiator" ;
+    ns1:depicts "man@en",
+        "short-sleeved belted tunic@en",
+        "tunic@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/02779d29-ef0e-44b6-a65f-42704779bcc0.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_02779d29-ef0e-44b6-a65f-42704779bcc0_geom> ;
+    dc:identifier "02779d29-ef0e-44b6-a65f-42704779bcc0" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_02779d29-ef0e-44b6-a65f-42704779bcc0_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_02779d29-ef0e-44b6-a65f-42704779bcc0> .
+

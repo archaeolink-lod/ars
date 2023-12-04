@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_614716b4-4b33-4f51-bd92-c42b539d035d> a ns1:InformationCarrier ;
+    rdfs:label "mould bear"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031695> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031696> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_097e2036-9135-432a-8e35-6b63f795bd08>,
+        <http://data.archaeology.link/data/ars/feat_5fd718eb-07ad-4a02-b479-185056347577> ;
+    ns1:hasConditionString "nan"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/614716b4-4b33-4f51-bd92-c42b539d035d.jpg> ;
+    ns1:hasType ns1:Manufacturing_Object ;
+    ns1:inventoryNumber "O.41416 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "plaster"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "mould"@en ;
+    dc:identifier "614716b4-4b33-4f51-bd92-c42b539d035d" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_614716b4-4b33-4f51-bd92-c42b539d035d> .
+

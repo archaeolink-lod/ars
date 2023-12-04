@@ -1,0 +1,174 @@
+<html about="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>FeatureType_AppliqueNegative_Part | African Red Slip Ware (ARS) Linked Open Data</title>");
+      } else {
+        document.write(
+          "<title>Index Page for African Red Slip Ware (ARS) Linked Open Data on archaeology.link</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="{{epsgdefspath}}"></script>
+    <script src="vowl_result.js"></script>
+    <script src="no_search.js"></script>
+    <script src="no_classtree.js"></script>
+    <script src="proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=0;
+    var baseurl="http://data.archaeology.link/data/ars/";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>archaeology.link</b>&nbsp;&nbsp;<img
+          src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png"
+          style="height: 40px !important; margin-right: 10px" />African Red Slip Ware (ARS) Linked Open Data&nbsp;|&nbsp;
+        <i
+          >powered by Leibniz-Zentrum für Archäologie (LEIZA), Department of
+          Scientific IT</i
+        >
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png" alt="logo" width="25" height="25"/>&nbsp;&nbsp;FeatureType_AppliqueNegative_Part<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for African Red Slip Ware (ARS) Linked Open Data on archaeology&#9677;link</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The FeatureType_AppliqueNegative_Part</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://archaeology.link/ontology#hasType">hasType <span style="color: #666;">(lado:hasType)</span></a> </span> of</td><td class="wrapword"><ul><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_6d13499b-5aa9-4033-96e1-3c0555908987" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_6d13499b-5aa9-4033-96e1-3c0555908987/index.html">Christogram 2 <span style="color: #666;">(no:feat_6d13499b-5aa9-4033-96e1-3c0555908987)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_9d97aeae-5722-4ccf-bcc3-dde720030c38" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_9d97aeae-5722-4ccf-bcc3-dde720030c38/index.html">arch <span style="color: #666;">(no:feat_9d97aeae-5722-4ccf-bcc3-dde720030c38)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_491b40ac-77f9-4bb2-af6c-a1d3d68b7f2c" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_491b40ac-77f9-4bb2-af6c-a1d3d68b7f2c/index.html">blossom 1 <span style="color: #666;">(no:feat_491b40ac-77f9-4bb2-af6c-a1d3d68b7f2c)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_6f887f98-24c1-481f-bb3f-5f0dfcdf5024" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_6f887f98-24c1-481f-bb3f-5f0dfcdf5024/index.html">blossom 4 <span style="color: #666;">(no:feat_6f887f98-24c1-481f-bb3f-5f0dfcdf5024)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_b95d1434-f2d2-4288-a592-3602d56056ad" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_b95d1434-f2d2-4288-a592-3602d56056ad/index.html">blossom 4 <span style="color: #666;">(no:feat_b95d1434-f2d2-4288-a592-3602d56056ad)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_b1573d28-9c89-4bfb-b290-9382583aa4fe" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_b1573d28-9c89-4bfb-b290-9382583aa4fe/index.html">blossom 5 <span style="color: #666;">(no:feat_b1573d28-9c89-4bfb-b290-9382583aa4fe)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_d1b95a6d-c012-44fd-8292-2084d1f6cb00" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_d1b95a6d-c012-44fd-8292-2084d1f6cb00/index.html">blossom 7 <span style="color: #666;">(no:feat_d1b95a6d-c012-44fd-8292-2084d1f6cb00)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_4a63b93d-651d-4358-ba6b-05a1e304d3c2" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_4a63b93d-651d-4358-ba6b-05a1e304d3c2/index.html">circles <span style="color: #666;">(no:feat_4a63b93d-651d-4358-ba6b-05a1e304d3c2)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_933c0c04-01f7-42fa-ade6-a6cfa463db00" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_933c0c04-01f7-42fa-ade6-a6cfa463db00/index.html">column 1 <span style="color: #666;">(no:feat_933c0c04-01f7-42fa-ade6-a6cfa463db00)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_7655376e-d6a9-4f6b-91a8-952a9a1feff5" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_7655376e-d6a9-4f6b-91a8-952a9a1feff5/index.html">column 2 <span style="color: #666;">(no:feat_7655376e-d6a9-4f6b-91a8-952a9a1feff5)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_6ca74904-a440-4c82-a6ec-410a19585a2f" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_6ca74904-a440-4c82-a6ec-410a19585a2f/index.html">column 4 <span style="color: #666;">(no:feat_6ca74904-a440-4c82-a6ec-410a19585a2f)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_1aa2ac87-0f09-4e55-9d8d-00b9c6cfd7f4" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_1aa2ac87-0f09-4e55-9d8d-00b9c6cfd7f4/index.html">decoration <span style="color: #666;">(no:feat_1aa2ac87-0f09-4e55-9d8d-00b9c6cfd7f4)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_302e7952-16ef-484d-b6b5-025d5ab264ee" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_302e7952-16ef-484d-b6b5-025d5ab264ee/index.html">decoration <span style="color: #666;">(no:feat_302e7952-16ef-484d-b6b5-025d5ab264ee)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9/index.html">decoration <span style="color: #666;">(no:feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_ce1d8dfb-4fa6-4917-957f-0c929381dba2" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_ce1d8dfb-4fa6-4917-957f-0c929381dba2/index.html">decoration <span style="color: #666;">(no:feat_ce1d8dfb-4fa6-4917-957f-0c929381dba2)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_ed450f76-c492-41ca-89ef-ebef0787ba24" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_ed450f76-c492-41ca-89ef-ebef0787ba24/index.html">decoration  <span style="color: #666;">(no:feat_ed450f76-c492-41ca-89ef-ebef0787ba24)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_edafb05a-7c87-4016-912e-f44654f3a8ea" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_edafb05a-7c87-4016-912e-f44654f3a8ea/index.html">decoration  <span style="color: #666;">(no:feat_edafb05a-7c87-4016-912e-f44654f3a8ea)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8/index.html">decoration (right) <span style="color: #666;">(no:feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_9d877722-eace-4474-9cd0-4dcff08f4664" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_9d877722-eace-4474-9cd0-4dcff08f4664/index.html">frame <span style="color: #666;">(no:feat_9d877722-eace-4474-9cd0-4dcff08f4664)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_fc405d12-4c48-4840-b6b3-f976d2e07ab3" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_fc405d12-4c48-4840-b6b3-f976d2e07ab3/index.html">frame <span style="color: #666;">(no:feat_fc405d12-4c48-4840-b6b3-f976d2e07ab3)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_1438a834-c574-4491-b15a-751b56e2e09d" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_1438a834-c574-4491-b15a-751b56e2e09d/index.html">frame 1 <span style="color: #666;">(no:feat_1438a834-c574-4491-b15a-751b56e2e09d)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_50881862-51ba-48b8-97fe-31ed2af7567a" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_50881862-51ba-48b8-97fe-31ed2af7567a/index.html">frame 2 <span style="color: #666;">(no:feat_50881862-51ba-48b8-97fe-31ed2af7567a)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b/index.html">frame 2 <span style="color: #666;">(no:feat_c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_9b879114-462e-4f91-9042-fc12e0b84fd2" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_9b879114-462e-4f91-9042-fc12e0b84fd2/index.html">group of dots 3 <span style="color: #666;">(no:feat_9b879114-462e-4f91-9042-fc12e0b84fd2)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_055f173d-3b84-417c-aae2-2f48f2e27a76" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_055f173d-3b84-417c-aae2-2f48f2e27a76/index.html">inscription <span style="color: #666;">(no:feat_055f173d-3b84-417c-aae2-2f48f2e27a76)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_09495341-298f-4be2-9dca-2cdd7206d831" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_09495341-298f-4be2-9dca-2cdd7206d831/index.html">inscription <span style="color: #666;">(no:feat_09495341-298f-4be2-9dca-2cdd7206d831)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_bc5bd967-8bad-413f-9cca-5b5e13daaef2" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_bc5bd967-8bad-413f-9cca-5b5e13daaef2/index.html">inscription <span style="color: #666;">(no:feat_bc5bd967-8bad-413f-9cca-5b5e13daaef2)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_c3bcaab7-54cf-4dbd-8012-8ed48c935235" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_c3bcaab7-54cf-4dbd-8012-8ed48c935235/index.html">inscription <span style="color: #666;">(no:feat_c3bcaab7-54cf-4dbd-8012-8ed48c935235)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_eed28268-d8b2-44cc-bb19-4a81a33710a5" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_eed28268-d8b2-44cc-bb19-4a81a33710a5/index.html">inscription <span style="color: #666;">(no:feat_eed28268-d8b2-44cc-bb19-4a81a33710a5)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_fd284037-5df4-43cb-9c24-03c827df5797" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_fd284037-5df4-43cb-9c24-03c827df5797/index.html">inscription <span style="color: #666;">(no:feat_fd284037-5df4-43cb-9c24-03c827df5797)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_3158f323-494c-421d-9b61-f82a314b8e75" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_3158f323-494c-421d-9b61-f82a314b8e75/index.html">leaf 5 <span style="color: #666;">(no:feat_3158f323-494c-421d-9b61-f82a314b8e75)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_6779bdc7-0a34-4c92-8bdb-7dd72b53d046" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_6779bdc7-0a34-4c92-8bdb-7dd72b53d046/index.html">man 2 <span style="color: #666;">(no:feat_6779bdc7-0a34-4c92-8bdb-7dd72b53d046)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_21a5dc85-33c0-40fa-8971-b5280018c627" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_21a5dc85-33c0-40fa-8971-b5280018c627/index.html">medallion 1 <span style="color: #666;">(no:feat_21a5dc85-33c0-40fa-8971-b5280018c627)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_8b838f54-a0d5-4c18-b5cd-2326d763079c" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_8b838f54-a0d5-4c18-b5cd-2326d763079c/index.html">medallion 1 <span style="color: #666;">(no:feat_8b838f54-a0d5-4c18-b5cd-2326d763079c)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_8f481bb4-3c03-4d7c-82f3-3d22e318596f" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_8f481bb4-3c03-4d7c-82f3-3d22e318596f/index.html">medallion 1 <span style="color: #666;">(no:feat_8f481bb4-3c03-4d7c-82f3-3d22e318596f)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_87912f3a-84f9-40fb-a5ac-2b521ca2a9ab" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_87912f3a-84f9-40fb-a5ac-2b521ca2a9ab/index.html">medallion 14 <span style="color: #666;">(no:feat_87912f3a-84f9-40fb-a5ac-2b521ca2a9ab)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_871cc50c-6675-43ca-b665-80fdd4c292f8" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_871cc50c-6675-43ca-b665-80fdd4c292f8/index.html">medallion 17 <span style="color: #666;">(no:feat_871cc50c-6675-43ca-b665-80fdd4c292f8)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_065cf579-c0c6-4296-82f7-7a134efd5aeb" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_065cf579-c0c6-4296-82f7-7a134efd5aeb/index.html">medallion 24 <span style="color: #666;">(no:feat_065cf579-c0c6-4296-82f7-7a134efd5aeb)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_dc45c6d2-b52a-42a6-8878-df1bdcc9c545" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_dc45c6d2-b52a-42a6-8878-df1bdcc9c545/index.html">medallion 3 <span style="color: #666;">(no:feat_dc45c6d2-b52a-42a6-8878-df1bdcc9c545)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_e0572cb7-b98e-41e2-a5e9-1cd4fc4b0932" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_e0572cb7-b98e-41e2-a5e9-1cd4fc4b0932/index.html">medallion 3 <span style="color: #666;">(no:feat_e0572cb7-b98e-41e2-a5e9-1cd4fc4b0932)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_f093baaf-ab44-45b6-aace-d1ffcfd57d8e" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_f093baaf-ab44-45b6-aace-d1ffcfd57d8e/index.html">medallion 3 <span style="color: #666;">(no:feat_f093baaf-ab44-45b6-aace-d1ffcfd57d8e)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_9b6c90ea-760e-4dd2-b310-44312ca6f6f0" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_9b6c90ea-760e-4dd2-b310-44312ca6f6f0/index.html">medallion 4 <span style="color: #666;">(no:feat_9b6c90ea-760e-4dd2-b310-44312ca6f6f0)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_32cee38c-1f0c-459b-adf9-83e15e821087" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_32cee38c-1f0c-459b-adf9-83e15e821087/index.html">ornament <span style="color: #666;">(no:feat_32cee38c-1f0c-459b-adf9-83e15e821087)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_3e5d4fba-52be-4b03-8b64-c8ebf706b544" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_3e5d4fba-52be-4b03-8b64-c8ebf706b544/index.html">ornament <span style="color: #666;">(no:feat_3e5d4fba-52be-4b03-8b64-c8ebf706b544)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_4788b4b6-cc9c-4c88-a69f-6a6352063fb6" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_4788b4b6-cc9c-4c88-a69f-6a6352063fb6/index.html">ornament <span style="color: #666;">(no:feat_4788b4b6-cc9c-4c88-a69f-6a6352063fb6)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_dd3b5191-5ce8-451b-bc20-fde891280357" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_dd3b5191-5ce8-451b-bc20-fde891280357/index.html">rhombus 6 <span style="color: #666;">(no:feat_dd3b5191-5ce8-451b-bc20-fde891280357)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_0ece4616-6dea-4c91-b466-bcd7676c4130" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_0ece4616-6dea-4c91-b466-bcd7676c4130/index.html">sand 1 <span style="color: #666;">(no:feat_0ece4616-6dea-4c91-b466-bcd7676c4130)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_2ddecd56-9991-4a5c-8a04-4806e535fc2d" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_2ddecd56-9991-4a5c-8a04-4806e535fc2d/index.html">sitting man <span style="color: #666;">(no:feat_2ddecd56-9991-4a5c-8a04-4806e535fc2d)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_415f1346-f934-409a-a4ec-441b9373b9fa" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_415f1346-f934-409a-a4ec-441b9373b9fa/index.html">unknown <span style="color: #666;">(no:feat_415f1346-f934-409a-a4ec-441b9373b9fa)</span></a></span></li><li><span><a property="http://archaeology.link/ontology#hasType"  about="http://data.archaeology.link/data/ars/feat_c0af71fa-b11c-45a8-9827-1670bc9bbd71" resource="http://archaeology.link/ontology#FeatureType_AppliqueNegative_Part" href="feat_c0af71fa-b11c-45a8-9827-1670bc9bbd71/index.html">unknown <span style="color: #666;">(no:feat_c0af71fa-b11c-45a8-9827-1670bc9bbd71)</span></a></span></li></ul></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;"><b>published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> by Leibniz-Zentrum für Archäologie (2022-2023)
+            | Florian Thiery M.Sc., Dr. Allard W. Mees FSA</b><br><a href="https://www.leiza.de/impressum">Impressum</a>
+        | <a href="https://www.leiza.de/datenschutz">Datenschutz</a></center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_de6937d7-f4b1-498c-aef1-960358919a70> a ns1:Feature ;
+    rdfs:label "erot" ;
+    ns1:depicts "erot@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_534d28ab-331d-4f7d-a3d5-177277561728>,
+        <http://data.archaeology.link/data/ars/ir_d943e61e-f410-4b29-9d85-f7814832d74d> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/de6937d7-f4b1-498c-aef1-960358919a70.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_de6937d7-f4b1-498c-aef1-960358919a70_geom> ;
+    dc:identifier "de6937d7-f4b1-498c-aef1-960358919a70" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_de6937d7-f4b1-498c-aef1-960358919a70_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_de6937d7-f4b1-498c-aef1-960358919a70> .
+

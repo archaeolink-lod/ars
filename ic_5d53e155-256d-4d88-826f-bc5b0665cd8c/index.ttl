@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_5d53e155-256d-4d88-826f-bc5b0665cd8c> a ns1:InformationCarrier ;
+    rdfs:label "dish with men and grapes"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031647> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031648> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_038b66d5-c9c0-4272-8232-1e238a1b2879>,
+        <http://data.archaeology.link/data/ars/feat_1064165e-a27e-41b2-88c4-8f0dd1cb2a16>,
+        <http://data.archaeology.link/data/ars/feat_6310aa0e-442a-4ec1-8abe-5bad00d8edc3>,
+        <http://data.archaeology.link/data/ars/feat_8afdd750-ab71-449c-8e2b-873555ef1c91>,
+        <http://data.archaeology.link/data/ars/feat_9e4c9681-37ad-45c1-99ef-f6d68eff9c30>,
+        <http://data.archaeology.link/data/ars/feat_b45336ca-ef8b-4eef-af0d-e97d2d513e64>,
+        <http://data.archaeology.link/data/ars/feat_cbdd3cf0-c622-440a-9369-79775d179544>,
+        <http://data.archaeology.link/data/ars/feat_dcf15b30-d3ac-4324-8b85-320141fcd85b> ;
+    ns1:hasConditionString "fragmented"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/5d53e155-256d-4d88-826f-bc5b0665cd8c.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.42065 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "dish"@en ;
+    dc:identifier "5d53e155-256d-4d88-826f-bc5b0665cd8c" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_5d53e155-256d-4d88-826f-bc5b0665cd8c> .
+

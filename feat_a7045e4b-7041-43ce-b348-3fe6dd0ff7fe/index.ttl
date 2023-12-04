@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_a7045e4b-7041-43ce-b348-3fe6dd0ff7fe> a ns1:Feature ;
+    rdfs:label "rooster" ;
+    ns1:depicts "rooster@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/a7045e4b-7041-43ce-b348-3fe6dd0ff7fe.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_a7045e4b-7041-43ce-b348-3fe6dd0ff7fe_geom> ;
+    dc:identifier "a7045e4b-7041-43ce-b348-3fe6dd0ff7fe" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_a7045e4b-7041-43ce-b348-3fe6dd0ff7fe_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_a7045e4b-7041-43ce-b348-3fe6dd0ff7fe> .
+

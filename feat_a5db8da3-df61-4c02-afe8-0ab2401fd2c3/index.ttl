@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_a5db8da3-df61-4c02-afe8-0ab2401fd2c3> a ns1:Feature ;
+    rdfs:label "octopus 2" ;
+    ns1:depicts "octopus@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_bca08785-3538-4a77-a4db-3216c317d106> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/a5db8da3-df61-4c02-afe8-0ab2401fd2c3.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_a5db8da3-df61-4c02-afe8-0ab2401fd2c3_geom> ;
+    dc:identifier "a5db8da3-df61-4c02-afe8-0ab2401fd2c3" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_a5db8da3-df61-4c02-afe8-0ab2401fd2c3_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_a5db8da3-df61-4c02-afe8-0ab2401fd2c3> .
+

@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_b45336ca-ef8b-4eef-af0d-e97d2d513e64> a ns1:Feature ;
+    rdfs:label "hound 1" ;
+    ns1:depicts "hound@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_5cc95d56-248a-4b1b-8069-8b947c6b66dc> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/b45336ca-ef8b-4eef-af0d-e97d2d513e64.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_b45336ca-ef8b-4eef-af0d-e97d2d513e64_geom> ;
+    dc:identifier "b45336ca-ef8b-4eef-af0d-e97d2d513e64" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_b45336ca-ef8b-4eef-af0d-e97d2d513e64_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_b45336ca-ef8b-4eef-af0d-e97d2d513e64> .
+

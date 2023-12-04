@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_dade297a-67c3-444f-bacc-9244a20febb8> a ns1:Feature ;
+    rdfs:label "man with bed" ;
+    ns1:depicts "bed@en",
+        "man@en",
+        "paralytic@en",
+        "short belted tunic@en",
+        "tunic@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2fbd2c58-d1bb-4eb0-9ee7-31a99bc24793> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/dade297a-67c3-444f-bacc-9244a20febb8.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_dade297a-67c3-444f-bacc-9244a20febb8_geom> ;
+    dc:identifier "dade297a-67c3-444f-bacc-9244a20febb8" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_dade297a-67c3-444f-bacc-9244a20febb8_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_dade297a-67c3-444f-bacc-9244a20febb8> .
+

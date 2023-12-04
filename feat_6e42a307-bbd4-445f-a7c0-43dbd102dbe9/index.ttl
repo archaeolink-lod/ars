@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_6e42a307-bbd4-445f-a7c0-43dbd102dbe9> a ns1:Feature ;
+    rdfs:label "boar" ;
+    ns1:depicts "boar@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_3ce6c346-0133-4402-b829-cd2774837db9> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/6e42a307-bbd4-445f-a7c0-43dbd102dbe9.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_6e42a307-bbd4-445f-a7c0-43dbd102dbe9_geom> ;
+    dc:identifier "6e42a307-bbd4-445f-a7c0-43dbd102dbe9" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_6e42a307-bbd4-445f-a7c0-43dbd102dbe9_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_6e42a307-bbd4-445f-a7c0-43dbd102dbe9> .
+

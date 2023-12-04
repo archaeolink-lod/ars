@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_5c45fa34-7b74-43d9-8c24-30ae8291d7d0> a ns1:Feature ;
+    rdfs:label "soldier 2" ;
+    ns1:depicts "Ulysses@en",
+        "soldier@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000001>,
+        <http://data.archaeology.link/data/ars/ir_ed6e269f-6476-4a5f-a11f-28a83b17c8fb> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/5c45fa34-7b74-43d9-8c24-30ae8291d7d0.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_5c45fa34-7b74-43d9-8c24-30ae8291d7d0_geom> ;
+    dc:identifier "5c45fa34-7b74-43d9-8c24-30ae8291d7d0" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_5c45fa34-7b74-43d9-8c24-30ae8291d7d0_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_5c45fa34-7b74-43d9-8c24-30ae8291d7d0> .
+

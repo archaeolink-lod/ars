@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_5622310d-4eaa-4cf1-a524-9bef74ff124c> a ns1:Feature ;
+    rdfs:label "man with lyre" ;
+    ns1:depicts "Orpheus@en",
+        "lyre@en",
+        "man@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8374a311-c22d-4869-a4cc-aeb6974f8d9d>,
+        <http://data.archaeology.link/data/ars/ir_f35e711e-a68d-44ac-a2f5-3db52fde1a86> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/5622310d-4eaa-4cf1-a524-9bef74ff124c.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_5622310d-4eaa-4cf1-a524-9bef74ff124c_geom> ;
+    dc:identifier "5622310d-4eaa-4cf1-a524-9bef74ff124c" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_5622310d-4eaa-4cf1-a524-9bef74ff124c_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_5622310d-4eaa-4cf1-a524-9bef74ff124c> .
+

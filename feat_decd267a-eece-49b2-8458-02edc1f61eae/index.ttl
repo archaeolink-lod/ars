@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_decd267a-eece-49b2-8458-02edc1f61eae> a ns1:Feature ;
+    rdfs:label "hunter" ;
+    ns1:depicts "hunter@en",
+        "long-sleeved short belted tunic@en",
+        "tunic@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_41982ed6-8ddb-4701-bd2f-e2474b708cab> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/decd267a-eece-49b2-8458-02edc1f61eae.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_decd267a-eece-49b2-8458-02edc1f61eae_geom> ;
+    dc:identifier "decd267a-eece-49b2-8458-02edc1f61eae" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_decd267a-eece-49b2-8458-02edc1f61eae_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_decd267a-eece-49b2-8458-02edc1f61eae> .
+

@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_8b3333bc-8131-4e67-98b4-82c5d11365e5> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Geburt des Achilles" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/a427c90c-9e26-425f-bf60-00f49d6fbf8c.png>,
+        <https://zenodo.org/record/5645237/files/c0fc1dd7-ce83-40d8-b5ad-5f197015bc17.png>,
+        <https://zenodo.org/record/5645237/files/d890e628-802e-401f-b347-38f36c91ac14.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "8b3333bc-8131-4e67-98b4-82c5d11365e5" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 431-432" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_8b3333bc-8131-4e67-98b4-82c5d11365e5> .
+

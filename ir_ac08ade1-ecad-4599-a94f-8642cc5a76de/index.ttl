@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_ac08ade1-ecad-4599-a94f-8642cc5a76de> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Eroten bei der Weinernte II" ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "ac08ade1-ecad-4599-a94f-8642cc5a76de" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), p. 588" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_ac08ade1-ecad-4599-a94f-8642cc5a76de> .
+

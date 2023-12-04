@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_7a0ef769-82f6-459d-834a-60dfea2815f1> a ns1:Feature ;
+    rdfs:label "man" ;
+    ns1:depicts "man@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/7a0ef769-82f6-459d-834a-60dfea2815f1.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_7a0ef769-82f6-459d-834a-60dfea2815f1_geom> ;
+    dc:identifier "7a0ef769-82f6-459d-834a-60dfea2815f1" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_7a0ef769-82f6-459d-834a-60dfea2815f1_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_7a0ef769-82f6-459d-834a-60dfea2815f1> .
+

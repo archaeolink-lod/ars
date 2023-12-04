@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_de746841-8890-4e4f-afc8-e9fd771dcded> a ns1:Feature ;
+    rdfs:label "hunter 3" ;
+    ns1:depicts "hunter@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_25920a83-a3bf-44df-a7b7-b0b2cfc8b7e8> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/de746841-8890-4e4f-afc8-e9fd771dcded.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_de746841-8890-4e4f-afc8-e9fd771dcded_geom> ;
+    dc:identifier "de746841-8890-4e4f-afc8-e9fd771dcded" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_de746841-8890-4e4f-afc8-e9fd771dcded_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_de746841-8890-4e4f-afc8-e9fd771dcded> .
+

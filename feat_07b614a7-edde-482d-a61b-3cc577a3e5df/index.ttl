@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_07b614a7-edde-482d-a61b-3cc577a3e5df> a ns1:Feature ;
+    rdfs:label "tabula ansata 8" ;
+    ns1:depicts "tabula ansata@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_6d8a3d1b-f6b1-4209-be69-89ecc1d2605f> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/07b614a7-edde-482d-a61b-3cc577a3e5df.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_07b614a7-edde-482d-a61b-3cc577a3e5df_geom> ;
+    dc:identifier "07b614a7-edde-482d-a61b-3cc577a3e5df" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_07b614a7-edde-482d-a61b-3cc577a3e5df_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_07b614a7-edde-482d-a61b-3cc577a3e5df> .
+

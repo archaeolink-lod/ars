@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_a270f9ef-048b-4b85-8095-f5f9faefcc83> a ns1:Feature ;
+    rdfs:label "satyr and maenad 2" ;
+    ns1:depicts "maenad@en",
+        "satyr@en",
+        "thyrsos@en",
+        "woman@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_625651c0-75d6-4b04-a4ef-4b747bba413d>,
+        <http://data.archaeology.link/data/ars/ir_f65406be-25b9-4fd9-82ca-8dec0a5166dd> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/a270f9ef-048b-4b85-8095-f5f9faefcc83.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_a270f9ef-048b-4b85-8095-f5f9faefcc83_geom> ;
+    dc:identifier "a270f9ef-048b-4b85-8095-f5f9faefcc83" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_a270f9ef-048b-4b85-8095-f5f9faefcc83_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_a270f9ef-048b-4b85-8095-f5f9faefcc83> .
+

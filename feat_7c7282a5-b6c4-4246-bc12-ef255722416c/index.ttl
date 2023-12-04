@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_7c7282a5-b6c4-4246-bc12-ef255722416c> a ns1:Feature ;
+    rdfs:label "hunter and bear" ;
+    ns1:depicts "bear@en",
+        "hunter@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_3831a28d-4c38-4a89-85b5-4399c5a3ff68> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/7c7282a5-b6c4-4246-bc12-ef255722416c.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_7c7282a5-b6c4-4246-bc12-ef255722416c_geom> ;
+    dc:identifier "7c7282a5-b6c4-4246-bc12-ef255722416c" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_7c7282a5-b6c4-4246-bc12-ef255722416c_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_7c7282a5-b6c4-4246-bc12-ef255722416c> .
+

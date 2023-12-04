@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_aa6f2b61-535f-4495-afeb-1ec19adbfdd1> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Hercules VIII" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/605ca89b-82b7-42e3-9d65-7bc78dea6d7f.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "aa6f2b61-535f-4495-afeb-1ec19adbfdd1" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), p. 460" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_aa6f2b61-535f-4495-afeb-1ec19adbfdd1> .
+

@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8> a ns1:Feature ;
+    rdfs:label "decoration (right)" ;
+    ns1:depicts "circle line@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8f3502f2-917c-453e-ac57-cba938ee715e>,
+        <http://data.archaeology.link/data/ars/ir_nan> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/e237aa9e-63d2-4df8-83bf-fc85f8845dc8.png> ;
+    ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8_geom> ;
+    dc:identifier "e237aa9e-63d2-4df8-83bf-fc85f8845dc8" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_e237aa9e-63d2-4df8-83bf-fc85f8845dc8> .
+

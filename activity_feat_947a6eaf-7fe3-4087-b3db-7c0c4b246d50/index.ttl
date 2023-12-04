@@ -1,0 +1,8 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/activity_feat_947a6eaf-7fe3-4087-b3db-7c0c4b246d50> a prov:Activity ;
+    prov:endedAtTime "2021-11-10T10:07:31.823509+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2021-11-10T10:07:31.563341+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> .
+

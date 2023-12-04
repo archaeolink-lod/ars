@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_52c3bd35-e0ff-4ecb-9080-3ff683b29ac1> a ns1:Feature ;
+    rdfs:label "nymph" ;
+    ns1:depicts "nymph@en",
+        "woman@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_2a6ad11a-65ae-4954-9788-d21b98f6e185>,
+        <http://data.archaeology.link/data/ars/ir_d88d0b2a-7a69-4e0b-9326-5d7744cb58fd> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/52c3bd35-e0ff-4ecb-9080-3ff683b29ac1.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_52c3bd35-e0ff-4ecb-9080-3ff683b29ac1_geom> ;
+    dc:identifier "52c3bd35-e0ff-4ecb-9080-3ff683b29ac1" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_52c3bd35-e0ff-4ecb-9080-3ff683b29ac1_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_52c3bd35-e0ff-4ecb-9080-3ff683b29ac1> .
+

@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_234a736a-666f-4a3e-98d8-964bcf8f07f9> a ns1:InformationCarrier ;
+    rdfs:label "bowl with man and woman"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031459> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031460> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_26f613a6-f19a-430f-9cb3-08cae6f9be91>,
+        <http://data.archaeology.link/data/ars/feat_8609681f-a34e-4645-9f0c-f9248f2cfa26>,
+        <http://data.archaeology.link/data/ars/feat_947a6eaf-7fe3-4087-b3db-7c0c4b246d50>,
+        <http://data.archaeology.link/data/ars/feat_961a0044-05d0-4827-84ca-034d9a2e7d54> ;
+    ns1:hasConditionString "reconstructed"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/234a736a-666f-4a3e-98d8-964bcf8f07f9.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.39740 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    dc:identifier "234a736a-666f-4a3e-98d8-964bcf8f07f9" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_234a736a-666f-4a3e-98d8-964bcf8f07f9> .
+

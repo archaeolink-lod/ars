@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_5d017266-be52-459a-b188-692c96c08e6f> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Parisurteil" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/ba729ee2-5b4f-4c4b-ac7e-5d007d3cf980.png>,
+        <https://zenodo.org/record/5645237/files/dcb0832a-07e9-42d9-9b58-59067cfd77db.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "5d017266-be52-459a-b188-692c96c08e6f" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 514-517" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_5d017266-be52-459a-b188-692c96c08e6f> .
+

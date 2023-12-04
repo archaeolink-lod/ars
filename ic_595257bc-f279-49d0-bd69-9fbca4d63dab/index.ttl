@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_595257bc-f279-49d0-bd69-9fbca4d63dab> a ns1:InformationCarrier ;
+    rdfs:label "bowl with Hercules and the apples of the Hesperides"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031199> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031200> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_1e3b4c36-546d-4a73-ae84-e17ef961325e>,
+        <http://data.archaeology.link/data/ars/feat_777a9d0b-1439-468d-891e-ab8d9262429b>,
+        <http://data.archaeology.link/data/ars/feat_ad96d542-f1a2-4ac5-97bb-8287a7f736b2>,
+        <http://data.archaeology.link/data/ars/feat_fd151fec-029d-4cf6-bbcf-dbd72f800bda> ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/595257bc-f279-49d0-bd69-9fbca4d63dab.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.39780 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    dc:identifier "595257bc-f279-49d0-bd69-9fbca4d63dab" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_595257bc-f279-49d0-bd69-9fbca4d63dab> .
+

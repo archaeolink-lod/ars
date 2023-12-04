@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_36db1054-4017-4130-bd97-79bfaf5532cf> a ns1:Feature ;
+    rdfs:label "erots with grapes 1" ;
+    ns1:depicts "basket@en",
+        "erots@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_13a552be-0ce1-4340-bbaa-c24298cb505b>,
+        <http://data.archaeology.link/data/ars/ir_7ae27bc4-5c4b-4d29-a898-d2a0a07f2434> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/36db1054-4017-4130-bd97-79bfaf5532cf.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_36db1054-4017-4130-bd97-79bfaf5532cf_geom> ;
+    dc:identifier "36db1054-4017-4130-bd97-79bfaf5532cf" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_36db1054-4017-4130-bd97-79bfaf5532cf_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_36db1054-4017-4130-bd97-79bfaf5532cf> .
+

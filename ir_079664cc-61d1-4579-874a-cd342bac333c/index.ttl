@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_079664cc-61d1-4579-874a-cd342bac333c> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Die Ernährung Achills" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/8575524f-2ee7-4988-b75d-6bc749e226e4.png>,
+        <https://zenodo.org/record/5645237/files/fc0005ce-6180-4d76-992f-17f9d5fa1580.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "079664cc-61d1-4579-874a-cd342bac333c" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 436-437" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_079664cc-61d1-4579-874a-cd342bac333c> .
+

@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_8c1f9a92-ed49-4d30-913e-1e8dbe786235> a ns1:Feature ;
+    rdfs:label "boy" ;
+    ns1:depicts "boy@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_576c9db2-4395-4377-9921-dc363831d8f5>,
+        <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000002> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/8c1f9a92-ed49-4d30-913e-1e8dbe786235.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_8c1f9a92-ed49-4d30-913e-1e8dbe786235_geom> ;
+    dc:identifier "8c1f9a92-ed49-4d30-913e-1e8dbe786235" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_8c1f9a92-ed49-4d30-913e-1e8dbe786235_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_8c1f9a92-ed49-4d30-913e-1e8dbe786235> .
+

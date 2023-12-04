@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_9ca78cc5-cb76-4a25-b1f1-272ca70556d6> a ns1:Feature ;
+    rdfs:label "medallion 1" ;
+    ns1:depicts "Victoria@en",
+        "bust@en",
+        "medallion@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_a6e138b2-dccb-41bc-a924-71e606a6f2d0>,
+        <http://data.archaeology.link/data/ars/ir_aa844ed0-0c4a-4ba5-82dd-a71886ff3f3b> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/9ca78cc5-cb76-4a25-b1f1-272ca70556d6.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_9ca78cc5-cb76-4a25-b1f1-272ca70556d6_geom> ;
+    dc:identifier "9ca78cc5-cb76-4a25-b1f1-272ca70556d6" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_9ca78cc5-cb76-4a25-b1f1-272ca70556d6_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_9ca78cc5-cb76-4a25-b1f1-272ca70556d6> .
+

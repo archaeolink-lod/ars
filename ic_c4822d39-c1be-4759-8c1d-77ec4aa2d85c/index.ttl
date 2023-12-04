@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_c4822d39-c1be-4759-8c1d-77ec4aa2d85c> a ns2:InformationCarrier ;
+    rdfs:label "mould satyr"@en ;
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031705> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031706> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_30571cc4-0d79-40c7-a349-70fa7811dafb>,
+        <http://data.archaeology.link/data/ars/feat_7dd68759-66a0-4e0c-8840-43eaee3897e1>,
+        <http://data.archaeology.link/data/ars/feat_d1b1d48e-931d-48f6-9847-c6e7f807b799>,
+        <http://data.archaeology.link/data/ars/feat_e215f1ba-1b7c-4d6f-a1f9-96ff7b9d4031> ;
+    ns2:hasConditionString "nan"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/c4822d39-c1be-4759-8c1d-77ec4aa2d85c.jpg> ;
+    ns2:hasType ns2:Manufacturing_Object ;
+    ns2:inventoryNumber "O.41361 (RGZM)" ;
+    ns2:madeByString "nan"@en ;
+    ns2:madeOfString "plaster"@en ;
+    ns2:number 1 ;
+    ns2:representedByString "mould"@en ;
+    dc:identifier "c4822d39-c1be-4759-8c1d-77ec4aa2d85c" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_c4822d39-c1be-4759-8c1d-77ec4aa2d85c> .
+

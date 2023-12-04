@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_d59ffc06-ac0b-4a54-a417-fe81a23a167a> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Herbsthore" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/0d3d67ce-dbff-4f50-b812-bb137de690ea.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "d59ffc06-ac0b-4a54-a417-fe81a23a167a" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 627-628" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_d59ffc06-ac0b-4a54-a417-fe81a23a167a> .
+

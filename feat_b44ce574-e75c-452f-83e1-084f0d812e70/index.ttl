@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_b44ce574-e75c-452f-83e1-084f0d812e70> a ns1:Feature ;
+    rdfs:label "ornament 5" ;
+    ns1:depicts "concentric circle@en",
+        "square@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/b44ce574-e75c-452f-83e1-084f0d812e70.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_b44ce574-e75c-452f-83e1-084f0d812e70_geom> ;
+    dc:identifier "b44ce574-e75c-452f-83e1-084f0d812e70" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_b44ce574-e75c-452f-83e1-084f0d812e70_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_b44ce574-e75c-452f-83e1-084f0d812e70> .
+

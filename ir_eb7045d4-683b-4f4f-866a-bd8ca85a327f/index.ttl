@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_eb7045d4-683b-4f4f-866a-bd8ca85a327f> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Victoria IV" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/1b96da01-383c-405f-9a32-b6be8c4c569a.png>,
+        <https://zenodo.org/record/5645237/files/657e27a9-0b36-4f2f-8e3d-753cc5361952.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "eb7045d4-683b-4f4f-866a-bd8ca85a327f" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), p. 634" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_eb7045d4-683b-4f4f-866a-bd8ca85a327f> .
+

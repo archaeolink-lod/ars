@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_4d92e68d-df26-4058-a2aa-440890d899f0> a ns1:Feature ;
+    rdfs:label "Hercules" ;
+    ns1:depicts "Hercules@en",
+        "man@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4aafe594-8c52-481b-9e71-d2556722344b>,
+        <http://data.archaeology.link/data/ars/ir_76ba2261-75b7-4557-981e-3c79af640158> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/4d92e68d-df26-4058-a2aa-440890d899f0.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_4d92e68d-df26-4058-a2aa-440890d899f0_geom> ;
+    dc:identifier "4d92e68d-df26-4058-a2aa-440890d899f0" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_4d92e68d-df26-4058-a2aa-440890d899f0_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_4d92e68d-df26-4058-a2aa-440890d899f0> .
+

@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_c11178fb-6f7e-4cc1-861e-62abd3fee0ed> a ns1:Feature ;
+    rdfs:label "martyr" ;
+    ns1:depicts "captive@en",
+        "martyr@en",
+        "stake@en",
+        "woman@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8158fa72-f44c-4820-8ead-e52d8f9e9a40> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/c11178fb-6f7e-4cc1-861e-62abd3fee0ed.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_c11178fb-6f7e-4cc1-861e-62abd3fee0ed_geom> ;
+    dc:identifier "c11178fb-6f7e-4cc1-861e-62abd3fee0ed" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_c11178fb-6f7e-4cc1-861e-62abd3fee0ed_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_c11178fb-6f7e-4cc1-861e-62abd3fee0ed> .
+

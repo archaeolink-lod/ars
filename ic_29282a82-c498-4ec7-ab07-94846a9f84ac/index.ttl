@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_29282a82-c498-4ec7-ab07-94846a9f84ac> a ns1:InformationCarrier ;
+    rdfs:label "bowl with men and lion"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031197> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031198> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_40b7b542-52da-405f-8816-03d1e9371a64>,
+        <http://data.archaeology.link/data/ars/feat_6cd83702-9f36-4fdb-9447-9947a1b0f2bd>,
+        <http://data.archaeology.link/data/ars/feat_92ff78a1-0354-41eb-86be-07d2707dbe2c> ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/29282a82-c498-4ec7-ab07-94846a9f84ac.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.41752 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    dc:identifier "29282a82-c498-4ec7-ab07-94846a9f84ac" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_29282a82-c498-4ec7-ab07-94846a9f84ac> .
+

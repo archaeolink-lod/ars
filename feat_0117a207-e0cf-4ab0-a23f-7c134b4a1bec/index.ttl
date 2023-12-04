@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_0117a207-e0cf-4ab0-a23f-7c134b4a1bec> a ns1:Feature ;
+    rdfs:label "man and grapevine" ;
+    ns1:depicts "Bacchus@en",
+        "grapevine@en",
+        "man@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_1a447dd5-db3e-4c2b-8405-a842b9d9e57b>,
+        <http://data.archaeology.link/data/ars/ir_nan> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/0117a207-e0cf-4ab0-a23f-7c134b4a1bec.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_0117a207-e0cf-4ab0-a23f-7c134b4a1bec_geom> ;
+    dc:identifier "0117a207-e0cf-4ab0-a23f-7c134b4a1bec" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_0117a207-e0cf-4ab0-a23f-7c134b4a1bec_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_0117a207-e0cf-4ab0-a23f-7c134b4a1bec> .
+

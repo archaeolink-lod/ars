@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_e0b4797e-d031-41b2-8be2-fe9482e90e0c> a ns1:Feature ;
+    rdfs:label "ram" ;
+    ns1:depicts "ram@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/e0b4797e-d031-41b2-8be2-fe9482e90e0c.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_e0b4797e-d031-41b2-8be2-fe9482e90e0c_geom> ;
+    dc:identifier "e0b4797e-d031-41b2-8be2-fe9482e90e0c" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_e0b4797e-d031-41b2-8be2-fe9482e90e0c_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_e0b4797e-d031-41b2-8be2-fe9482e90e0c> .
+

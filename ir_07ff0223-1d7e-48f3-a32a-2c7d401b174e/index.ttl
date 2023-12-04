@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_07ff0223-1d7e-48f3-a32a-2c7d401b174e> a ns1:IconographyReference ;
+    rdfs:label "Atlante 39" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/0dfe0ffc-6f0c-4acb-b2f3-e77c923aff85.png>,
+        <https://zenodo.org/record/5645237/files/7bd49ec5-95da-49d7-bb56-61778880c310.png>,
+        <https://zenodo.org/record/5645237/files/f8865a27-e9e4-441c-b22e-c6c2fdae3e0b.png> ;
+    ns1:hasType ns1:Atlante ;
+    dc:identifier "07ff0223-1d7e-48f3-a32a-2c7d401b174e" ;
+    dcterms:bibliographicCitation "Atlante (1981), p. 168" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_07ff0223-1d7e-48f3-a32a-2c7d401b174e> .
+

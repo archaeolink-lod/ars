@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_305df036-9135-4f23-b52e-a568471cb532> a ns1:Feature ;
+    rdfs:label "man with outstretched arm" ;
+    ns1:depicts "man@en",
+        "tunic@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ef5204ee-3444-4e0c-96f9-ce6f5d631ee8> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/305df036-9135-4f23-b52e-a568471cb532.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_305df036-9135-4f23-b52e-a568471cb532_geom> ;
+    dc:identifier "305df036-9135-4f23-b52e-a568471cb532" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_305df036-9135-4f23-b52e-a568471cb532_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_305df036-9135-4f23-b52e-a568471cb532> .
+

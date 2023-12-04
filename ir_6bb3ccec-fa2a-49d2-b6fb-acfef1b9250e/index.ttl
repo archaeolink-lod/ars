@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_6bb3ccec-fa2a-49d2-b6fb-acfef1b9250e> a ns1:IconographyReference ;
+    rdfs:label "Armstrong 6.76" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/0fbcb9b8-614a-46d0-bbca-816751782140.png>,
+        <https://zenodo.org/record/5645237/files/758c5e97-82f5-44cf-b57b-db35f15ee40f.png> ;
+    ns1:hasType ns1:Armstrong ;
+    dc:identifier "6bb3ccec-fa2a-49d2-b6fb-acfef1b9250e" ;
+    dcterms:bibliographicCitation "Armstrong (1993), p. 135" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_6bb3ccec-fa2a-49d2-b6fb-acfef1b9250e> .
+

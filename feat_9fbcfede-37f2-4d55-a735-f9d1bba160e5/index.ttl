@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_9fbcfede-37f2-4d55-a735-f9d1bba160e5> a ns1:Feature ;
+    rdfs:label "dolphin with erot" ;
+    ns1:depicts "dolphin@en",
+        "erot@en",
+        "man@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_21d603b5-50bc-4b37-bd0f-493c433190a5> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/9fbcfede-37f2-4d55-a735-f9d1bba160e5.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_9fbcfede-37f2-4d55-a735-f9d1bba160e5_geom> ;
+    dc:identifier "9fbcfede-37f2-4d55-a735-f9d1bba160e5" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_9fbcfede-37f2-4d55-a735-f9d1bba160e5_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_9fbcfede-37f2-4d55-a735-f9d1bba160e5> .
+

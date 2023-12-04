@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_d2dbdf9b-2738-4125-a340-111fc6b63ffd> a ns1:Feature ;
+    rdfs:label "man and woman" ;
+    ns1:depicts "Christ@en",
+        "man@en",
+        "mantle@en",
+        "woman with the issue of blood@en",
+        "woman@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_27a000d5-cee3-412d-9810-396bc7852a47>,
+        <http://data.archaeology.link/data/ars/ir_f5d7071e-00ff-4674-9dae-b8f93b15d371> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/d2dbdf9b-2738-4125-a340-111fc6b63ffd.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_d2dbdf9b-2738-4125-a340-111fc6b63ffd_geom> ;
+    dc:identifier "d2dbdf9b-2738-4125-a340-111fc6b63ffd" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_d2dbdf9b-2738-4125-a340-111fc6b63ffd_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_d2dbdf9b-2738-4125-a340-111fc6b63ffd> .
+

@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_cd09ebcd-8591-46ef-b9c5-ec443b827b20> a ns1:Feature ;
+    rdfs:label "fish 5" ;
+    ns1:depicts "fish@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_3ed5dad0-f030-4a12-bcf3-19bed0cc54c9> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/cd09ebcd-8591-46ef-b9c5-ec443b827b20.png> ;
+    ns1:hasType ns1:FeatureType_Mould_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_cd09ebcd-8591-46ef-b9c5-ec443b827b20_geom> ;
+    dc:identifier "cd09ebcd-8591-46ef-b9c5-ec443b827b20" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_cd09ebcd-8591-46ef-b9c5-ec443b827b20_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_cd09ebcd-8591-46ef-b9c5-ec443b827b20> .
+

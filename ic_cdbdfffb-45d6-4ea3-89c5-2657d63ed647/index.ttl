@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_cdbdfffb-45d6-4ea3-89c5-2657d63ed647> a ns1:InformationCarrier ;
+    rdfs:label "mould fishes"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031729> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031730> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_009ca598-a974-497c-9de6-79fb21929b4a>,
+        <http://data.archaeology.link/data/ars/feat_b079077a-18da-43cc-974b-023d4d4c0843>,
+        <http://data.archaeology.link/data/ars/feat_cab31b3d-840a-4c4e-8fea-c45febb5600c> ;
+    ns1:hasConditionString "nan"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/cdbdfffb-45d6-4ea3-89c5-2657d63ed647.jpg> ;
+    ns1:hasType ns1:Manufacturing_Object ;
+    ns1:inventoryNumber "O.41427 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "plaster"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "mould"@en ;
+    dc:identifier "cdbdfffb-45d6-4ea3-89c5-2657d63ed647" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_cdbdfffb-45d6-4ea3-89c5-2657d63ed647> .
+

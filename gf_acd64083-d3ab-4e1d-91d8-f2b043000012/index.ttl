@@ -1,0 +1,11 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/gf_acd64083-d3ab-4e1d-91d8-f2b043000012> a <http://archaeology.link/ontology#GenericPotform> ;
+    rdfs:label "lamp"@en ;
+    dc:identifier "acd64083-d3ab-4e1d-91d8-f2b043000012" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_gf_acd64083-d3ab-4e1d-91d8-f2b043000012> .
+

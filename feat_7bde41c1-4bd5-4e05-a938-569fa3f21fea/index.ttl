@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_7bde41c1-4bd5-4e05-a938-569fa3f21fea> a ns1:Feature ;
+    rdfs:label "dolphin" ;
+    ns1:depicts "dolphin@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_fb423297-beb3-4f53-bb3d-eeebdeea9e20> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/7bde41c1-4bd5-4e05-a938-569fa3f21fea.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_7bde41c1-4bd5-4e05-a938-569fa3f21fea_geom> ;
+    dc:identifier "7bde41c1-4bd5-4e05-a938-569fa3f21fea" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_7bde41c1-4bd5-4e05-a938-569fa3f21fea_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_7bde41c1-4bd5-4e05-a938-569fa3f21fea> .
+

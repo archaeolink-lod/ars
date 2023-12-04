@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9> a ns1:Feature ;
+    rdfs:label "decoration" ;
+    ns1:depicts "zigzag pattern@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_01a73d45-b8e3-465c-adfc-db33f5bab1d3>,
+        <http://data.archaeology.link/data/ars/ir_f7d50b8e-d3f5-457a-a94a-a9ed00fb2e19> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/a43aa650-9ba6-4e1f-ad8d-a093b66262e9.png> ;
+    ns1:hasType ns1:FeatureType_AppliqueNegative_Part ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9_geom> ;
+    dc:identifier "a43aa650-9ba6-4e1f-ad8d-a093b66262e9" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_a43aa650-9ba6-4e1f-ad8d-a093b66262e9> .
+

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_5d473619-fcdc-4b1d-be5a-9360de08fe9b> a ns1:InformationCarrier ;
+    rdfs:label "mould arches"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031737> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031738> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_6ace4fa0-5bfa-493d-86e1-9200d0cf744d>,
+        <http://data.archaeology.link/data/ars/feat_ab00d1f6-3b0c-4024-a2ec-9194dedbef35>,
+        <http://data.archaeology.link/data/ars/feat_d5302322-4384-4c28-84ee-19026bd7dd5a>,
+        <http://data.archaeology.link/data/ars/feat_f1110a68-c069-4b4a-837a-6ef0ae791085> ;
+    ns1:hasConditionString "nan"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/5d473619-fcdc-4b1d-be5a-9360de08fe9b.jpg> ;
+    ns1:hasType ns1:Manufacturing_Object ;
+    ns1:inventoryNumber "O.41371 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "plaster"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "mould"@en ;
+    dc:identifier "5d473619-fcdc-4b1d-be5a-9360de08fe9b" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_5d473619-fcdc-4b1d-be5a-9360de08fe9b> .
+

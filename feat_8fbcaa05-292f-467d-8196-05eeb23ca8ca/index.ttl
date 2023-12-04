@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_8fbcaa05-292f-467d-8196-05eeb23ca8ca> a ns1:Feature ;
+    rdfs:label "man" ;
+    ns1:depicts "mantle@en",
+        "soldier@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_31803c57-9e7a-4bd8-b600-8ae3c43c3505> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/8fbcaa05-292f-467d-8196-05eeb23ca8ca.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_8fbcaa05-292f-467d-8196-05eeb23ca8ca_geom> ;
+    dc:identifier "8fbcaa05-292f-467d-8196-05eeb23ca8ca" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_8fbcaa05-292f-467d-8196-05eeb23ca8ca_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_8fbcaa05-292f-467d-8196-05eeb23ca8ca> .
+

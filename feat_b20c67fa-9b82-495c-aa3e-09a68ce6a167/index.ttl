@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_b20c67fa-9b82-495c-aa3e-09a68ce6a167> a ns1:Feature ;
+    rdfs:label "sitting man" ;
+    ns1:depicts "Achilles@en",
+        "man@en",
+        "mantle@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c6d605eb-2ac0-4df8-acca-c176efff9afa> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/b20c67fa-9b82-495c-aa3e-09a68ce6a167.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_b20c67fa-9b82-495c-aa3e-09a68ce6a167_geom> ;
+    dc:identifier "b20c67fa-9b82-495c-aa3e-09a68ce6a167" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_b20c67fa-9b82-495c-aa3e-09a68ce6a167_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_b20c67fa-9b82-495c-aa3e-09a68ce6a167> .
+

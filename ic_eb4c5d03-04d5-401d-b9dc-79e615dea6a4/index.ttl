@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_eb4c5d03-04d5-401d-b9dc-79e615dea6a4> a ns1:InformationCarrier ;
+    rdfs:label "lamp with Hercules"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031165> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031166> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_07ad8d8e-9e50-46d7-b917-101c87966f14>,
+        <http://data.archaeology.link/data/ars/feat_2761a040-8e91-45cf-91f1-916646725ba5>,
+        <http://data.archaeology.link/data/ars/feat_a9569d05-c6fc-4883-b16b-f8cc4a4adc24> ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/eb4c5d03-04d5-401d-b9dc-79e615dea6a4.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.40757 (RGZM)" ;
+    ns1:madeByString "mould made"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_2d8907ac-2ce5-4090-afbb-09b4b3986c06> ;
+    ns1:representedByString "lamp"@en ;
+    ns1:timeinterval "Late Antiquity / 330-370 to early 5. century AD" ;
+    dc:identifier "eb4c5d03-04d5-401d-b9dc-79e615dea6a4" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_eb4c5d03-04d5-401d-b9dc-79e615dea6a4> .
+

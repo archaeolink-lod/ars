@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_e9480b74-e3e2-4ac7-99fb-624fbc7dee9d> a ns2:InformationCarrier ;
+    rdfs:label "lamp with fish"@en ;
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031587> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031588> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_b2d6dab9-6a28-469d-96ac-f9a89d3a57e9>,
+        <http://data.archaeology.link/data/ars/feat_d4f99832-f4ef-4f9b-b3f8-ac5a2af17468>,
+        <http://data.archaeology.link/data/ars/feat_f997c281-00ba-4919-8b3b-0e059d69d89a> ;
+    ns2:hasConditionString "complete"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/e9480b74-e3e2-4ac7-99fb-624fbc7dee9d.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.34573 (RGZM)" ;
+    ns2:madeByString "mould made"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedByString "lamp"@en ;
+    dc:identifier "e9480b74-e3e2-4ac7-99fb-624fbc7dee9d" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_e9480b74-e3e2-4ac7-99fb-624fbc7dee9d> .
+

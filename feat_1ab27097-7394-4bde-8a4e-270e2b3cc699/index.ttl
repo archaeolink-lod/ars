@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_1ab27097-7394-4bde-8a4e-270e2b3cc699> a ns1:Feature ;
+    rdfs:label "arch 1" ;
+    ns1:depicts "arch@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_274838a7-f69f-4dae-a873-c3889918af63> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/1ab27097-7394-4bde-8a4e-270e2b3cc699.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_1ab27097-7394-4bde-8a4e-270e2b3cc699_geom> ;
+    dc:identifier "1ab27097-7394-4bde-8a4e-270e2b3cc699" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_1ab27097-7394-4bde-8a4e-270e2b3cc699_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_1ab27097-7394-4bde-8a4e-270e2b3cc699> .
+

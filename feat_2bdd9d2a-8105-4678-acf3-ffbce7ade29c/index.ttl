@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_2bdd9d2a-8105-4678-acf3-ffbce7ade29c> a ns1:Feature ;
+    rdfs:label "boat 2" ;
+    ns1:depicts "erots@en",
+        "ship@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_26299ebd-61c5-4093-ad58-d58bf964e409>,
+        <http://data.archaeology.link/data/ars/ir_64268e75-a746-4e0b-aabd-09ceaac1752f> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/2bdd9d2a-8105-4678-acf3-ffbce7ade29c.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_2bdd9d2a-8105-4678-acf3-ffbce7ade29c_geom> ;
+    dc:identifier "2bdd9d2a-8105-4678-acf3-ffbce7ade29c" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_2bdd9d2a-8105-4678-acf3-ffbce7ade29c_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_2bdd9d2a-8105-4678-acf3-ffbce7ade29c> .
+

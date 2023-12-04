@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_b27cb6ac-d4de-413d-bbb6-50f99d6dd2fa> a ns1:InformationCarrier ;
+    rdfs:label "bowl with leaves"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031589> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031590> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_3158f323-494c-421d-9b61-f82a314b8e75>,
+        <http://data.archaeology.link/data/ars/feat_3e5d4fba-52be-4b03-8b64-c8ebf706b544>,
+        <http://data.archaeology.link/data/ars/feat_7c491d0d-807d-4eec-b0f0-cf2f5892ea2c>,
+        <http://data.archaeology.link/data/ars/feat_ad7d6b55-f004-4149-b154-aec144e2c28f>,
+        <http://data.archaeology.link/data/ars/feat_d588c7fa-4c19-41c6-be59-2b5aac20b203>,
+        <http://data.archaeology.link/data/ars/feat_fd164117-5887-4e89-82b3-20740a627090> ;
+    ns1:hasConditionString "fragmented"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/b27cb6ac-d4de-413d-bbb6-50f99d6dd2fa.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.17546 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "bowl"@en ;
+    dc:identifier "b27cb6ac-d4de-413d-bbb6-50f99d6dd2fa" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_b27cb6ac-d4de-413d-bbb6-50f99d6dd2fa> .
+

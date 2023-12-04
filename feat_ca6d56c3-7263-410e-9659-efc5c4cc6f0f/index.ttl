@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_ca6d56c3-7263-410e-9659-efc5c4cc6f0f> a ns1:Feature ;
+    rdfs:label "leaf 1" ;
+    ns1:depicts "palm branch@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_522a11e5-ff73-475a-8dbf-cb5ba6db2faa> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/ca6d56c3-7263-410e-9659-efc5c4cc6f0f.png> ;
+    ns1:hasType ns1:FeatureType_Mould_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_ca6d56c3-7263-410e-9659-efc5c4cc6f0f_geom> ;
+    dc:identifier "ca6d56c3-7263-410e-9659-efc5c4cc6f0f" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_ca6d56c3-7263-410e-9659-efc5c4cc6f0f_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_ca6d56c3-7263-410e-9659-efc5c4cc6f0f> .
+

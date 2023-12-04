@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_d073779e-ba3a-4057-9f49-6fe5234d0634> a ns1:Feature ;
+    rdfs:label "lion" ;
+    ns1:depicts "lion@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_3f855e89-b843-4a8e-a7dd-94738b12c05a> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/d073779e-ba3a-4057-9f49-6fe5234d0634.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_d073779e-ba3a-4057-9f49-6fe5234d0634_geom> ;
+    dc:identifier "d073779e-ba3a-4057-9f49-6fe5234d0634" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_d073779e-ba3a-4057-9f49-6fe5234d0634_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_d073779e-ba3a-4057-9f49-6fe5234d0634> .
+

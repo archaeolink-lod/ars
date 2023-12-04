@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_c436b4e5-bd6d-4216-84c6-a114f6700b57> a ns2:InformationCarrier ;
+    rdfs:label "dish with man holding cross"@en ;
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031617> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031618> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_6a34370e-86dc-4e6d-a264-35191193cd02>,
+        <http://data.archaeology.link/data/ars/feat_8c465cc2-0c0a-411a-8790-097b4b3ae867>,
+        <http://data.archaeology.link/data/ars/feat_8d45f078-fd63-4ca5-a4bc-94c801c58c96> ;
+    ns2:hasConditionString "reconstructed"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/c436b4e5-bd6d-4216-84c6-a114f6700b57.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.09087 (RGZM)" ;
+    ns2:madeByString "potter wheel"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedBy <http://data.archaeology.link/data/ars/pf_debeac24-ebc3-430d-9317-0b508e83f15c> ;
+    ns2:representedByString "dish"@en ;
+    dc:identifier "c436b4e5-bd6d-4216-84c6-a114f6700b57" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_c436b4e5-bd6d-4216-84c6-a114f6700b57> .
+

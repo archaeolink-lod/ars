@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_17e3aad8-e2d2-425f-8b34-088e00ddc99a> a ns1:Feature ;
+    rdfs:label "woman with helmet" ;
+    ns1:depicts "Hercules@en",
+        "Minerva@en",
+        "club@en",
+        "man@en",
+        "woman@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_7cbe3202-baae-43c2-9453-8760d91b6739>,
+        <http://data.archaeology.link/data/ars/ir_ebc066c3-bedc-458f-bdcc-c1ef81f005a5> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/17e3aad8-e2d2-425f-8b34-088e00ddc99a.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_17e3aad8-e2d2-425f-8b34-088e00ddc99a_geom> ;
+    dc:identifier "17e3aad8-e2d2-425f-8b34-088e00ddc99a" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_17e3aad8-e2d2-425f-8b34-088e00ddc99a_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_17e3aad8-e2d2-425f-8b34-088e00ddc99a> .
+

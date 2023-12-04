@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_40dd2cac-724d-44b5-85e9-00f2faf04b2e> a ns1:Feature ;
+    rdfs:label "erots on board" ;
+    ns1:depicts "erots@en",
+        "ship@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_48441cea-0297-412e-ae1b-e6c040729752>,
+        <http://data.archaeology.link/data/ars/ir_d66996e7-42b8-46b1-b69e-7968bf81c96d> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/40dd2cac-724d-44b5-85e9-00f2faf04b2e.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_40dd2cac-724d-44b5-85e9-00f2faf04b2e_geom> ;
+    dc:identifier "40dd2cac-724d-44b5-85e9-00f2faf04b2e" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_40dd2cac-724d-44b5-85e9-00f2faf04b2e_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_40dd2cac-724d-44b5-85e9-00f2faf04b2e> .
+

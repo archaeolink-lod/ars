@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_1be6fb4f-1012-4b7c-bd24-fd6eb04a624a> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Satyr I" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/addec23f-8165-41fe-9338-381eb7abdac9.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "1be6fb4f-1012-4b7c-bd24-fd6eb04a624a" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 565-566" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_1be6fb4f-1012-4b7c-bd24-fd6eb04a624a> .
+

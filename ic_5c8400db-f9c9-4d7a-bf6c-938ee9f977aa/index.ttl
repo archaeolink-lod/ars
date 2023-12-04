@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_5c8400db-f9c9-4d7a-bf6c-938ee9f977aa> a ns1:InformationCarrier ;
+    rdfs:label "bowl with man and rod"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031603> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031604> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_672de1d8-9b92-46c8-a1e1-9aff62ce2623> ;
+    ns1:hasConditionString "fragmented"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/5c8400db-f9c9-4d7a-bf6c-938ee9f977aa.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.40787 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "bowl"@en ;
+    dc:identifier "5c8400db-f9c9-4d7a-bf6c-938ee9f977aa" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_5c8400db-f9c9-4d7a-bf6c-938ee9f977aa> .
+

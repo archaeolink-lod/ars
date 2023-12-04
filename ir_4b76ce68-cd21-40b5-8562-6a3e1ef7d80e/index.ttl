@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_4b76ce68-cd21-40b5-8562-6a3e1ef7d80e> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein fischende Eroten IX" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/2a72c1f2-faf3-432d-956c-2d7d0fe56521.png>,
+        <https://zenodo.org/record/5645237/files/b0d98a1f-8152-4620-b804-27a0d3a0a918.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "4b76ce68-cd21-40b5-8562-6a3e1ef7d80e" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), p. 544" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_4b76ce68-cd21-40b5-8562-6a3e1ef7d80e> .
+

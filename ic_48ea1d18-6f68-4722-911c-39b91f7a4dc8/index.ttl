@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_48ea1d18-6f68-4722-911c-39b91f7a4dc8> a ns1:InformationCarrier ;
+    rdfs:label "lamp with Christ"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031153> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031154> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_11a0bd30-41f3-430e-8566-6903dc8a4945>,
+        <http://data.archaeology.link/data/ars/feat_3a9e48ac-7411-41db-8cbb-76708ad402ee>,
+        <http://data.archaeology.link/data/ars/feat_5961a45c-73f6-4621-8f80-e039f31e63a8>,
+        <http://data.archaeology.link/data/ars/feat_5a6d066b-d355-4295-a079-071c2ac2a24f>,
+        <http://data.archaeology.link/data/ars/feat_969bccba-b282-40e2-b924-718766b29c69>,
+        <http://data.archaeology.link/data/ars/feat_a4e99b53-8315-4c0b-a7a3-4ca181c68bf1>,
+        <http://data.archaeology.link/data/ars/feat_eb73897a-b2df-4100-ad56-cb8843ba2534>,
+        <http://data.archaeology.link/data/ars/feat_f1cd8a34-3efb-48d6-9dba-674027f5eda1> ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/48ea1d18-6f68-4722-911c-39b91f7a4dc8.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.39603 (RGZM)" ;
+    ns1:madeByString "mould made"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_2d8907ac-2ce5-4090-afbb-09b4b3986c06> ;
+    ns1:representedByString "lamp"@en ;
+    ns1:timeinterval "Late Antiquity / 330-370 to early 5. century AD" ;
+    dc:identifier "48ea1d18-6f68-4722-911c-39b91f7a4dc8" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_48ea1d18-6f68-4722-911c-39b91f7a4dc8> .
+

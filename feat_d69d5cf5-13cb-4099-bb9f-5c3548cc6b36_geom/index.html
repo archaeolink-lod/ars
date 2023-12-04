@@ -1,0 +1,174 @@
+<html about="http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom | African Red Slip Ware (ARS) Linked Open Data</title>");
+      } else {
+        document.write(
+          "<title>Index Page for African Red Slip Ware (ARS) Linked Open Data on archaeology.link</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="{{epsgdefspath}}"></script>
+    <script src="../vowl_result.js"></script>
+    <script src="../no_search.js"></script>
+    <script src="../no_classtree.js"></script>
+    <script src="../proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=1;
+    var baseurl="http://data.archaeology.link/data/ars/";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>archaeology.link</b>&nbsp;&nbsp;<img
+          src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png"
+          style="height: 40px !important; margin-right: 10px" />African Red Slip Ware (ARS) Linked Open Data&nbsp;|&nbsp;
+        <i
+          >powered by Leibniz-Zentrum für Archäologie (LEIZA), Department of
+          Scientific IT</i
+        >
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png" alt="logo" width="25" height="25"/>&nbsp;&nbsp;feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for African Red Slip Ware (ARS) Linked Open Data on archaeology&#9677;link</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.opengis.net/ont/geosparql#asWKT">asWKT <span style="color: #666;">(gsp:asWKT)</span></a> </span></td><td class="wrapword"><span property="http://www.opengis.net/ont/geosparql#asWKT" content="&lthttp://archaeology.link/ontology#Local3DCoordinateSystem&gt; [[-19.299219755652956, 67.53215138971763, -3.4943416707853316], [-19.66601419286951, 68.57733345043198, -2.246019964967303], [-19.916628986319466, 70.95756525611131, 1.8175507543824665], [-19.4544128741845, 65.77924995818967, 9.44128444993703], [-19.24848558771376, 59.28588163159952, 12.187531401216233], [-19.94749335511088, 56.33216917176503, 12.24618154693735], [-21.11933387050891, 60.55160825996711, 11.533222595899929], [-23.98689364342121, 66.95660409165635, 10.953549098446501], [-29.085254671965913, 75.51123652209338, 11.161789151485948], [-36.1031492881707, 77.41015509997408, 11.178450335113098], [-41.251008639869724, 76.85713543548383, 10.762712655397962], [-46.00815524691837, 71.56895877154817, 11.032302412685512], [-48.31559231659402, 63.72692888890286, 10.84613991591141], [-45.056457129205235, 52.303247481679236, 11.763517648883694], [-41.841898784468704, 45.378403902782885, 11.985846624636965], [-41.054509136097636, 40.00678819757809, 11.665781645701145], [-39.61439003790622, 33.476983517030135, 11.38333347615847], [-41.17366179303008, 29.824353393736544, 11.141626574508663], [-45.87867306445105, 23.050331109499524, 12.12497674226761], [-48.602332990582, 19.421085818533356, 10.301585256552528], [-49.584061468302366, 16.619890773302018, 7.6552562396737756], [-50.02239873124881, 15.870479137754785, 3.419804194253402], [-48.05616482943266, 20.28678010873873, -0.19480161777767085], [-44.876390871935314, 26.45197400210128, -0.435974795147672], [-42.100851065483994, 31.12045284262763, -0.9637485938606432], [-42.63737773121068, 40.34047933710008, -2.07905015420954], [-46.51479863281918, 52.05669951372502, -2.710313576239173], [-48.84109638651779, 63.48007368153213, -2.583480582765219], [-46.66946013203343, 71.4132071559252, -2.894353787029502], [-40.52302698906838, 76.27511802334995, -3.566445288837202], [-31.619126418508188, 76.81161511473135, -3.860559842204225], [-25.68227542778593, 71.57543058559736, -3.9318542020766927], [-23.468529824619537, 65.99842661766945, -4.54292411079507], [-21.326765004676673, 60.25347282592389, -5.505739865652288], [-19.64571302385619, 55.507058772197354, -6.923073397291091], [-18.863313185110343, 60.86191418829952, -6.804835525053022]]" datatype="http://www.opengis.net/ont/geosparql#wktLiteral">&lthttp://archaeology.link/ontology#Local3DCoordinateSystem&gt; [[-19.299219755652956, 67.53215138971763, -3.4943416707853316], [-19.66601419286951, 68.57733345043198, -2.246019964967303], [-19.916628986319466, 70.95756525611131, 1.8175507543824665], [-19.4544128741845, 65.77924995818967, 9.44128444993703], [-19.24848558771376, 59.28588163159952, 12.187531401216233], [-19.94749335511088, 56.33216917176503, 12.24618154693735], [-21.11933387050891, 60.55160825996711, 11.533222595899929], [-23.98689364342121, 66.95660409165635, 10.953549098446501], [-29.085254671965913, 75.51123652209338, 11.161789151485948], [-36.1031492881707, 77.41015509997408, 11.178450335113098], [-41.251008639869724, 76.85713543548383, 10.762712655397962], [-46.00815524691837, 71.56895877154817, 11.032302412685512], [-48.31559231659402, 63.72692888890286, 10.84613991591141], [-45.056457129205235, 52.303247481679236, 11.763517648883694], [-41.841898784468704, 45.378403902782885, 11.985846624636965], [-41.054509136097636, 40.00678819757809, 11.665781645701145], [-39.61439003790622, 33.476983517030135, 11.38333347615847], [-41.17366179303008, 29.824353393736544, 11.141626574508663], [-45.87867306445105, 23.050331109499524, 12.12497674226761], [-48.602332990582, 19.421085818533356, 10.301585256552528], [-49.584061468302366, 16.619890773302018, 7.6552562396737756], [-50.02239873124881, 15.870479137754785, 3.419804194253402], [-48.05616482943266, 20.28678010873873, -0.19480161777767085], [-44.876390871935314, 26.45197400210128, -0.435974795147672], [-42.100851065483994, 31.12045284262763, -0.9637485938606432], [-42.63737773121068, 40.34047933710008, -2.07905015420954], [-46.51479863281918, 52.05669951372502, -2.710313576239173], [-48.84109638651779, 63.48007368153213, -2.583480582765219], [-46.66946013203343, 71.4132071559252, -2.894353787029502], [-40.52302698906838, 76.27511802334995, -3.566445288837202], [-31.619126418508188, 76.81161511473135, -3.860559842204225], [-25.68227542778593, 71.57543058559736, -3.9318542020766927], [-23.468529824619537, 65.99842661766945, -4.54292411079507], [-21.326765004676673, 60.25347282592389, -5.505739865652288], [-19.64571302385619, 55.507058772197354, -6.923073397291091], [-18.863313185110343, 60.86191418829952, -6.804835525053022]] <small>(<a style="color: #666;" target="_blank" href="http://www.opengis.net/ont/geosparql#wktLiteral">gsp:wktLiteral</a>)</small></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><span><a property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://www.opengis.net/ont/sf#Polygon" target="_blank" href="http://www.opengis.net/ont/sf#Polygon">Polygon <span style="color: #666;">(sf:Polygon)</span></a> <a href="../nonns_Polygon.html">[x]</a></span></td></tr><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://archaeology.link/ontology#selectedArea">selectedArea <span style="color: #666;">(lado:selectedArea)</span></a> </span> of</td><td class="wrapword"><span><a property="http://archaeology.link/ontology#selectedArea"  about="http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36" resource="http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom" href="../feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36/index.html">decoration left handle <span style="color: #666;">(no:feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36)</span></a></span></td></tr><tr class="odd"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.opengis.net/ont/geosparql#hasGeometry">hasGeometry <span style="color: #666;">(gsp:hasGeometry)</span></a> </span> of</td><td class="wrapword"><span><a property="http://www.opengis.net/ont/geosparql#hasGeometry"  about="http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36" resource="http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom" href="../feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36/index.html">decoration left handle <span style="color: #666;">(no:feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36)</span></a></span></td></tr><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#member">member <span style="color: #666;">(rdfs:member)</span></a> </span> of</td><td class="wrapword"><span><a property="http://www.w3.org/2000/01/rdf-schema#member"  about="http://data.archaeology.link/data/ars/Polygon_collection" resource="http://data.archaeology.link/data/ars/feat_d69d5cf5-13cb-4099-bb9f-5c3548cc6b36_geom" href="../Polygon_collection/index.html">Polygon Instances Collection <span style="color: #666;">(no:Polygon_collection)</span></a></span></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;"><b>published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> by Leibniz-Zentrum für Archäologie (2022-2023)
+            | Florian Thiery M.Sc., Dr. Allard W. Mees FSA</b><br><a href="https://www.leiza.de/impressum">Impressum</a>
+        | <a href="https://www.leiza.de/datenschutz">Datenschutz</a></center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

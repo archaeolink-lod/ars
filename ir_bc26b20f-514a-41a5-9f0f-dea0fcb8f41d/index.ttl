@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_bc26b20f-514a-41a5-9f0f-dea0fcb8f41d> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Flötenspieler im Baumhaus" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/fe2870ba-d9b7-4e0e-8219-3adc46491a86.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "bc26b20f-514a-41a5-9f0f-dea0fcb8f41d" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), p. 518" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_bc26b20f-514a-41a5-9f0f-dea0fcb8f41d> .
+

@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_2f9af441-bf78-4e2b-b932-7b8f331c305d> a ns1:InformationCarrier ;
+    rdfs:label "bowl with Adam and Eve"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031501> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031502> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_34daf948-743f-4fd7-b409-193279a68a97>,
+        <http://data.archaeology.link/data/ars/feat_69a31118-c349-4194-bb17-78b353d84797>,
+        <http://data.archaeology.link/data/ars/feat_7dc288f7-d4c4-4568-a235-9c2f537be11e>,
+        <http://data.archaeology.link/data/ars/feat_98566a81-c417-4ef7-aa37-d71486ff80da> ;
+    ns1:hasConditionString "reconstructed"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/2f9af441-bf78-4e2b-b932-7b8f331c305d.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.41461 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    dc:identifier "2f9af441-bf78-4e2b-b932-7b8f331c305d" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_2f9af441-bf78-4e2b-b932-7b8f331c305d> .
+

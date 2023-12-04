@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_1cbff5d5-8d21-41ad-abb4-434bf1b41071> a ns1:Feature ;
+    rdfs:label "fish 8" ;
+    ns1:depicts "fish@en" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/1cbff5d5-8d21-41ad-abb4-434bf1b41071.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_1cbff5d5-8d21-41ad-abb4-434bf1b41071_geom> ;
+    dc:identifier "1cbff5d5-8d21-41ad-abb4-434bf1b41071" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_1cbff5d5-8d21-41ad-abb4-434bf1b41071_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_1cbff5d5-8d21-41ad-abb4-434bf1b41071> .
+

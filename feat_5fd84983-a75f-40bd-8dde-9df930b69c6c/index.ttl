@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_5fd84983-a75f-40bd-8dde-9df930b69c6c> a ns1:Feature ;
+    rdfs:label "grape 6 (circles)" ;
+    ns1:depicts "circles@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_nan> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/5fd84983-a75f-40bd-8dde-9df930b69c6c.png> ;
+    ns1:hasType ns1:FeatureType_AppliqueNegative ;
+    ns1:madeByString "stamped decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_5fd84983-a75f-40bd-8dde-9df930b69c6c_geom> ;
+    dc:identifier "5fd84983-a75f-40bd-8dde-9df930b69c6c" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_5fd84983-a75f-40bd-8dde-9df930b69c6c_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_5fd84983-a75f-40bd-8dde-9df930b69c6c> .
+

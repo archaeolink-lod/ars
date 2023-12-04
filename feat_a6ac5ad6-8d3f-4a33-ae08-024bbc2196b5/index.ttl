@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_a6ac5ad6-8d3f-4a33-ae08-024bbc2196b5> a ns1:Feature ;
+    rdfs:label "column" ;
+    ns1:depicts "column@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_cc1df05c-290f-4b47-ab27-57d3b1d1b398> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/a6ac5ad6-8d3f-4a33-ae08-024bbc2196b5.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_a6ac5ad6-8d3f-4a33-ae08-024bbc2196b5_geom> ;
+    dc:identifier "a6ac5ad6-8d3f-4a33-ae08-024bbc2196b5" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_a6ac5ad6-8d3f-4a33-ae08-024bbc2196b5_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_a6ac5ad6-8d3f-4a33-ae08-024bbc2196b5> .
+

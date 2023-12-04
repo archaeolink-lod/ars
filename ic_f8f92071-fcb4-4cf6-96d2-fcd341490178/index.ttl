@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_f8f92071-fcb4-4cf6-96d2-fcd341490178> a ns1:InformationCarrier ;
+    rdfs:label "bowl with erots and fishes"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031385> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031386> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_0cd55963-de3c-40ad-930e-0a36110b23d5>,
+        <http://data.archaeology.link/data/ars/feat_2045358a-8bdd-4ed8-a8d7-67cc0d17c6d2>,
+        <http://data.archaeology.link/data/ars/feat_487d848e-fc68-4b43-80c7-40c900351d5e>,
+        <http://data.archaeology.link/data/ars/feat_bad1302f-92cf-4326-80ff-8f0d276b67d3> ;
+    ns1:hasConditionString "reconstructed"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/f8f92071-fcb4-4cf6-96d2-fcd341490178.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.39677 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    dc:identifier "f8f92071-fcb4-4cf6-96d2-fcd341490178" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_f8f92071-fcb4-4cf6-96d2-fcd341490178> .
+

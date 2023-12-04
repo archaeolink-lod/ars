@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_6a010361-1564-4b97-98df-249e5ab8bc26> a ns1:InformationCarrier ;
+    rdfs:label "lamp with hare"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031171> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031172> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_03bf5dca-ef56-4d0d-9787-b97d4eefb831>,
+        <http://data.archaeology.link/data/ars/feat_9adcbed8-e17f-404a-b1be-209c9f07b65a>,
+        <http://data.archaeology.link/data/ars/feat_9af07c09-0ea5-4b78-b704-a19d9601e4df> ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/6a010361-1564-4b97-98df-249e5ab8bc26.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.16594 (RGZM)" ;
+    ns1:madeByString "mould made"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_2d8907ac-2ce5-4090-afbb-09b4b3986c06> ;
+    ns1:representedByString "lamp"@en ;
+    ns1:timeinterval "Late Antiquity / 330-370 to early 5. century AD" ;
+    dc:identifier "6a010361-1564-4b97-98df-249e5ab8bc26" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_6a010361-1564-4b97-98df-249e5ab8bc26> .
+

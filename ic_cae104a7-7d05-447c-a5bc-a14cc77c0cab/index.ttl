@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_cae104a7-7d05-447c-a5bc-a14cc77c0cab> a ns1:InformationCarrier ;
+    rdfs:label "fragment with ornament"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031687> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031688> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_32cee38c-1f0c-459b-adf9-83e15e821087>,
+        <http://data.archaeology.link/data/ars/feat_9d877722-eace-4474-9cd0-4dcff08f4664> ;
+    ns1:hasConditionString "fragmented"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/cae104a7-7d05-447c-a5bc-a14cc77c0cab.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.41377 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "nan"@en ;
+    dc:identifier "cae104a7-7d05-447c-a5bc-a14cc77c0cab" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_cae104a7-7d05-447c-a5bc-a14cc77c0cab> .
+

@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_e4ee383f-712b-42e9-ba0a-953db32f5bed> a ns1:Feature ;
+    rdfs:label "venatio scene" ;
+    ns1:depicts "animal@en",
+        "goose@en",
+        "venator@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_8e8b0d71-3dc8-458a-97b5-35fc899f0d9b> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/e4ee383f-712b-42e9-ba0a-953db32f5bed.png> ;
+    ns1:hasType ns1:FeatureType_Mould ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_e4ee383f-712b-42e9-ba0a-953db32f5bed_geom> ;
+    dc:identifier "e4ee383f-712b-42e9-ba0a-953db32f5bed" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_e4ee383f-712b-42e9-ba0a-953db32f5bed_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_e4ee383f-712b-42e9-ba0a-953db32f5bed> .
+

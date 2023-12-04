@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_58cce125-3f67-4451-9f37-5972ade2d2da> a ns1:Feature ;
+    rdfs:label "bearded man" ;
+    ns1:depicts "Hercules@en",
+        "man@en",
+        "quiver@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_c01b1b93-c617-4dcf-b727-dd193c293463>,
+        <http://data.archaeology.link/data/ars/ir_c30c01b2-9c7e-45ec-833b-f734e1000000> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/58cce125-3f67-4451-9f37-5972ade2d2da.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_58cce125-3f67-4451-9f37-5972ade2d2da_geom> ;
+    dc:identifier "58cce125-3f67-4451-9f37-5972ade2d2da" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_58cce125-3f67-4451-9f37-5972ade2d2da_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_58cce125-3f67-4451-9f37-5972ade2d2da> .
+

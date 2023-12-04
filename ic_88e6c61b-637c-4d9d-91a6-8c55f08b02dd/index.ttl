@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_88e6c61b-637c-4d9d-91a6-8c55f08b02dd> a ns1:InformationCarrier ;
+    rdfs:label "lamp with Christogram"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031451> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031452> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_11d6ab30-ee63-4298-acde-d19158a8aced>,
+        <http://data.archaeology.link/data/ars/feat_dad89bed-929a-4968-8a14-9d66719be323>,
+        <http://data.archaeology.link/data/ars/feat_eda04b76-38e1-4156-aa33-39042efa01ef> ;
+    ns1:hasConditionString "reconstructed"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/88e6c61b-637c-4d9d-91a6-8c55f08b02dd.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.39807 (RGZM)" ;
+    ns1:madeByString "mould made"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_2d8907ac-2ce5-4090-afbb-09b4b3986c06> ;
+    ns1:representedByString "lamp"@en ;
+    ns1:timeinterval "Late Antiquity / 330-370 to early 5. century AD" ;
+    dc:identifier "88e6c61b-637c-4d9d-91a6-8c55f08b02dd" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_88e6c61b-637c-4d9d-91a6-8c55f08b02dd> .
+

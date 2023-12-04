@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_07ad8d8e-9e50-46d7-b917-101c87966f14> a ns1:Feature ;
+    rdfs:label "Hercules" ;
+    ns1:depicts "Hercules@en",
+        "bow@en",
+        "club@en",
+        "lionsskin@en",
+        "man@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4cdddb03-91b5-4064-bc2b-417fb46a9372>,
+        <http://data.archaeology.link/data/ars/ir_a742bf14-dcfe-42eb-9480-190c5731d1ce>,
+        <http://data.archaeology.link/data/ars/ir_dbddc626-1729-43c5-9b17-92c1f9dd26eb> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/07ad8d8e-9e50-46d7-b917-101c87966f14.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "mould-made relief decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_07ad8d8e-9e50-46d7-b917-101c87966f14_geom> ;
+    dc:identifier "07ad8d8e-9e50-46d7-b917-101c87966f14" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_07ad8d8e-9e50-46d7-b917-101c87966f14_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_07ad8d8e-9e50-46d7-b917-101c87966f14> .
+

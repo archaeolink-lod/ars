@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_9736b60e-2a01-4e0a-bebe-c50acb0263ea> a ns1:Feature ;
+    rdfs:label "ram and Christogram" ;
+    ns1:depicts "Chi-Rho@en",
+        "ram@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_ef589cc4-d968-4692-a3ee-6d4b66605550> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/9736b60e-2a01-4e0a-bebe-c50acb0263ea.png> ;
+    ns1:hasType ns1:FeatureType_Applique_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_9736b60e-2a01-4e0a-bebe-c50acb0263ea_geom> ;
+    dc:identifier "9736b60e-2a01-4e0a-bebe-c50acb0263ea" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_9736b60e-2a01-4e0a-bebe-c50acb0263ea_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_9736b60e-2a01-4e0a-bebe-c50acb0263ea> .
+

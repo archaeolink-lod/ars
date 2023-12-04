@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_e20f279c-6d32-4439-b151-4771726e4d3e> a ns1:InformationCarrier ;
+    rdfs:label "jug with Orpheus"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031643> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031644> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_1f367cea-415b-4718-bdaa-c2faaf51aa30>,
+        <http://data.archaeology.link/data/ars/feat_7bcb2756-ee73-45f3-bdd9-7308bdfedf83>,
+        <http://data.archaeology.link/data/ars/feat_c08b9ed9-c475-47a0-8a80-a6ac76c0ca3b> ;
+    ns1:hasConditionString "fragmented"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/e20f279c-6d32-4439-b151-4771726e4d3e.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.41376 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "jug"@en ;
+    dc:identifier "e20f279c-6d32-4439-b151-4771726e4d3e" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_e20f279c-6d32-4439-b151-4771726e4d3e> .
+

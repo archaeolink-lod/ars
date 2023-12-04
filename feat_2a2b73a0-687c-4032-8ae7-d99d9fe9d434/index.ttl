@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_2a2b73a0-687c-4032-8ae7-d99d9fe9d434> a ns1:Feature ;
+    rdfs:label "woman" ;
+    ns1:depicts "woman@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_d29013ea-6da1-40d7-a653-d4950c62e1d7> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/2a2b73a0-687c-4032-8ae7-d99d9fe9d434.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_2a2b73a0-687c-4032-8ae7-d99d9fe9d434_geom> ;
+    dc:identifier "2a2b73a0-687c-4032-8ae7-d99d9fe9d434" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_2a2b73a0-687c-4032-8ae7-d99d9fe9d434_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_2a2b73a0-687c-4032-8ae7-d99d9fe9d434> .
+

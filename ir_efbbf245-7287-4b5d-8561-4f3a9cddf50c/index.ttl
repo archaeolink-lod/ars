@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/ir_efbbf245-7287-4b5d-8561-4f3a9cddf50c> a ns1:IconographyReference ;
+    rdfs:label "Löwenstein Leda I" ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/94b86f70-09b2-4b67-85af-7bce5936faca.png> ;
+    ns1:hasType ns1:Löwenstein ;
+    dc:identifier "efbbf245-7287-4b5d-8561-4f3a9cddf50c" ;
+    dcterms:bibliographicCitation "Löwenstein (2015), pp. 506-507" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ir_efbbf245-7287-4b5d-8561-4f3a9cddf50c> .
+

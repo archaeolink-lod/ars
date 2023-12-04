@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_e3816d76-1824-4cc9-95d4-eebfc6ea144c> a ns1:InformationCarrier ;
+    rdfs:label "bowl with sea goddess"@en ;
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031475> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031476> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_18b0a452-e4d4-42f2-8cbb-b961b808d0af>,
+        <http://data.archaeology.link/data/ars/feat_240d9566-e9a0-4cb0-a573-c63179de37c2>,
+        <http://data.archaeology.link/data/ars/feat_7c08c972-ae60-419d-b99f-6a38387d3332>,
+        <http://data.archaeology.link/data/ars/feat_de6937d7-f4b1-498c-aef1-960358919a70> ;
+    ns1:hasConditionString "reconstructed"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/e3816d76-1824-4cc9-95d4-eebfc6ea144c.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.39847 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    dc:identifier "e3816d76-1824-4cc9-95d4-eebfc6ea144c" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_e3816d76-1824-4cc9-95d4-eebfc6ea144c> .
+

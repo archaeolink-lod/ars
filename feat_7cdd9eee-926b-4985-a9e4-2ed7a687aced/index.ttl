@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_7cdd9eee-926b-4985-a9e4-2ed7a687aced> a ns1:Feature ;
+    rdfs:label "Mithras carrying the bull" ;
+    ns1:depicts "Mithras@en",
+        "bull@en",
+        "man@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_39123bcd-4331-4911-859a-3b3c3f775da7>,
+        <http://data.archaeology.link/data/ars/ir_6f4fae04-93ae-4b9d-891e-2bce99d1f3ed>,
+        <http://data.archaeology.link/data/ars/ir_a244e683-5cdb-4011-a5ee-3be5c2be67b1> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/7cdd9eee-926b-4985-a9e4-2ed7a687aced.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_7cdd9eee-926b-4985-a9e4-2ed7a687aced_geom> ;
+    dc:identifier "7cdd9eee-926b-4985-a9e4-2ed7a687aced" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_7cdd9eee-926b-4985-a9e4-2ed7a687aced_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_7cdd9eee-926b-4985-a9e4-2ed7a687aced> .
+

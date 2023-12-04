@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_ac43b3b7-0dd0-4cf4-b618-d628a2d76531> a ns1:Feature ;
+    rdfs:label "Abraham" ;
+    ns1:depicts "Abraham@en",
+        "man@en",
+        "short belted tunic@en",
+        "tunic@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_04ebcc26-a6a5-4bea-a8b6-838eb9ff6641>,
+        <http://data.archaeology.link/data/ars/ir_cb9094aa-6f1d-4d46-88c8-741337cb5062> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/ac43b3b7-0dd0-4cf4-b618-d628a2d76531.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_ac43b3b7-0dd0-4cf4-b618-d628a2d76531_geom> ;
+    dc:identifier "ac43b3b7-0dd0-4cf4-b618-d628a2d76531" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_ac43b3b7-0dd0-4cf4-b618-d628a2d76531_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_ac43b3b7-0dd0-4cf4-b618-d628a2d76531> .
+

@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ars/ic_69aa5a2a-7a6d-4f53-8dec-789b140dc98f> a ns2:InformationCarrier ;
+    rdfs:label "mould water organ"@en ;
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031761> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031762> ;
+    ns2:hasConditionString "nan"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/69aa5a2a-7a6d-4f53-8dec-789b140dc98f.jpg> ;
+    ns2:hasType ns2:Manufacturing_Object ;
+    ns2:inventoryNumber "O.41375 (RGZM)" ;
+    ns2:madeByString "nan"@en ;
+    ns2:madeOfString "plaster"@en ;
+    ns2:number 1 ;
+    ns2:representedByString "lamp"@en ;
+    dc:identifier "69aa5a2a-7a6d-4f53-8dec-789b140dc98f" ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_ic_69aa5a2a-7a6d-4f53-8dec-789b140dc98f> .
+

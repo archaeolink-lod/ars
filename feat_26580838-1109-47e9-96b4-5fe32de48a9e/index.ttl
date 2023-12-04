@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_26580838-1109-47e9-96b4-5fe32de48a9e> a ns1:Feature ;
+    rdfs:label "sacrifice of Isaac" ;
+    ns1:depicts "Abraham@en",
+        "Isaac@en",
+        "altar@en",
+        "man@en",
+        "short belted tunic@en",
+        "tunic@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_4eed0152-2185-4526-8a5f-fd19290f7d73> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/26580838-1109-47e9-96b4-5fe32de48a9e.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_26580838-1109-47e9-96b4-5fe32de48a9e_geom> ;
+    dc:identifier "26580838-1109-47e9-96b4-5fe32de48a9e" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_26580838-1109-47e9-96b4-5fe32de48a9e_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_26580838-1109-47e9-96b4-5fe32de48a9e> .
+

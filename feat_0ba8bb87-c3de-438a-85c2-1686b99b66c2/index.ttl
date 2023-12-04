@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_0ba8bb87-c3de-438a-85c2-1686b99b66c2> a ns1:Feature ;
+    rdfs:label "wreath 1" ;
+    ns1:depicts "wreath@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_927c71a5-1caf-496e-8ebc-824c574176a0>,
+        <http://data.archaeology.link/data/ars/ir_9427cde3-2334-40c2-9a24-da6b1ec29d69> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/0ba8bb87-c3de-438a-85c2-1686b99b66c2.png> ;
+    ns1:hasType ns1:FeatureType_Mould_Part ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_0ba8bb87-c3de-438a-85c2-1686b99b66c2_geom> ;
+    dc:identifier "0ba8bb87-c3de-438a-85c2-1686b99b66c2" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_0ba8bb87-c3de-438a-85c2-1686b99b66c2_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_0ba8bb87-c3de-438a-85c2-1686b99b66c2> .
+

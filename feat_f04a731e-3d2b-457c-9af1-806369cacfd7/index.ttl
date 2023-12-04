@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/ars/feat_f04a731e-3d2b-457c-9af1-806369cacfd7> a ns1:Feature ;
+    rdfs:label "Pan (front)" ;
+    ns1:depicts "Pan@en",
+        "satyr@en" ;
+    ns1:depictsReference <http://data.archaeology.link/data/ars/ir_9be927d2-2b42-4ca5-a14e-bbdc1f57abca>,
+        <http://data.archaeology.link/data/ars/ir_d8ef7543-0d43-46b8-b075-1518a7faca54> ;
+    ns1:hasImage <https://zenodo.org/record/5645237/files/f04a731e-3d2b-457c-9af1-806369cacfd7.png> ;
+    ns1:hasType ns1:FeatureType_Applique ;
+    ns1:madeByString "applied decorated"@en ;
+    ns1:selectedArea <http://data.archaeology.link/data/ars/feat_f04a731e-3d2b-457c-9af1-806369cacfd7_geom> ;
+    dc:identifier "f04a731e-3d2b-457c-9af1-806369cacfd7" ;
+    geo:hasGeometry <http://data.archaeology.link/data/ars/feat_f04a731e-3d2b-457c-9af1-806369cacfd7_geom> ;
+    prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
+    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
+    prov:wasGeneratedBy <http://data.archaeology.link/data/ars/activity_feat_f04a731e-3d2b-457c-9af1-806369cacfd7> .
+
