@@ -24,6 +24,13 @@ var minivowlresult={
  "links": [
   {
    "source": 0,
+   "target": 2,
+   "valueTo": "wasGeneratedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+  },
+  {
+   "source": 0,
    "target": 1,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -35,13 +42,6 @@ var minivowlresult={
    "valueTo": "selectedArea",
    "propertyTo": "class",
    "uriTo": "http://archaeology.link/ontology#selectedArea"
-  },
-  {
-   "source": 0,
-   "target": 2,
-   "valueTo": "wasGeneratedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   }
  ]
 }

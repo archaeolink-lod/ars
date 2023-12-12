@@ -1,16 +1,16 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_e8c990cb-cc9f-4424-bedf-170e57a0e958> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_e8c990cb-cc9f-4424-bedf-170e57a0e958> a ns2:InformationCarrier ;
     rdfs:label "dish with leaves and medallions"@en ;
-    ns2:instanceOf ns1:InformationCarrier ;
-    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031161> ;
-    ns1:arachneModelID <http://arachne.dainst.org/entity/7031162> ;
-    ns1:carries <http://data.archaeology.link/data/ars/feat_09b08075-bdcd-41d7-8901-c0f9526c35f8>,
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031161> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031162> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_09b08075-bdcd-41d7-8901-c0f9526c35f8>,
         <http://data.archaeology.link/data/ars/feat_2a821265-5b75-44ef-a5a0-88aa1cb75fd8>,
         <http://data.archaeology.link/data/ars/feat_375c13e7-b3d8-4ecb-aea9-922a71efa4eb>,
         <http://data.archaeology.link/data/ars/feat_57f3fdf7-cc0b-48b0-b511-504913d7353c>,
@@ -18,16 +18,16 @@
         <http://data.archaeology.link/data/ars/feat_6cdf6943-1569-4f29-9719-768434ad55cc>,
         <http://data.archaeology.link/data/ars/feat_bb1d078c-a251-4c24-a913-fdc5292e085a>,
         <http://data.archaeology.link/data/ars/feat_e07d7869-54a1-4bdd-b853-59d7d1a93e26> ;
-    ns1:hasConditionString "complete"@en ;
-    ns1:hasImage <https://zenodo.org/record/5645180/files/e8c990cb-cc9f-4424-bedf-170e57a0e958.jpg> ;
-    ns1:hasType ns1:ARS_Object ;
-    ns1:inventoryNumber "O.16689 (RGZM)" ;
-    ns1:madeByString "potter wheel"@en ;
-    ns1:madeOfString "clay"@en ;
-    ns1:number 1 ;
-    ns1:representedBy <http://data.archaeology.link/data/ars/pf_f7b36c24-9a27-4b27-8b1f-5f82df341913> ;
-    ns1:representedByString "dish"@en ;
-    ns1:timeinterval "Late Antiquity / early 5. century AD" ;
+    ns2:hasConditionString "complete"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/e8c990cb-cc9f-4424-bedf-170e57a0e958.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.16689 (RGZM)" ;
+    ns2:madeByString "potter wheel"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedBy <http://data.archaeology.link/data/ars/pf_f7b36c24-9a27-4b27-8b1f-5f82df341913> ;
+    ns2:representedByString "dish"@en ;
+    ns2:timeinterval "Late Antiquity / early 5. century AD" ;
     dc:identifier "e8c990cb-cc9f-4424-bedf-170e57a0e958" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

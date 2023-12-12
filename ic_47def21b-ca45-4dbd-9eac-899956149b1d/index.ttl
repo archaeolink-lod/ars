@@ -1,16 +1,16 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_47def21b-ca45-4dbd-9eac-899956149b1d> a ns2:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_47def21b-ca45-4dbd-9eac-899956149b1d> a ns1:InformationCarrier ;
     rdfs:label "bowl with animal hunt"@en ;
-    ns1:instanceOf ns2:InformationCarrier ;
-    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031131> ;
-    ns2:arachneModelID <http://arachne.dainst.org/entity/7031132> ;
-    ns2:carries <http://data.archaeology.link/data/ars/feat_1b6ab36f-05fa-49cc-9591-a825fdcb539f>,
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031131> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031132> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_1b6ab36f-05fa-49cc-9591-a825fdcb539f>,
         <http://data.archaeology.link/data/ars/feat_1cd61521-6653-42a9-95c6-0227ec734441>,
         <http://data.archaeology.link/data/ars/feat_1ff1bd52-88e7-41ab-99fa-491908bd23ed>,
         <http://data.archaeology.link/data/ars/feat_63564255-60fa-41f6-945a-74d36bcbdde6>,
@@ -19,16 +19,16 @@
         <http://data.archaeology.link/data/ars/feat_ad516310-12f0-4329-86fa-91a62908079b>,
         <http://data.archaeology.link/data/ars/feat_d334bc01-c011-4303-8acc-74ceffef569f>,
         <http://data.archaeology.link/data/ars/feat_fdd6d8a8-f4b7-4988-bd75-16d16c4c4c45> ;
-    ns2:hasConditionString "complete"@en ;
-    ns2:hasImage <https://zenodo.org/record/5645180/files/47def21b-ca45-4dbd-9eac-899956149b1d.jpg> ;
-    ns2:hasType ns2:ARS_Object ;
-    ns2:inventoryNumber "O.40761 (RGZM)" ;
-    ns2:madeByString "potter wheel"@en ;
-    ns2:madeOfString "clay"@en ;
-    ns2:number 1 ;
-    ns2:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
-    ns2:representedByString "bowl"@en ;
-    ns2:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/47def21b-ca45-4dbd-9eac-899956149b1d.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.40761 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
     dc:identifier "47def21b-ca45-4dbd-9eac-899956149b1d" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

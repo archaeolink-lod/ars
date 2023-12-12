@@ -1,16 +1,16 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_b72abd68-a629-4e4e-b514-f6307f7fe67f> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_b72abd68-a629-4e4e-b514-f6307f7fe67f> a ns2:InformationCarrier ;
     rdfs:label "mould tabula ansata"@en ;
-    ns2:instanceOf ns1:InformationCarrier ;
-    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031723> ;
-    ns1:arachneModelID <http://arachne.dainst.org/entity/7031724> ;
-    ns1:carries <http://data.archaeology.link/data/ars/feat_05b81d71-d2d5-456d-bb05-ebcc4db3f076>,
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031723> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031724> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_05b81d71-d2d5-456d-bb05-ebcc4db3f076>,
         <http://data.archaeology.link/data/ars/feat_07b614a7-edde-482d-a61b-3cc577a3e5df>,
         <http://data.archaeology.link/data/ars/feat_08f60baf-fd6c-4a2f-a99d-ba559275c151>,
         <http://data.archaeology.link/data/ars/feat_1af26e3e-3483-447f-810f-0c4a7fb5966f>,
@@ -26,14 +26,14 @@
         <http://data.archaeology.link/data/ars/feat_bc293195-f2a4-45a7-b455-857c391a3d84>,
         <http://data.archaeology.link/data/ars/feat_c6580a46-52d1-4277-b0fb-2bb814bac926>,
         <http://data.archaeology.link/data/ars/feat_f3c353dd-26fa-4419-85bf-5fa79f7e8b26> ;
-    ns1:hasConditionString "nan"@en ;
-    ns1:hasImage <https://zenodo.org/record/5645180/files/b72abd68-a629-4e4e-b514-f6307f7fe67f.jpg> ;
-    ns1:hasType ns1:Manufacturing_Object ;
-    ns1:inventoryNumber "O.41417 (RGZM)" ;
-    ns1:madeByString "nan"@en ;
-    ns1:madeOfString "plaster"@en ;
-    ns1:number 1 ;
-    ns1:representedByString "mould"@en ;
+    ns2:hasConditionString "nan"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/b72abd68-a629-4e4e-b514-f6307f7fe67f.jpg> ;
+    ns2:hasType ns2:Manufacturing_Object ;
+    ns2:inventoryNumber "O.41417 (RGZM)" ;
+    ns2:madeByString "nan"@en ;
+    ns2:madeOfString "plaster"@en ;
+    ns2:number 1 ;
+    ns2:representedByString "mould"@en ;
     dc:identifier "b72abd68-a629-4e4e-b514-f6307f7fe67f" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
