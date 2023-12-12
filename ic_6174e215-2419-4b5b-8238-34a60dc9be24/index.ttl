@@ -1,29 +1,29 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_6174e215-2419-4b5b-8238-34a60dc9be24> a ns2:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_6174e215-2419-4b5b-8238-34a60dc9be24> a ns1:InformationCarrier ;
     rdfs:label "bowl with lions and trees"@en ;
-    ns1:instanceOf ns2:InformationCarrier ;
-    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031419> ;
-    ns2:arachneModelID <http://arachne.dainst.org/entity/7031420> ;
-    ns2:carries <http://data.archaeology.link/data/ars/feat_32c35707-b69e-4787-8556-495a99f21563>,
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031419> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031420> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_32c35707-b69e-4787-8556-495a99f21563>,
         <http://data.archaeology.link/data/ars/feat_55bc48b9-8052-42a3-b76c-290cde0978b6>,
         <http://data.archaeology.link/data/ars/feat_9b855350-d198-4d5f-825b-e7b00756f2d3>,
         <http://data.archaeology.link/data/ars/feat_a25bde32-d6c0-468d-ab5d-fd7be18f92b2> ;
-    ns2:hasConditionString "reconstructed"@en ;
-    ns2:hasImage <https://zenodo.org/record/5645180/files/6174e215-2419-4b5b-8238-34a60dc9be24.jpg> ;
-    ns2:hasType ns2:ARS_Object ;
-    ns2:inventoryNumber "O.41401 (RGZM)" ;
-    ns2:madeByString "potter wheel"@en ;
-    ns2:madeOfString "clay"@en ;
-    ns2:number 1 ;
-    ns2:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
-    ns2:representedByString "bowl"@en ;
-    ns2:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
+    ns1:hasConditionString "reconstructed"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/6174e215-2419-4b5b-8238-34a60dc9be24.jpg> ;
+    ns1:hasType ns1:ARS_Object ;
+    ns1:inventoryNumber "O.41401 (RGZM)" ;
+    ns1:madeByString "potter wheel"@en ;
+    ns1:madeOfString "clay"@en ;
+    ns1:number 1 ;
+    ns1:representedBy <http://data.archaeology.link/data/ars/pf_c30c01b2-9c7e-45ec-833b-f734e1000016> ;
+    ns1:representedByString "bowl"@en ;
+    ns1:timeinterval "Late Antiquity / 310/320-430/450 AD" ;
     dc:identifier "6174e215-2419-4b5b-8238-34a60dc9be24" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

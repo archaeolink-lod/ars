@@ -24,10 +24,10 @@ var minivowlresult={
  "links": [
   {
    "source": 0,
-   "target": 2,
-   "valueTo": "wasGeneratedBy",
+   "target": 1,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 0,
@@ -38,10 +38,10 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 1,
-   "valueTo": "hasGeometry",
+   "target": 2,
+   "valueTo": "wasGeneratedBy",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.w3.org/ns/prov#wasGeneratedBy"
   }
  ]
 }

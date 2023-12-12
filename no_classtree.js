@@ -8260,6 +8260,12 @@ var tree={
         "text": "Feature (lado:Feature) [1173]",
         "data": {
           "to": {
+            "http://archaeology.link/ontology#depicts": {
+              "instancecount": 1
+            },
+            "http://archaeology.link/ontology#depictsReference": {
+              "instancecount": 1
+            },
             "http://archaeology.link/ontology#hasImage": {
               "instancecount": 1
             },
@@ -8308,7 +8314,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 13
       },
       {
         "id": "http://data.archaeology.link/data/ars/feat_001419cf-07a6-4b55-96f2-7149eecdb36f_geom",
@@ -28187,6 +28193,9 @@ var tree={
         "text": "IconographyReference (lado:IconographyReference) [470]",
         "data": {
           "to": {
+            "http://archaeology.link/ontology#hasImage": {
+              "instancecount": 2
+            },
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
             },
@@ -28220,7 +28229,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 10
       },
       {
         "id": "http://data.archaeology.link/data/ars/activity_ir_46594f78-0e8f-4dd0-a8b6-59c5050cacb8",
@@ -31703,7 +31712,7 @@ var tree={
               "instancecount": 1
             },
             "http://archaeology.link/ontology#hasImage": {
-              "instancecount": 2
+              "instancecount": 141
             },
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
@@ -31738,7 +31747,7 @@ var tree={
             }
           }
         },
-        "instancecount": 15
+        "instancecount": 154
       },
       {
         "id": "http://data.archaeology.link/data/ars/activity_pf_c30c01b2-9c7e-45ec-833b-f734e1000016",
@@ -34220,13 +34229,7 @@ var tree={
             "http://archaeology.link/ontology#number": {
               "instancecount": 1
             },
-            "http://archaeology.link/ontology#representedBy": {
-              "instancecount": 1
-            },
             "http://archaeology.link/ontology#representedByString": {
-              "instancecount": 1
-            },
-            "http://archaeology.link/ontology#timeinterval": {
               "instancecount": 1
             },
             "http://purl.org/dc/elements/1.1/identifier": {
@@ -34256,7 +34259,7 @@ var tree={
             }
           }
         },
-        "instancecount": 19
+        "instancecount": 17
       },
       {
         "id": "http://data.archaeology.link/data/ars/activity_ic_1358c742-585b-40dc-92e4-ccd65c1aeef0",

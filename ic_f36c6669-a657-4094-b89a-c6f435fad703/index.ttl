@@ -1,28 +1,28 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_f36c6669-a657-4094-b89a-c6f435fad703> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_f36c6669-a657-4094-b89a-c6f435fad703> a ns2:InformationCarrier ;
     rdfs:label "lamp with camel"@en ;
-    ns2:instanceOf ns1:InformationCarrier ;
-    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031167> ;
-    ns1:arachneModelID <http://arachne.dainst.org/entity/7031168> ;
-    ns1:carries <http://data.archaeology.link/data/ars/feat_017b1bf7-dd72-4d9f-b4c9-f3a35cfd7541>,
+    ns1:instanceOf ns2:InformationCarrier ;
+    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031167> ;
+    ns2:arachneModelID <http://arachne.dainst.org/entity/7031168> ;
+    ns2:carries <http://data.archaeology.link/data/ars/feat_017b1bf7-dd72-4d9f-b4c9-f3a35cfd7541>,
         <http://data.archaeology.link/data/ars/feat_441216c6-2d7d-459a-8a4d-ef59c84b0a6e>,
         <http://data.archaeology.link/data/ars/feat_ce1e1f26-6a83-4260-9617-5c9d9adf560c> ;
-    ns1:hasConditionString "complete"@en ;
-    ns1:hasImage <https://zenodo.org/record/5645180/files/f36c6669-a657-4094-b89a-c6f435fad703.jpg> ;
-    ns1:hasType ns1:ARS_Object ;
-    ns1:inventoryNumber "O.40867 (RGZM)" ;
-    ns1:madeByString "mould made"@en ;
-    ns1:madeOfString "clay"@en ;
-    ns1:number 1 ;
-    ns1:representedBy <http://data.archaeology.link/data/ars/pf_2d8907ac-2ce5-4090-afbb-09b4b3986c06> ;
-    ns1:representedByString "lamp"@en ;
-    ns1:timeinterval "Late Antiquity / 330-370 to early 5. century AD" ;
+    ns2:hasConditionString "complete"@en ;
+    ns2:hasImage <https://zenodo.org/record/5645180/files/f36c6669-a657-4094-b89a-c6f435fad703.jpg> ;
+    ns2:hasType ns2:ARS_Object ;
+    ns2:inventoryNumber "O.40867 (RGZM)" ;
+    ns2:madeByString "mould made"@en ;
+    ns2:madeOfString "clay"@en ;
+    ns2:number 1 ;
+    ns2:representedBy <http://data.archaeology.link/data/ars/pf_2d8907ac-2ce5-4090-afbb-09b4b3986c06> ;
+    ns2:representedByString "lamp"@en ;
+    ns2:timeinterval "Late Antiquity / 330-370 to early 5. century AD" ;
     dc:identifier "f36c6669-a657-4094-b89a-c6f435fad703" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;

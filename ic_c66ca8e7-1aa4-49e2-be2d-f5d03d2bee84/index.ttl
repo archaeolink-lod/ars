@@ -1,16 +1,16 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/ars/ic_c66ca8e7-1aa4-49e2-be2d-f5d03d2bee84> a ns2:InformationCarrier ;
+<http://data.archaeology.link/data/ars/ic_c66ca8e7-1aa4-49e2-be2d-f5d03d2bee84> a ns1:InformationCarrier ;
     rdfs:label "mould men with phrygian caps"@en ;
-    ns1:instanceOf ns2:InformationCarrier ;
-    ns2:arachneEntityID <http://arachne.dainst.org/entity/7031665> ;
-    ns2:arachneModelID <http://arachne.dainst.org/entity/7031666> ;
-    ns2:carries <http://data.archaeology.link/data/ars/feat_5c163223-37e8-48c8-8c3a-fe93f0ce89f7>,
+    ns2:instanceOf ns1:InformationCarrier ;
+    ns1:arachneEntityID <http://arachne.dainst.org/entity/7031665> ;
+    ns1:arachneModelID <http://arachne.dainst.org/entity/7031666> ;
+    ns1:carries <http://data.archaeology.link/data/ars/feat_5c163223-37e8-48c8-8c3a-fe93f0ce89f7>,
         <http://data.archaeology.link/data/ars/feat_613d4ed9-5204-4f8f-8a09-14420ea60156>,
         <http://data.archaeology.link/data/ars/feat_64ef2868-c991-4674-9f82-748cb00f677e>,
         <http://data.archaeology.link/data/ars/feat_682a168d-6ccd-4c7b-a6ba-6c10b3e85244>,
@@ -23,14 +23,14 @@
         <http://data.archaeology.link/data/ars/feat_c0653c8c-e672-4896-94d5-2c26a29ef659>,
         <http://data.archaeology.link/data/ars/feat_cd75979b-c432-469f-a78f-6de50cfef94b>,
         <http://data.archaeology.link/data/ars/feat_d847e751-aeb7-40da-a1b1-0238e30ee760> ;
-    ns2:hasConditionString "complete"@en ;
-    ns2:hasImage <https://zenodo.org/record/5645180/files/c66ca8e7-1aa4-49e2-be2d-f5d03d2bee84.jpg> ;
-    ns2:hasType ns2:Manufacturing_Object ;
-    ns2:inventoryNumber "O.39816 (RGZM)" ;
-    ns2:madeByString "nan"@en ;
-    ns2:madeOfString "plaster"@en ;
-    ns2:number 1 ;
-    ns2:representedByString "mould"@en ;
+    ns1:hasConditionString "complete"@en ;
+    ns1:hasImage <https://zenodo.org/record/5645180/files/c66ca8e7-1aa4-49e2-be2d-f5d03d2bee84.jpg> ;
+    ns1:hasType ns1:Manufacturing_Object ;
+    ns1:inventoryNumber "O.39816 (RGZM)" ;
+    ns1:madeByString "nan"@en ;
+    ns1:madeOfString "plaster"@en ;
+    ns1:number 1 ;
+    ns1:representedByString "mould"@en ;
     dc:identifier "c66ca8e7-1aa4-49e2-be2d-f5d03d2bee84" ;
     prov:wasAttributedTo <http://data.archaeology.link/data/ars/ImportPythonScript_ARS3D> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q105268778> ;
